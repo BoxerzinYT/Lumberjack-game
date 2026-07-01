@@ -1,0 +1,5694 @@
+fileFormatVersion: 2
+guid: 50294ef889f8a1e49b2decc7b76d0b6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2690195319600363548
+    second: O NOVO HECTORJACK_0
+  - first:
+      213: 2639054444679046203
+    second: O NOVO HECTORJACK_1
+  - first:
+      213: -4415793741555566435
+    second: O NOVO HECTORJACK_2
+  - first:
+      213: -870541409522036365
+    second: O NOVO HECTORJACK_3
+  - first:
+      213: 2163978560577219429
+    second: O NOVO HECTORJACK_4
+  - first:
+      213: 7189755982912604126
+    second: O NOVO HECTORJACK_5
+  - first:
+      213: -8428217746533931690
+    second: O NOVO HECTORJACK_6
+  - first:
+      213: -6730320945140411120
+    second: O NOVO HECTORJACK_7
+  - first:
+      213: -8664228378767228102
+    second: O NOVO HECTORJACK_8
+  - first:
+      213: -5601718381836807463
+    second: O NOVO HECTORJACK_9
+  - first:
+      213: -4859143249387342451
+    second: O NOVO HECTORJACK_10
+  - first:
+      213: -5725432698574763779
+    second: O NOVO HECTORJACK_11
+  - first:
+      213: -2242681017982684610
+    second: O NOVO HECTORJACK_12
+  - first:
+      213: -8258318909427845434
+    second: O NOVO HECTORJACK_13
+  - first:
+      213: 3537903112135565762
+    second: O NOVO HECTORJACK_14
+  - first:
+      213: 3813500666371787489
+    second: O NOVO HECTORJACK_15
+  - first:
+      213: -920827139569996742
+    second: O NOVO HECTORJACK_16
+  - first:
+      213: -2646018333294875145
+    second: O NOVO HECTORJACK_17
+  - first:
+      213: 2409066211029172480
+    second: O NOVO HECTORJACK_18
+  - first:
+      213: 2473095703861898628
+    second: O NOVO HECTORJACK_19
+  - first:
+      213: -1435355330703344389
+    second: O NOVO HECTORJACK_20
+  - first:
+      213: -150785569072301947
+    second: O NOVO HECTORJACK_21
+  - first:
+      213: -1976146015143983433
+    second: O NOVO HECTORJACK_22
+  - first:
+      213: 5332548343377053925
+    second: O NOVO HECTORJACK_23
+  - first:
+      213: 5184898830516399832
+    second: O NOVO HECTORJACK_24
+  - first:
+      213: -8028950165396600127
+    second: O NOVO HECTORJACK_25
+  - first:
+      213: -8172135679999843651
+    second: O NOVO HECTORJACK_26
+  - first:
+      213: -6332695415707506275
+    second: O NOVO HECTORJACK_27
+  - first:
+      213: -8483763023638907179
+    second: O NOVO HECTORJACK_28
+  - first:
+      213: 5492758274384366334
+    second: O NOVO HECTORJACK_29
+  - first:
+      213: 8964205039847777769
+    second: O NOVO HECTORJACK_30
+  - first:
+      213: -3880919643347091498
+    second: O NOVO HECTORJACK_31
+  - first:
+      213: 7346706825434904380
+    second: O NOVO HECTORJACK_32
+  - first:
+      213: 4690065152240898120
+    second: O NOVO HECTORJACK_33
+  - first:
+      213: 3791880038881472808
+    second: O NOVO HECTORJACK_34
+  - first:
+      213: 984441504572104477
+    second: O NOVO HECTORJACK_35
+  - first:
+      213: 2772724773903641906
+    second: O NOVO HECTORJACK_36
+  - first:
+      213: -1122618642376728182
+    second: O NOVO HECTORJACK_37
+  - first:
+      213: -5587599385005120644
+    second: O NOVO HECTORJACK_38
+  - first:
+      213: -6815212415615750494
+    second: O NOVO HECTORJACK_39
+  - first:
+      213: 9081105373873926242
+    second: O NOVO HECTORJACK_40
+  - first:
+      213: 5681757013393733878
+    second: O NOVO HECTORJACK_41
+  - first:
+      213: 4666187079311528306
+    second: O NOVO HECTORJACK_42
+  - first:
+      213: 1859298405826374748
+    second: O NOVO HECTORJACK_43
+  - first:
+      213: 4436789363879939861
+    second: O NOVO HECTORJACK_44
+  - first:
+      213: -7939220077882677580
+    second: O NOVO HECTORJACK_45
+  - first:
+      213: 1652870137216425875
+    second: O NOVO HECTORJACK_46
+  - first:
+      213: -376739156257640814
+    second: O NOVO HECTORJACK_47
+  - first:
+      213: -229992458665419415
+    second: O NOVO HECTORJACK_48
+  - first:
+      213: -8933519041700735137
+    second: O NOVO HECTORJACK_49
+  - first:
+      213: -2552344473550532671
+    second: O NOVO HECTORJACK_50
+  - first:
+      213: 4144619145353697635
+    second: O NOVO HECTORJACK_51
+  - first:
+      213: -8713109152265580135
+    second: O NOVO HECTORJACK_52
+  - first:
+      213: -6419230469427156080
+    second: O NOVO HECTORJACK_53
+  - first:
+      213: 1053678532309647768
+    second: O NOVO HECTORJACK_54
+  - first:
+      213: -2141568000846041804
+    second: O NOVO HECTORJACK_55
+  - first:
+      213: -4707392231562613278
+    second: O NOVO HECTORJACK_56
+  - first:
+      213: -3565089826329308833
+    second: O NOVO HECTORJACK_57
+  - first:
+      213: 7960342238813280977
+    second: O NOVO HECTORJACK_58
+  - first:
+      213: 5923415332820392777
+    second: O NOVO HECTORJACK_59
+  - first:
+      213: -9058699752897100084
+    second: O NOVO HECTORJACK_60
+  - first:
+      213: -1491161424840253603
+    second: O NOVO HECTORJACK_61
+  - first:
+      213: -3965461530562174001
+    second: O NOVO HECTORJACK_62
+  - first:
+      213: -1639473907217326818
+    second: O NOVO HECTORJACK_63
+  - first:
+      213: -1975760688203132555
+    second: O NOVO HECTORJACK_64
+  - first:
+      213: 4663180700390612719
+    second: O NOVO HECTORJACK_65
+  - first:
+      213: 323404781073583017
+    second: O NOVO HECTORJACK_66
+  - first:
+      213: 5667578928529559556
+    second: O NOVO HECTORJACK_67
+  - first:
+      213: 6592206591717252804
+    second: O NOVO HECTORJACK_68
+  - first:
+      213: 2592647589837702924
+    second: O NOVO HECTORJACK_69
+  - first:
+      213: -1096763354398783299
+    second: O NOVO HECTORJACK_70
+  - first:
+      213: 8296357419817486707
+    second: O NOVO HECTORJACK_71
+  - first:
+      213: 7207775390563234731
+    second: O NOVO HECTORJACK_72
+  - first:
+      213: 1560797866711866545
+    second: O NOVO HECTORJACK_73
+  - first:
+      213: -6323406239885732636
+    second: O NOVO HECTORJACK_74
+  - first:
+      213: -5775294051539585317
+    second: O NOVO HECTORJACK_75
+  - first:
+      213: 4011849179918336314
+    second: O NOVO HECTORJACK_76
+  - first:
+      213: 933176107643997558
+    second: O NOVO HECTORJACK_77
+  - first:
+      213: 3196105336164561846
+    second: O NOVO HECTORJACK_78
+  - first:
+      213: 6423210615721276289
+    second: O NOVO HECTORJACK_79
+  - first:
+      213: -7408271375787402228
+    second: O NOVO HECTORJACK_80
+  - first:
+      213: -8219356134573617754
+    second: O NOVO HECTORJACK_81
+  - first:
+      213: -921502797982043619
+    second: O NOVO HECTORJACK_82
+  - first:
+      213: 5218411589147272454
+    second: O NOVO HECTORJACK_83
+  - first:
+      213: 4865166148737397807
+    second: O NOVO HECTORJACK_84
+  - first:
+      213: 3262193191809338023
+    second: O NOVO HECTORJACK_85
+  - first:
+      213: 8683415454161724714
+    second: O NOVO HECTORJACK_86
+  - first:
+      213: -2741085575549262254
+    second: O NOVO HECTORJACK_87
+  - first:
+      213: 5646707337152565509
+    second: O NOVO HECTORJACK_88
+  - first:
+      213: -260376783623785976
+    second: O NOVO HECTORJACK_89
+  - first:
+      213: -391924370115734023
+    second: O NOVO HECTORJACK_90
+  - first:
+      213: -1990596448066347344
+    second: O NOVO HECTORJACK_91
+  - first:
+      213: 1895762711667696631
+    second: O NOVO HECTORJACK_92
+  - first:
+      213: -8004831872073093340
+    second: O NOVO HECTORJACK_93
+  - first:
+      213: -5381692698478298211
+    second: O NOVO HECTORJACK_94
+  - first:
+      213: 251596760834197369
+    second: O NOVO HECTORJACK_95
+  - first:
+      213: -3869667178307131554
+    second: O NOVO HECTORJACK_96
+  - first:
+      213: -3853356963938027223
+    second: O NOVO HECTORJACK_97
+  - first:
+      213: 6140560448164334625
+    second: O NOVO HECTORJACK_98
+  - first:
+      213: 5137942177123577318
+    second: O NOVO HECTORJACK_99
+  - first:
+      213: -7822940442341039569
+    second: O NOVO HECTORJACK_100
+  - first:
+      213: 8684060837136005895
+    second: O NOVO HECTORJACK_101
+  - first:
+      213: 4738560816437853850
+    second: O NOVO HECTORJACK_102
+  - first:
+      213: -8171526389543361350
+    second: O NOVO HECTORJACK_103
+  - first:
+      213: 7614225434202153590
+    second: O NOVO HECTORJACK_104
+  - first:
+      213: 8384502545004455908
+    second: O NOVO HECTORJACK_105
+  - first:
+      213: 3814777752340490920
+    second: O NOVO HECTORJACK_106
+  - first:
+      213: -4874571672178927809
+    second: O NOVO HECTORJACK_107
+  - first:
+      213: 8430505913176646086
+    second: O NOVO HECTORJACK_108
+  - first:
+      213: 1051370468102855441
+    second: O NOVO HECTORJACK_109
+  - first:
+      213: -1111690941914828156
+    second: O NOVO HECTORJACK_110
+  - first:
+      213: 395451931442093375
+    second: O NOVO HECTORJACK_111
+  - first:
+      213: -3822727335413395665
+    second: O NOVO HECTORJACK_112
+  - first:
+      213: 4122046013266810947
+    second: O NOVO HECTORJACK_113
+  - first:
+      213: 5590901316066734302
+    second: O NOVO HECTORJACK_114
+  - first:
+      213: -7490060817649847043
+    second: O NOVO HECTORJACK_115
+  - first:
+      213: -3973810378381043724
+    second: O NOVO HECTORJACK_116
+  - first:
+      213: 2374847916231341777
+    second: O NOVO HECTORJACK_117
+  - first:
+      213: 1442098269965098912
+    second: O NOVO HECTORJACK_118
+  - first:
+      213: 2477264406781203472
+    second: O NOVO HECTORJACK_119
+  - first:
+      213: 1315485534442850526
+    second: O NOVO HECTORJACK_120
+  - first:
+      213: 8034750238385965273
+    second: O NOVO HECTORJACK_121
+  - first:
+      213: -6080099888924340667
+    second: O NOVO HECTORJACK_122
+  - first:
+      213: 6555006676036208618
+    second: O NOVO HECTORJACK_123
+  - first:
+      213: -7504619817030836525
+    second: O NOVO HECTORJACK_124
+  - first:
+      213: 3616116727206448106
+    second: O NOVO HECTORJACK_125
+  - first:
+      213: -9019038486221799001
+    second: O NOVO HECTORJACK_126
+  - first:
+      213: -8900687991300571645
+    second: O NOVO HECTORJACK_127
+  - first:
+      213: -1872620388270417624
+    second: O NOVO HECTORJACK_128
+  - first:
+      213: 557158891454571410
+    second: O NOVO HECTORJACK_129
+  - first:
+      213: 8072260172773669569
+    second: O NOVO HECTORJACK_130
+  - first:
+      213: -8930867652252680285
+    second: O NOVO HECTORJACK_131
+  - first:
+      213: -572173759709939433
+    second: O NOVO HECTORJACK_132
+  - first:
+      213: -6885363779454498913
+    second: O NOVO HECTORJACK_133
+  - first:
+      213: -6855488084315295690
+    second: O NOVO HECTORJACK_134
+  - first:
+      213: -4987665474454014914
+    second: O NOVO HECTORJACK_135
+  - first:
+      213: -1200329037212211420
+    second: O NOVO HECTORJACK_136
+  - first:
+      213: -3454399299213784490
+    second: O NOVO HECTORJACK_137
+  - first:
+      213: -6684173777773709063
+    second: O NOVO HECTORJACK_138
+  - first:
+      213: 7130649515515222525
+    second: O NOVO HECTORJACK_139
+  - first:
+      213: 1750117410126649907
+    second: O NOVO HECTORJACK_140
+  - first:
+      213: -1850975745502314289
+    second: O NOVO HECTORJACK_141
+  - first:
+      213: -5525725789288583025
+    second: O NOVO HECTORJACK_142
+  - first:
+      213: -3744501862119300229
+    second: O NOVO HECTORJACK_143
+  - first:
+      213: -7626557280556837162
+    second: O NOVO HECTORJACK_144
+  - first:
+      213: -9008003975922280209
+    second: O NOVO HECTORJACK_145
+  - first:
+      213: 684728247457430823
+    second: O NOVO HECTORJACK_146
+  - first:
+      213: -7688730374955765287
+    second: O NOVO HECTORJACK_147
+  - first:
+      213: 3019607347912182592
+    second: O NOVO HECTORJACK_148
+  - first:
+      213: 292032828905612804
+    second: O NOVO HECTORJACK_149
+  - first:
+      213: -2501154355444952805
+    second: O NOVO HECTORJACK_150
+  - first:
+      213: -7420374516325563722
+    second: O NOVO HECTORJACK_151
+  - first:
+      213: 2423547916629374329
+    second: O NOVO HECTORJACK_152
+  - first:
+      213: 159474244020656540
+    second: O NOVO HECTORJACK_153
+  - first:
+      213: -5364377645494894439
+    second: O NOVO HECTORJACK_154
+  - first:
+      213: 2265772196635082705
+    second: O NOVO HECTORJACK_155
+  - first:
+      213: 2311235258846601052
+    second: O NOVO HECTORJACK_156
+  - first:
+      213: 6519189218512754202
+    second: O NOVO HECTORJACK_157
+  - first:
+      213: 7643553177220702529
+    second: O NOVO HECTORJACK_158
+  - first:
+      213: -4005565433975554501
+    second: O NOVO HECTORJACK_159
+  - first:
+      213: 1349528522594868102
+    second: O NOVO HECTORJACK_160
+  - first:
+      213: 2278792988169791220
+    second: O NOVO HECTORJACK_161
+  - first:
+      213: -8068949935791595925
+    second: O NOVO HECTORJACK_162
+  - first:
+      213: 4906615792160640083
+    second: O NOVO HECTORJACK_163
+  - first:
+      213: 1994317177733832582
+    second: O NOVO HECTORJACK_164
+  - first:
+      213: -3666875197113891602
+    second: O NOVO HECTORJACK_165
+  - first:
+      213: 4666870840594410146
+    second: O NOVO HECTORJACK_166
+  - first:
+      213: 6519331202050912407
+    second: O NOVO HECTORJACK_167
+  - first:
+      213: 8513847098165880396
+    second: O NOVO HECTORJACK_168
+  - first:
+      213: 7273406199046243019
+    second: O NOVO HECTORJACK_169
+  - first:
+      213: 2535237111471801230
+    second: O NOVO HECTORJACK_170
+  - first:
+      213: -6089204157564248372
+    second: O NOVO HECTORJACK_171
+  - first:
+      213: -1926681190618094435
+    second: O NOVO HECTORJACK_172
+  - first:
+      213: 716032650672415678
+    second: O NOVO HECTORJACK_173
+  - first:
+      213: -5206967802379083027
+    second: O NOVO HECTORJACK_174
+  - first:
+      213: 5648631684044664114
+    second: O NOVO HECTORJACK_175
+  - first:
+      213: 6896035225704362760
+    second: O NOVO HECTORJACK_176
+  - first:
+      213: 6579467051653346157
+    second: O NOVO HECTORJACK_177
+  - first:
+      213: -21268121904232084
+    second: O NOVO HECTORJACK_178
+  - first:
+      213: 4430331648310504185
+    second: O NOVO HECTORJACK_179
+  - first:
+      213: -751086419321812024
+    second: O NOVO HECTORJACK_180
+  - first:
+      213: -2674718924587942968
+    second: O NOVO HECTORJACK_181
+  - first:
+      213: -3964328124615124053
+    second: O NOVO HECTORJACK_182
+  - first:
+      213: 6793426197813388912
+    second: O NOVO HECTORJACK_183
+  - first:
+      213: 3919672963951726429
+    second: O NOVO HECTORJACK_184
+  - first:
+      213: -17360278735935719
+    second: O NOVO HECTORJACK_185
+  - first:
+      213: -5665219698768588960
+    second: O NOVO HECTORJACK_186
+  - first:
+      213: -4906721513599510779
+    second: O NOVO HECTORJACK_187
+  - first:
+      213: -2098999572117155847
+    second: O NOVO HECTORJACK_188
+  - first:
+      213: 1412446116492477608
+    second: O NOVO HECTORJACK_189
+  - first:
+      213: -439435016422324580
+    second: O NOVO HECTORJACK_190
+  - first:
+      213: -5883185059610988966
+    second: O NOVO HECTORJACK_191
+  - first:
+      213: -6970200250534861508
+    second: O NOVO HECTORJACK_192
+  - first:
+      213: -3955841621452615853
+    second: O NOVO HECTORJACK_193
+  - first:
+      213: 6549722651225292668
+    second: O NOVO HECTORJACK_194
+  - first:
+      213: 2658212406235886036
+    second: O NOVO HECTORJACK_195
+  - first:
+      213: 8721891272490430645
+    second: O NOVO HECTORJACK_196
+  - first:
+      213: -7309697848710823908
+    second: O NOVO HECTORJACK_197
+  - first:
+      213: 8465556075850967099
+    second: O NOVO HECTORJACK_198
+  - first:
+      213: -126830223027137567
+    second: O NOVO HECTORJACK_199
+  - first:
+      213: -2986645619043537152
+    second: O NOVO HECTORJACK_200
+  - first:
+      213: -8411320869943279317
+    second: O NOVO HECTORJACK_201
+  - first:
+      213: -91808072678615851
+    second: O NOVO HECTORJACK_202
+  - first:
+      213: 5390276806573242808
+    second: O NOVO HECTORJACK_203
+  - first:
+      213: 4381692822125126370
+    second: O NOVO HECTORJACK_204
+  - first:
+      213: -7127538268085424886
+    second: O NOVO HECTORJACK_205
+  - first:
+      213: -372382985700224857
+    second: O NOVO HECTORJACK_206
+  - first:
+      213: -3803173100502748123
+    second: O NOVO HECTORJACK_207
+  - first:
+      213: 4851025866029363774
+    second: O NOVO HECTORJACK_208
+  - first:
+      213: 5089743959454118967
+    second: O NOVO HECTORJACK_209
+  - first:
+      213: 1789792312003906036
+    second: O NOVO HECTORJACK_210
+  - first:
+      213: 2334268180052669682
+    second: O NOVO HECTORJACK_211
+  - first:
+      213: 2319620973989650476
+    second: O NOVO HECTORJACK_212
+  - first:
+      213: 897870611605819895
+    second: O NOVO HECTORJACK_213
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_0
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 615
+        width: 79
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e74dce2c918aaad0800000000000000
+      internalID: -2690195319600363548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 639
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34a20ef80ecf9420800000000000000
+      internalID: 2639054444679046203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_2
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 590
+        width: 35
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98ff29ecf2f7b2c0800000000000000
+      internalID: -4415793741555566435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 627
+        width: 73
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371db2b43373be3f0800000000000000
+      internalID: -870541409522036365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_4
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 631
+        width: 63
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b24cc190ff70e10800000000000000
+      internalID: 2163978560577219429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 651
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7ce3739f427c360800000000000000
+      internalID: 7189755982912604126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_6
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 634
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655a3383d94f80b80800000000000000
+      internalID: -8428217746533931690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_7
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 626
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015d88852c81992a0800000000000000
+      internalID: -6730320945140411120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 619
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3388bec13a72c780800000000000000
+      internalID: -8664228378767228102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 605
+        width: 79
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d257d69fc2b242b0800000000000000
+      internalID: -5601718381836807463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 612
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85b783a5fad09cb0800000000000000
+      internalID: -4859143249387342451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 617
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df88b089b4d2b80b0800000000000000
+      internalID: -5725432698574763779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_12
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 616
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3271a21f7560e0e0800000000000000
+      internalID: -2242681017982684610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 617
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c679a1d4be846d80800000000000000
+      internalID: -8258318909427845434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_14
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 615
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1e698c228291130800000000000000
+      internalID: 3537903112135565762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_15
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 619
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea4ec9b6a64ce430800000000000000
+      internalID: 3813500666371787489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_16
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 617
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c246668909833f0800000000000000
+      internalID: -920827139569996742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 634
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fda9c65854774bd0800000000000000
+      internalID: -2646018333294875145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_18
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 622
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0014ac484f8be6120800000000000000
+      internalID: 2409066211029172480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_19
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 614
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dab3c8073325220800000000000000
+      internalID: 2473095703861898628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_20
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 598
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcb6fa7ee7941ce0800000000000000
+      internalID: -1435355330703344389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_21
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 619
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588b036e25d48edf0800000000000000
+      internalID: -150785569072301947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_22
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 596
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b60a075ba15394e0800000000000000
+      internalID: -1976146015143983433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_23
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 598
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8469a1774010a40800000000000000
+      internalID: 5332548343377053925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_24
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dea44df30674f740800000000000000
+      internalID: 5184898830516399832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_25
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 596
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cac8302d50739090800000000000000
+      internalID: -8028950165396600127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_26
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 585
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2605995edb69e80800000000000000
+      internalID: -8172135679999843651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_27
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 587
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99620c421fbd18a0800000000000000
+      internalID: -6332695415707506275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_28
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 584
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6b8699a7e934a80800000000000000
+      internalID: -8483763023638907179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_29
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 588
+        width: 56
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa84c57c823a3c40800000000000000
+      internalID: 5492758274384366334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_30
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 589
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5a4e54df0476c70800000000000000
+      internalID: 8964205039847777769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_31
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 588
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dff5787524342ac0800000000000000
+      internalID: -3880919643347091498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_32
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 615
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c373cf6eeeeb4f560800000000000000
+      internalID: 7346706825434904380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_33
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 579
+        width: 63
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840d1cc2865761140800000000000000
+      internalID: 4690065152240898120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_34
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 553
+        width: 72
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821bc6c1ec67f9430800000000000000
+      internalID: 3791880038881472808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_35
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 581
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fdb26255079ad00800000000000000
+      internalID: 984441504572104477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_36
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 559
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23da378cd72ba7620800000000000000
+      internalID: 2772724773903641906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_37
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 557
+        width: 85
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8167eaea48ab60f0800000000000000
+      internalID: -1122618642376728182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_38
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 575
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c732495b6fbd472b0800000000000000
+      internalID: -5587599385005120644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_39
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 586
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae2462aa608b61a0800000000000000
+      internalID: -6815212415615750494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_40
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 589
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26075a94931960e70800000000000000
+      internalID: 9081105373873926242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_41
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 556
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8fa6386e7a9de40800000000000000
+      internalID: 5681757013393733878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_42
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 548
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27191e51d60a1c040800000000000000
+      internalID: 4666187079311528306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_43
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 551
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c2bb29c0e8dc910800000000000000
+      internalID: 1859298405826374748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_44
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 552
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f8b495b64a29d30800000000000000
+      internalID: 4436789363879939861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_45
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 552
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b66728276932d190800000000000000
+      internalID: -7939220077882677580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_46
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 553
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fd2ace1ac20f610800000000000000
+      internalID: 1652870137216425875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_47
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 553
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e6842cbbd85caf0800000000000000
+      internalID: -376739156257640814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_48
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 551
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d9a30d317eeccf0800000000000000
+      internalID: -229992458665419415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_49
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 562
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f575d3d63c3c50480800000000000000
+      internalID: -8933519041700735137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_50
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 548
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfc6956930449cd0800000000000000
+      internalID: -2552344473550532671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_51
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 545
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36917105725a48930800000000000000
+      internalID: 4144619145353697635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_52
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 551
+        width: 112
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991510ad361d41780800000000000000
+      internalID: -8713109152265580135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_53
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 555
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b2e6a06ef4ae6a0800000000000000
+      internalID: -6419230469427156080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_54
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 554
+        width: 51
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89185c1ea0b6f9e00800000000000000
+      internalID: 1053678532309647768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_55
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 554
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d6a3fef3f9742e0800000000000000
+      internalID: -2141568000846041804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_56
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 554
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ede64bc4bbfbaeb0800000000000000
+      internalID: -4707392231562613278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_57
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 278
+        width: 15
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51584d01b1468ec0800000000000000
+      internalID: -3565089826329308833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_58
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 505
+        width: 394
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dad00b2711d87e60800000000000000
+      internalID: 7960342238813280977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_59
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 497
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b9cd19cd2343250800000000000000
+      internalID: 5923415332820392777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_60
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 496
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc646add198094280800000000000000
+      internalID: -9058699752897100084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_61
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 492
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f91a9a5945e4be0800000000000000
+      internalID: -1491161424840253603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_62
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 491
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc36d547fb9d7f8c0800000000000000
+      internalID: -3965461530562174001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_63
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 522
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d1acdea2b6f39e0800000000000000
+      internalID: -1639473907217326818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_64
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 494
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57198724f10b494e0800000000000000
+      internalID: -1975760688203132555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_65
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 495
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee5d32f322f6b040800000000000000
+      internalID: 4663180700390612719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_66
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 496
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abcd865fe6fc7400800000000000000
+      internalID: 323404781073583017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_67
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 492
+        width: 172
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4005e73e10947ae40800000000000000
+      internalID: 5667578928529559556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_68
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 443
+        width: 40
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce9b49d7f83c7b50800000000000000
+      internalID: 6592206591717252804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_69
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 495
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c078c0c1f3feaf320800000000000000
+      internalID: 2592647589837702924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_70
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 516
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db805624a8387c0f0800000000000000
+      internalID: -1096763354398783299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_71
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 498
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379c5e90e15922370800000000000000
+      internalID: 8296357419817486707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_72
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 495
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3f25f7789270460800000000000000
+      internalID: 7207775390563234731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_73
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 500
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc5c8be36119a510800000000000000
+      internalID: 1560797866711866545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_74
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 497
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e45f15178fbe38a0800000000000000
+      internalID: -6323406239885732636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_75
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 517
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd67e80b8a80adfa0800000000000000
+      internalID: -5775294051539585317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_76
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 499
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31897dc293fca730800000000000000
+      internalID: 4011849179918336314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_77
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 490
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d8009c9be43fc00800000000000000
+      internalID: 933176107643997558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_78
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 501
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3b1da9ed8da5c20800000000000000
+      internalID: 3196105336164561846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_79
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 502
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183b59bf504d32950800000000000000
+      internalID: 6423210615721276289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_80
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 496
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c5f763f68803990800000000000000
+      internalID: -7408271375787402228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_81
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 495
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adcf44c42bfeed80800000000000000
+      internalID: -8219356134573617754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_82
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 501
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1270ca661a2633f0800000000000000
+      internalID: -921502797982043619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_83
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 497
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605a7e621b58b6840800000000000000
+      internalID: 5218411589147272454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_84
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 498
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f247fb4e5da848340800000000000000
+      internalID: 4865166148737397807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_85
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 467
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa4e729c63a54d20800000000000000
+      internalID: 3262193191809338023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_86
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 475
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25627e4950b18870800000000000000
+      internalID: 8683415454161724714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_87
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 470
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25660722135b5f9d0800000000000000
+      internalID: -2741085575549262254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_88
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 497
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5011295d7622d5e40800000000000000
+      internalID: 5646707337152565509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_89
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 494
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8027850e1b4f26cf0800000000000000
+      internalID: -260376783623785976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_90
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 468
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5de64acda9f8af0800000000000000
+      internalID: -391924370115734023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_91
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 467
+        width: 92
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bed9ddb31bff54e0800000000000000
+      internalID: -1990596448066347344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_92
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 459
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3626f542a1f4a10800000000000000
+      internalID: 1895762711667696631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_93
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 492
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fab52e2df19e090800000000000000
+      internalID: -8004831872073093340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_94
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 474
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b33e011036055b0800000000000000
+      internalID: -5381692698478298211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_95
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 473
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9774924cbe9dd7300800000000000000
+      internalID: 251596760834197369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_96
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 477
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57e306243e2c4ac0800000000000000
+      internalID: -3869667178307131554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_97
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 471
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92932bbd140268ac0800000000000000
+      internalID: -3853356963938027223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_98
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 353
+        width: 374
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c06aa8137a73550800000000000000
+      internalID: 6140560448164334625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_99
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 448
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eda2f72033ad4740800000000000000
+      internalID: 5137942177123577318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_100
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 449
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22a93b8d155f6390800000000000000
+      internalID: -7822940442341039569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_101
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 452
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b7f5d325bf38870800000000000000
+      internalID: 8684060837136005895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_102
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 455
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9efc52e4ffb2c140800000000000000
+      internalID: 4738560816437853850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_103
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 457
+        width: 85
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4a9861b08e89e80800000000000000
+      internalID: -8171526389543361350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_104
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 461
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6722d55c0b92ba960800000000000000
+      internalID: 7614225434202153590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_105
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 466
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7695544acbb5470800000000000000
+      internalID: 8384502545004455908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_106
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 449
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa61597720d0f430800000000000000
+      internalID: 3814777752340490920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_107
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 428
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37d79704ea0a5cb0800000000000000
+      internalID: -4874571672178927809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_108
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 427
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c169b7167c2ff470800000000000000
+      internalID: 8430505913176646086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_109
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 425
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b5b9eced7379e00800000000000000
+      internalID: 1051370468102855441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_110
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 420
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482b5237afa7290f0800000000000000
+      internalID: -1111690941914828156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_111
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 447
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d195bbf6dec7500800000000000000
+      internalID: 395451931442093375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_112
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 421
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f428bfdb1f2fac0800000000000000
+      internalID: -3822727335413395665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_113
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 444
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34855907203743930800000000000000
+      internalID: 4122046013266810947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_114
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 422
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0fb66002fd69d40800000000000000
+      internalID: 5590901316066734302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_115
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 418
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4b8e1de55fd0890800000000000000
+      internalID: -7490060817649847043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_116
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 415
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f756d7d3803ad8c0800000000000000
+      internalID: -3973810378381043724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_117
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 417
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6bb8ae89725f020800000000000000
+      internalID: 2374847916231341777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_118
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 426
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af99786cbc530410800000000000000
+      internalID: 1442098269965098912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_119
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 448
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01499e45ad2016220800000000000000
+      internalID: 2477264406781203472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_120
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 47
+        width: 112
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed881a3bf1b814210800000000000000
+      internalID: 1315485534442850526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_121
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 424
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d80bf995ca218f60800000000000000
+      internalID: 8034750238385965273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_122
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 425
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ec5c16d552f9ba0800000000000000
+      internalID: -6080099888924340667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_123
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 426
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7c37987df08fa50800000000000000
+      internalID: 6555006676036208618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_124
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 369
+        width: 85
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de158f990c3ad790800000000000000
+      internalID: -7504619817030836525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_125
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 313
+        width: 42
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb0d7f11070f2230800000000000000
+      internalID: 3616116727206448106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_126
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 383
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a14c2d1840f5d280800000000000000
+      internalID: -9019038486221799001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_127
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 387
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30eb1f50e676a7480800000000000000
+      internalID: -8900687991300571645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_128
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 387
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829dcfdadad1306e0800000000000000
+      internalID: -1872620388270417624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_129
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 404
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293a9905f0d6bb700800000000000000
+      internalID: 557158891454571410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_130
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 375
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca35b4cbdd660070800000000000000
+      internalID: 8072260172773669569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_131
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 369
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afb373203f2f0480800000000000000
+      internalID: -8930867652252680285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_132
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 391
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71970be3ffa3f08f0800000000000000
+      internalID: -572173759709939433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_133
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 340
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9706407f164270a0800000000000000
+      internalID: -6885363779454498913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_134
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 332
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630b674c8e96cd0a0800000000000000
+      internalID: -6855488084315295690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_135
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 334
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3430b04da048cab0800000000000000
+      internalID: -4987665474454014914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_136
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 329
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427216ba913975fe0800000000000000
+      internalID: -1200329037212211420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_137
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 342
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a010ab3228f00d0800000000000000
+      internalID: -3454399299213784490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_138
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 357
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f831d60d5b0d33a0800000000000000
+      internalID: -6684173777773709063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_139
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 352
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9981e54f725f260800000000000000
+      internalID: 7130649515515222525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_140
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 363
+        width: 124
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a53d1138aa94810800000000000000
+      internalID: 1750117410126649907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_141
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 351
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc08879cd530056e0800000000000000
+      internalID: -1850975745502314289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_142
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 356
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f803d33dbada053b0800000000000000
+      internalID: -5525725789288583025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_143
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 357
+        width: 123
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b732797456bd80cc0800000000000000
+      internalID: -3744501862119300229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_144
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 350
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d69d318f86092690800000000000000
+      internalID: -7626557280556837162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_145
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 343
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe898df3c142df280800000000000000
+      internalID: -9008003975922280209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_146
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 313
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d306596b4a08900800000000000000
+      internalID: 684728247457430823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_147
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 313
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1710be5742c4590800000000000000
+      internalID: -7688730374955765287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_148
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 313
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b077562ecc7e920800000000000000
+      internalID: 3019607347912182592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_149
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 311
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406eba58f428d0400800000000000000
+      internalID: 292032828905612804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_150
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 312
+        width: 89
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11584b8d5d1a4dd0800000000000000
+      internalID: -2501154355444952805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_151
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 314
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2cd0631b8850990800000000000000
+      internalID: -7420374516325563722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_152
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 334
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975f4da5dfb22a120800000000000000
+      internalID: 2423547916629374329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_153
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 326
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99dca1eaf0963200800000000000000
+      internalID: 159474244020656540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_154
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 269
+        width: 99
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9900b3ff3f6ed85b0800000000000000
+      internalID: -5364377645494894439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_155
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 273
+        width: 9
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dff36aeec3a17f10800000000000000
+      internalID: 2265772196635082705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_156
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 295
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fd8e3f838231020800000000000000
+      internalID: 2311235258846601052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_157
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 322
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a165209dd00d87a50800000000000000
+      internalID: 6519189218512754202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_158
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 290
+        width: 83
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1416c0e0e1b531a60800000000000000
+      internalID: 7643553177220702529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_159
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 293
+        width: 102
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ebd4fc57f5968c0800000000000000
+      internalID: -4005565433975554501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_160
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 299
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b568b8a0d7ab210800000000000000
+      internalID: 1349528522594868102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_161
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 292
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6e2803626ef9f10800000000000000
+      internalID: 2278792988169791220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_162
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 297
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e1bb6d8c4550090800000000000000
+      internalID: -8068949935791595925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_163
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 298
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c8e0d011dc71440800000000000000
+      internalID: 4906615792160640083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_164
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 303
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fd84428ec3dab10800000000000000
+      internalID: 1994317177733832582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_165
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 234
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee40658af64ac1dc0800000000000000
+      internalID: -3666875197113891602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_166
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 231
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa224aad4e04c040800000000000000
+      internalID: 4666870840594410146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_167
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 225
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7907d57ff21597a50800000000000000
+      internalID: 6519331202050912407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_168
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 224
+        width: 87
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46ea26d3d2472670800000000000000
+      internalID: 8513847098165880396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_169
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 236
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc28641e66450f460800000000000000
+      internalID: 7273406199046243019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_170
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 236
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e830aaa78b8fe2320800000000000000
+      internalID: 2535237111471801230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_171
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 225
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce1d87a41dce7ba0800000000000000
+      internalID: -6089204157564248372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_172
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 239
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9428c54aad0345e0800000000000000
+      internalID: -1926681190618094435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_173
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 266
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb329eee6ebdfe900800000000000000
+      internalID: 716032650672415678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_174
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 242
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de26c461f522db7b0800000000000000
+      internalID: -5206967802379083027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_175
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 244
+        width: 112
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23daf72c698f36e40800000000000000
+      internalID: 5648631684044664114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_176
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 229
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80370b24083a3bf50800000000000000
+      internalID: 6896035225704362760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_177
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 243
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d633f298c66fe4b50800000000000000
+      internalID: 6579467051653346157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_178
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 243
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69cbdc71c074bff0800000000000000
+      internalID: -21268121904232084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_179
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 249
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fae7b64923bb7d30800000000000000
+      internalID: 4430331648310504185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_180
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 231
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb04bc81ea9395f0800000000000000
+      internalID: -751086419321812024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_181
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 239
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbbbe13f4d71ead0800000000000000
+      internalID: -2674718924587942968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_182
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 229
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab99371390ebf8c0800000000000000
+      internalID: -3964328124615124053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_183
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 80
+        width: 53
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076ef704229174e50800000000000000
+      internalID: 6793426197813388912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_184
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 216
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f8b0c1bc9756630800000000000000
+      internalID: 3919672963951726429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_185
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 252
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9172eb02be252cff0800000000000000
+      internalID: -17360278735935719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_186
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 240
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f4a5813b81161b0800000000000000
+      internalID: -5665219698768588960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_187
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 194
+        width: 74
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5075222c7c2d7ebb0800000000000000
+      internalID: -4906721513599510779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_188
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 212
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff8248920bded2e0800000000000000
+      internalID: -2098999572117155847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_189
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 222
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a40aed62440a9310800000000000000
+      internalID: 1412446116492477608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_190
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 219
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9687484e20d6e9f0800000000000000
+      internalID: -439435016422324580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_191
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 220
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e6006db5aba5ea0800000000000000
+      internalID: -5883185059610988966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_192
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 223
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35e7854dcfd44f90800000000000000
+      internalID: -6970200250534861508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_193
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 70
+        width: 103
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f8c9511070a19c0800000000000000
+      internalID: -3955841621452615853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_194
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 182
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ffc93ac0a45ea50800000000000000
+      internalID: 6549722651225292668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_195
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 185
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1f933891ed3e420800000000000000
+      internalID: 2658212406235886036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_196
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 180
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b03f5ad6e16a0970800000000000000
+      internalID: 8721891272490430645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_197
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 201
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c108728f88cbe8a90800000000000000
+      internalID: -7309697848710823908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_198
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 170
+        width: 71
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b382f370662bb7570800000000000000
+      internalID: 8465556075850967099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_199
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 197
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e31fa985986d3ef0800000000000000
+      internalID: -126830223027137567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_200
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 172
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00feee622ad4d86d0800000000000000
+      internalID: -2986645619043537152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_201
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 66
+        width: 11
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21833fdb3cf44b80800000000000000
+      internalID: -8411320869943279317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_202
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 128
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d45a785b05d9bef0800000000000000
+      internalID: -91808072678615851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_203
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 176
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b933d8523c1eca40800000000000000
+      internalID: 5390276806573242808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_204
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 175
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2a5a11866eecc30800000000000000
+      internalID: 4381692822125126370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_205
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 175
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0de3cf55b5e51d90800000000000000
+      internalID: -7127538268085424886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_206
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 119
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a050f0c5a705daf0800000000000000
+      internalID: -372382985700224857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_207
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 102
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5247635173a683bc0800000000000000
+      internalID: -3803173100502748123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_208
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 89
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3279e4c25e425340800000000000000
+      internalID: 4851025866029363774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_209
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 79
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734f3fc1a2762a640800000000000000
+      internalID: 5089743959454118967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_210
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 79
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9c7b200ae96d810800000000000000
+      internalID: 1789792312003906036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_211
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 89
+        width: 88
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f47982da8cf46020800000000000000
+      internalID: 2334268180052669682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_212
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 19
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20e2386cf2f03020800000000000000
+      internalID: 2319620973989650476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: O NOVO HECTORJACK_213
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 16
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1170b6090e57c00800000000000000
+      internalID: 897870611605819895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      O NOVO HECTORJACK_0: -2690195319600363548
+      O NOVO HECTORJACK_1: 2639054444679046203
+      O NOVO HECTORJACK_10: -4859143249387342451
+      O NOVO HECTORJACK_100: -7822940442341039569
+      O NOVO HECTORJACK_101: 8684060837136005895
+      O NOVO HECTORJACK_102: 4738560816437853850
+      O NOVO HECTORJACK_103: -8171526389543361350
+      O NOVO HECTORJACK_104: 7614225434202153590
+      O NOVO HECTORJACK_105: 8384502545004455908
+      O NOVO HECTORJACK_106: 3814777752340490920
+      O NOVO HECTORJACK_107: -4874571672178927809
+      O NOVO HECTORJACK_108: 8430505913176646086
+      O NOVO HECTORJACK_109: 1051370468102855441
+      O NOVO HECTORJACK_11: -5725432698574763779
+      O NOVO HECTORJACK_110: -1111690941914828156
+      O NOVO HECTORJACK_111: 395451931442093375
+      O NOVO HECTORJACK_112: -3822727335413395665
+      O NOVO HECTORJACK_113: 4122046013266810947
+      O NOVO HECTORJACK_114: 5590901316066734302
+      O NOVO HECTORJACK_115: -7490060817649847043
+      O NOVO HECTORJACK_116: -3973810378381043724
+      O NOVO HECTORJACK_117: 2374847916231341777
+      O NOVO HECTORJACK_118: 1442098269965098912
+      O NOVO HECTORJACK_119: 2477264406781203472
+      O NOVO HECTORJACK_12: -2242681017982684610
+      O NOVO HECTORJACK_120: 1315485534442850526
+      O NOVO HECTORJACK_121: 8034750238385965273
+      O NOVO HECTORJACK_122: -6080099888924340667
+      O NOVO HECTORJACK_123: 6555006676036208618
+      O NOVO HECTORJACK_124: -7504619817030836525
+      O NOVO HECTORJACK_125: 3616116727206448106
+      O NOVO HECTORJACK_126: -9019038486221799001
+      O NOVO HECTORJACK_127: -8900687991300571645
+      O NOVO HECTORJACK_128: -1872620388270417624
+      O NOVO HECTORJACK_129: 557158891454571410
+      O NOVO HECTORJACK_13: -8258318909427845434
+      O NOVO HECTORJACK_130: 8072260172773669569
+      O NOVO HECTORJACK_131: -8930867652252680285
+      O NOVO HECTORJACK_132: -572173759709939433
+      O NOVO HECTORJACK_133: -6885363779454498913
+      O NOVO HECTORJACK_134: -6855488084315295690
+      O NOVO HECTORJACK_135: -4987665474454014914
+      O NOVO HECTORJACK_136: -1200329037212211420
+      O NOVO HECTORJACK_137: -3454399299213784490
+      O NOVO HECTORJACK_138: -6684173777773709063
+      O NOVO HECTORJACK_139: 7130649515515222525
+      O NOVO HECTORJACK_14: 3537903112135565762
+      O NOVO HECTORJACK_140: 1750117410126649907
+      O NOVO HECTORJACK_141: -1850975745502314289
+      O NOVO HECTORJACK_142: -5525725789288583025
+      O NOVO HECTORJACK_143: -3744501862119300229
+      O NOVO HECTORJACK_144: -7626557280556837162
+      O NOVO HECTORJACK_145: -9008003975922280209
+      O NOVO HECTORJACK_146: 684728247457430823
+      O NOVO HECTORJACK_147: -7688730374955765287
+      O NOVO HECTORJACK_148: 3019607347912182592
+      O NOVO HECTORJACK_149: 292032828905612804
+      O NOVO HECTORJACK_15: 3813500666371787489
+      O NOVO HECTORJACK_150: -2501154355444952805
+      O NOVO HECTORJACK_151: -7420374516325563722
+      O NOVO HECTORJACK_152: 2423547916629374329
+      O NOVO HECTORJACK_153: 159474244020656540
+      O NOVO HECTORJACK_154: -5364377645494894439
+      O NOVO HECTORJACK_155: 2265772196635082705
+      O NOVO HECTORJACK_156: 2311235258846601052
+      O NOVO HECTORJACK_157: 6519189218512754202
+      O NOVO HECTORJACK_158: 7643553177220702529
+      O NOVO HECTORJACK_159: -4005565433975554501
+      O NOVO HECTORJACK_16: -920827139569996742
+      O NOVO HECTORJACK_160: 1349528522594868102
+      O NOVO HECTORJACK_161: 2278792988169791220
+      O NOVO HECTORJACK_162: -8068949935791595925
+      O NOVO HECTORJACK_163: 4906615792160640083
+      O NOVO HECTORJACK_164: 1994317177733832582
+      O NOVO HECTORJACK_165: -3666875197113891602
+      O NOVO HECTORJACK_166: 4666870840594410146
+      O NOVO HECTORJACK_167: 6519331202050912407
+      O NOVO HECTORJACK_168: 8513847098165880396
+      O NOVO HECTORJACK_169: 7273406199046243019
+      O NOVO HECTORJACK_17: -2646018333294875145
+      O NOVO HECTORJACK_170: 2535237111471801230
+      O NOVO HECTORJACK_171: -6089204157564248372
+      O NOVO HECTORJACK_172: -1926681190618094435
+      O NOVO HECTORJACK_173: 716032650672415678
+      O NOVO HECTORJACK_174: -5206967802379083027
+      O NOVO HECTORJACK_175: 5648631684044664114
+      O NOVO HECTORJACK_176: 6896035225704362760
+      O NOVO HECTORJACK_177: 6579467051653346157
+      O NOVO HECTORJACK_178: -21268121904232084
+      O NOVO HECTORJACK_179: 4430331648310504185
+      O NOVO HECTORJACK_18: 2409066211029172480
+      O NOVO HECTORJACK_180: -751086419321812024
+      O NOVO HECTORJACK_181: -2674718924587942968
+      O NOVO HECTORJACK_182: -3964328124615124053
+      O NOVO HECTORJACK_183: 6793426197813388912
+      O NOVO HECTORJACK_184: 3919672963951726429
+      O NOVO HECTORJACK_185: -17360278735935719
+      O NOVO HECTORJACK_186: -5665219698768588960
+      O NOVO HECTORJACK_187: -4906721513599510779
+      O NOVO HECTORJACK_188: -2098999572117155847
+      O NOVO HECTORJACK_189: 1412446116492477608
+      O NOVO HECTORJACK_19: 2473095703861898628
+      O NOVO HECTORJACK_190: -439435016422324580
+      O NOVO HECTORJACK_191: -5883185059610988966
+      O NOVO HECTORJACK_192: -6970200250534861508
+      O NOVO HECTORJACK_193: -3955841621452615853
+      O NOVO HECTORJACK_194: 6549722651225292668
+      O NOVO HECTORJACK_195: 2658212406235886036
+      O NOVO HECTORJACK_196: 8721891272490430645
+      O NOVO HECTORJACK_197: -7309697848710823908
+      O NOVO HECTORJACK_198: 8465556075850967099
+      O NOVO HECTORJACK_199: -126830223027137567
+      O NOVO HECTORJACK_2: -4415793741555566435
+      O NOVO HECTORJACK_20: -1435355330703344389
+      O NOVO HECTORJACK_200: -2986645619043537152
+      O NOVO HECTORJACK_201: -8411320869943279317
+      O NOVO HECTORJACK_202: -91808072678615851
+      O NOVO HECTORJACK_203: 5390276806573242808
+      O NOVO HECTORJACK_204: 4381692822125126370
+      O NOVO HECTORJACK_205: -7127538268085424886
+      O NOVO HECTORJACK_206: -372382985700224857
+      O NOVO HECTORJACK_207: -3803173100502748123
+      O NOVO HECTORJACK_208: 4851025866029363774
+      O NOVO HECTORJACK_209: 5089743959454118967
+      O NOVO HECTORJACK_21: -150785569072301947
+      O NOVO HECTORJACK_210: 1789792312003906036
+      O NOVO HECTORJACK_211: 2334268180052669682
+      O NOVO HECTORJACK_212: 2319620973989650476
+      O NOVO HECTORJACK_213: 897870611605819895
+      O NOVO HECTORJACK_22: -1976146015143983433
+      O NOVO HECTORJACK_23: 5332548343377053925
+      O NOVO HECTORJACK_24: 5184898830516399832
+      O NOVO HECTORJACK_25: -8028950165396600127
+      O NOVO HECTORJACK_26: -8172135679999843651
+      O NOVO HECTORJACK_27: -6332695415707506275
+      O NOVO HECTORJACK_28: -8483763023638907179
+      O NOVO HECTORJACK_29: 5492758274384366334
+      O NOVO HECTORJACK_3: -870541409522036365
+      O NOVO HECTORJACK_30: 8964205039847777769
+      O NOVO HECTORJACK_31: -3880919643347091498
+      O NOVO HECTORJACK_32: 7346706825434904380
+      O NOVO HECTORJACK_33: 4690065152240898120
+      O NOVO HECTORJACK_34: 3791880038881472808
+      O NOVO HECTORJACK_35: 984441504572104477
+      O NOVO HECTORJACK_36: 2772724773903641906
+      O NOVO HECTORJACK_37: -1122618642376728182
+      O NOVO HECTORJACK_38: -5587599385005120644
+      O NOVO HECTORJACK_39: -6815212415615750494
+      O NOVO HECTORJACK_4: 2163978560577219429
+      O NOVO HECTORJACK_40: 9081105373873926242
+      O NOVO HECTORJACK_41: 5681757013393733878
+      O NOVO HECTORJACK_42: 4666187079311528306
+      O NOVO HECTORJACK_43: 1859298405826374748
+      O NOVO HECTORJACK_44: 4436789363879939861
+      O NOVO HECTORJACK_45: -7939220077882677580
+      O NOVO HECTORJACK_46: 1652870137216425875
+      O NOVO HECTORJACK_47: -376739156257640814
+      O NOVO HECTORJACK_48: -229992458665419415
+      O NOVO HECTORJACK_49: -8933519041700735137
+      O NOVO HECTORJACK_5: 7189755982912604126
+      O NOVO HECTORJACK_50: -2552344473550532671
+      O NOVO HECTORJACK_51: 4144619145353697635
+      O NOVO HECTORJACK_52: -8713109152265580135
+      O NOVO HECTORJACK_53: -6419230469427156080
+      O NOVO HECTORJACK_54: 1053678532309647768
+      O NOVO HECTORJACK_55: -2141568000846041804
+      O NOVO HECTORJACK_56: -4707392231562613278
+      O NOVO HECTORJACK_57: -3565089826329308833
+      O NOVO HECTORJACK_58: 7960342238813280977
+      O NOVO HECTORJACK_59: 5923415332820392777
+      O NOVO HECTORJACK_6: -8428217746533931690
+      O NOVO HECTORJACK_60: -9058699752897100084
+      O NOVO HECTORJACK_61: -1491161424840253603
+      O NOVO HECTORJACK_62: -3965461530562174001
+      O NOVO HECTORJACK_63: -1639473907217326818
+      O NOVO HECTORJACK_64: -1975760688203132555
+      O NOVO HECTORJACK_65: 4663180700390612719
+      O NOVO HECTORJACK_66: 323404781073583017
+      O NOVO HECTORJACK_67: 5667578928529559556
+      O NOVO HECTORJACK_68: 6592206591717252804
+      O NOVO HECTORJACK_69: 2592647589837702924
+      O NOVO HECTORJACK_7: -6730320945140411120
+      O NOVO HECTORJACK_70: -1096763354398783299
+      O NOVO HECTORJACK_71: 8296357419817486707
+      O NOVO HECTORJACK_72: 7207775390563234731
+      O NOVO HECTORJACK_73: 1560797866711866545
+      O NOVO HECTORJACK_74: -6323406239885732636
+      O NOVO HECTORJACK_75: -5775294051539585317
+      O NOVO HECTORJACK_76: 4011849179918336314
+      O NOVO HECTORJACK_77: 933176107643997558
+      O NOVO HECTORJACK_78: 3196105336164561846
+      O NOVO HECTORJACK_79: 6423210615721276289
+      O NOVO HECTORJACK_8: -8664228378767228102
+      O NOVO HECTORJACK_80: -7408271375787402228
+      O NOVO HECTORJACK_81: -8219356134573617754
+      O NOVO HECTORJACK_82: -921502797982043619
+      O NOVO HECTORJACK_83: 5218411589147272454
+      O NOVO HECTORJACK_84: 4865166148737397807
+      O NOVO HECTORJACK_85: 3262193191809338023
+      O NOVO HECTORJACK_86: 8683415454161724714
+      O NOVO HECTORJACK_87: -2741085575549262254
+      O NOVO HECTORJACK_88: 5646707337152565509
+      O NOVO HECTORJACK_89: -260376783623785976
+      O NOVO HECTORJACK_9: -5601718381836807463
+      O NOVO HECTORJACK_90: -391924370115734023
+      O NOVO HECTORJACK_91: -1990596448066347344
+      O NOVO HECTORJACK_92: 1895762711667696631
+      O NOVO HECTORJACK_93: -8004831872073093340
+      O NOVO HECTORJACK_94: -5381692698478298211
+      O NOVO HECTORJACK_95: 251596760834197369
+      O NOVO HECTORJACK_96: -3869667178307131554
+      O NOVO HECTORJACK_97: -3853356963938027223
+      O NOVO HECTORJACK_98: 6140560448164334625
+      O NOVO HECTORJACK_99: 5137942177123577318
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
