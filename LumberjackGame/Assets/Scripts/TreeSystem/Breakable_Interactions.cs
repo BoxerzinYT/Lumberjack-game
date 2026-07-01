@@ -8,11 +8,11 @@ public class Breakable_Interactions : MonoBehaviour
     public int dropPoints { get; private set;}
 
     public Breakable_Interactions
-    (float _damage, float _criticalChance, float _bonusChance, int _dropPoints)
+    (Hec_Stats _hectorStats)
     {
-        damage = _damage;
-        criticalChance = _criticalChance;
-        bonusChance = _bonusChance;
-        dropPoints = _dropPoints;
+        damage = _hectorStats.hec_damage;
+        criticalChance = _hectorStats.hec_criticalChance;
+        bonusChance = _hectorStats.hec_bonusChance;
+        dropPoints = _hectorStats.hec_dropPoints;
     }
 }

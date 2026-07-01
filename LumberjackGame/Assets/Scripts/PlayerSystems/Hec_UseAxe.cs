@@ -1,12 +1,10 @@
 using System;
 using System.Collections;
-using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public interface IBreakable
 {
-    public void Break(Breakable_Interactions inter);
+    public void Break(Hec_Stats hec_stats);
 }
 
 public class Hec_UseAxe : MonoBehaviour
@@ -42,8 +40,7 @@ public class Hec_UseAxe : MonoBehaviour
         {
             if (b.GetComponent<BreakableObj>())
             {
-                b.GetComponent<IBreakable>().Break(new Breakable_Interactions
-                (myStats.hec_damage, myStats.hec_criticalChance, myStats.hec_bonusChance, myStats.hec_dropPoints));
+                b.GetComponent<IBreakable>().Break(myStats);
             }
         }
         canAttack = true;

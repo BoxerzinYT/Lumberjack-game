@@ -15,6 +15,11 @@ public class CameraFollow : MonoBehaviour
         cam.transform.SetParent(transform);
     }
 
+    private void FixedUpdate()
+    {
+        transform.position = Vector2.Lerp(transform.position, player.position, 0.1f);
+    }
+
     private void Update()
     {
         zoom(Input.GetAxis("Mouse ScrollWheel") * zoomValue * Time.deltaTime);
