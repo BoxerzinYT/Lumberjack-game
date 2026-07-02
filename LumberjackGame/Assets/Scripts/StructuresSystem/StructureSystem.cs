@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class StructureSystem : MonoBehaviour
 {
-    [SerializeField] string playerTag;
+    string playerTag = "Player";
     [SerializeField] UnityEvent whenPlayerEnter;
     [SerializeField] UnityEvent whenPlayerExit;
     bool playerEnter;
