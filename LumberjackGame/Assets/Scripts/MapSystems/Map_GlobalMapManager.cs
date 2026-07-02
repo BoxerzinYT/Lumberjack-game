@@ -19,6 +19,16 @@ public class Map_GlobalMapManager : MonoBehaviour
         }
     }
 
+    public void SpawnAIsland(int cordX, int cordY)
+    {
+        //Spawnando a parte e definindo suas coordenadas e posição 
+        Map_PartManager newPart = Instantiate(partPrefab);
+        newPart.SetPart(this);
+        newPart.SetMyPos(cordX, cordY, DistanceBeetweenCenters);
+        partsInGame.Add(newPart);
+        newPart.name = "MapPart(" + (partsInGame.Count - 2) + ")";
+    }
+
     public IEnumerator FirstSpawnIslandParts()
     {
         int[] coordsCal = new int[3];
@@ -30,17 +40,19 @@ public class Map_GlobalMapManager : MonoBehaviour
                 while(coordsCal[2] == 1)
                 {
                     coordsCal = CalculateEmptyCoordenate();
-                    yield return new WaitForSeconds(0.1f);
+                    yield return new WaitForSeconds(0.01f);
                 }
             }
             //Spawnando a parte e definindo suas coordenadas e posição 
             Map_PartManager newPart = Instantiate(partPrefab);
+            newPart.SetPart(this);
             newPart.SetMyPos(coordsCal[0], coordsCal[1], DistanceBeetweenCenters);
 
             //Adicionando a lista de partes
             partsInGame.Add(newPart);
+            newPart.name = "MapPart(" + (partsInGame.Count - 2) + ")";
             i++;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.01f);
         }
     }
 
@@ -49,7 +61,7 @@ public class Map_GlobalMapManager : MonoBehaviour
         int tempCoordX = 0;
         int tempCoordY = 0;
         int randomEdge = Random.Range(0, partsInGame[partsInGame.Count - 1].Edges.Length);
-        Debug.Log(randomEdge);
+        //Debug.Log(randomEdge);
         if(randomEdge == 0) //Left
         {
             tempCoordX = 1;
@@ -92,5 +104,28 @@ public class Map_GlobalMapManager : MonoBehaviour
         }
 
         return false;
+    }
+
+    //Retorna o valor que será alterado na coordenada baseado no id do expand edge
+    public int[] ReturnTheCordChangeBasedOnTheEdgeId(int edgeValue)
+    {
+        if(edgeValue == 0) //Left
+        {
+            return new int[] { 1, 0 };
+        }
+        else if(edgeValue == 1) //Up
+        {
+            return new int[] { 0, 1 };
+        }
+        else if(edgeValue == 2) //Right
+        {
+            return new int[] { -1, 0 };
+        }
+        else if(edgeValue == 3) //Down
+        {
+            return new int[] { 0, -1 };
+        }
+
+        return new int[] { 0, 0 };
     }
 }

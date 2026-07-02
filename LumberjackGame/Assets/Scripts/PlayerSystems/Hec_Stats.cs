@@ -23,6 +23,18 @@ public class Hec_Stats : MonoBehaviour
             myUiManager.CallSaplingsChange();
         }
     }
+    int mapleBiome_expansionScrolls_prot;
+    public int MapleBiome_expansionScrolls_prot { get { return mapleBiome_expansionScrolls_prot; } set
+        {
+            mapleBiome_expansionScrolls_prot = value;
+            if(mapleBiome_expansionScrolls_prot < 0)
+            {
+                mapleBiome_expansionScrolls_prot = 0;
+            }
+
+            myUiManager.CallSaplingsChange();
+        }
+    }
 
     [Header("AttributeStats")]
     public float hec_damage;

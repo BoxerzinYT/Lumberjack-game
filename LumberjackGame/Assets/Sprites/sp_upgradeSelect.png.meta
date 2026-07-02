@@ -1,76 +1,19 @@
 fileFormatVersion: 2
-guid: 19027055b449a47419b16993918bc395
+guid: e1c8567de5619d24dad326f63fef55b6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3302145157632284402
-    second: sp_saplingSlot_0
+      213: -3339157168050653613
+    second: sp_upgradeSelect_0
   - first:
-      213: 2261805366829463785
-    second: sp_saplingSlot_1
+      213: -4370395290150570376
+    second: sp_upgradeSelect_1
   - first:
-      213: -2251750398651391831
-    second: sp_saplingSlot_2
+      213: 778959424407064488
+    second: sp_upgradeSelect_2
   - first:
-      213: 8317732923333245826
-    second: sp_saplingSlot_3
-  - first:
-      213: 2065287553232459229
-    second: sp_saplingSlot_4
-  - first:
-      213: -5975171444380399289
-    second: sp_saplingSlot_5
-  - first:
-      213: 3585935148863599954
-    second: sp_saplingSlot_6
-  - first:
-      213: 2753444843553323916
-    second: sp_saplingSlot_7
-  - first:
-      213: -1752832806254658300
-    second: sp_saplingSlot_8
-  - first:
-      213: -3944399440323425874
-    second: sp_saplingSlot_9
-  - first:
-      213: -1431088133784171705
-    second: sp_saplingSlot_10
-  - first:
-      213: 5114890861483603993
-    second: sp_saplingSlot_11
-  - first:
-      213: 6828882764518082304
-    second: sp_saplingSlot_12
-  - first:
-      213: 1279703329429214155
-    second: sp_saplingSlot_13
-  - first:
-      213: 868603838589396216
-    second: sp_saplingSlot_14
-  - first:
-      213: 5376603586738196446
-    second: sp_saplingSlot_15
-  - first:
-      213: 6702189464208310049
-    second: sp_saplingSlot_16
-  - first:
-      213: -2001713963416936097
-    second: sp_saplingSlot_17
-  - first:
-      213: -6980214595626933244
-    second: sp_saplingSlot_18
-  - first:
-      213: -4319431553683580600
-    second: sp_saplingSlot_19
-  - first:
-      213: -2994624163204666670
-    second: sp_saplingSlot_20
-  - first:
-      213: -5650685989654735650
-    second: sp_saplingSlot_21
-  - first:
-      213: 5642175195064140685
-    second: sp_saplingSlot_22
+      213: 928276231553502385
+    second: sp_upgradeSelect_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -179,23 +122,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sp_saplingSlot_0
+      name: sp_upgradeSelect_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 27
-        width: 464
-        height: 455
+        x: 0
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e092d82897c6c22d0800000000000000
-      internalID: -3302145157632284402
+      spriteID: 356342d4f3ee8a1d0800000000000000
+      internalID: -3339157168050653613
       vertices: []
       indices: 
       edges: []
@@ -204,7 +147,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8b4b4f0c13f567341aa9202adc97784e
+    spriteID: eb9c534b9969f2d429b96ce300943f6b
     internalID: 0
     vertices: []
     indices: 
@@ -214,29 +157,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sp_saplingSlot_0: -3302145157632284402
-      sp_saplingSlot_1: 2261805366829463785
-      sp_saplingSlot_10: -1431088133784171705
-      sp_saplingSlot_11: 5114890861483603993
-      sp_saplingSlot_12: 6828882764518082304
-      sp_saplingSlot_13: 1279703329429214155
-      sp_saplingSlot_14: 868603838589396216
-      sp_saplingSlot_15: 5376603586738196446
-      sp_saplingSlot_16: 6702189464208310049
-      sp_saplingSlot_17: -2001713963416936097
-      sp_saplingSlot_18: -6980214595626933244
-      sp_saplingSlot_19: -4319431553683580600
-      sp_saplingSlot_2: -2251750398651391831
-      sp_saplingSlot_20: -2994624163204666670
-      sp_saplingSlot_21: -5650685989654735650
-      sp_saplingSlot_22: 5642175195064140685
-      sp_saplingSlot_3: 8317732923333245826
-      sp_saplingSlot_4: 2065287553232459229
-      sp_saplingSlot_5: -5975171444380399289
-      sp_saplingSlot_6: 3585935148863599954
-      sp_saplingSlot_7: 2753444843553323916
-      sp_saplingSlot_8: -1752832806254658300
-      sp_saplingSlot_9: -3944399440323425874
+      sp_upgradeSelect_0: -3339157168050653613
+      sp_upgradeSelect_1: -4370395290150570376
+      sp_upgradeSelect_2: 778959424407064488
+      sp_upgradeSelect_3: 928276231553502385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

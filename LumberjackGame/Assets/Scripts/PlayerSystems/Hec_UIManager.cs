@@ -1,8 +1,6 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
-using Unity.VisualScripting;
 
 public class Hec_UIManager : MonoBehaviour
 {
@@ -15,6 +13,7 @@ public class Hec_UIManager : MonoBehaviour
 
     [Header("Prototype")]
     [SerializeField] TextMeshProUGUI saplingsTxt;
+    [SerializeField] TextMeshProUGUI expansionScrollTxt;
 
     public void Start()
     {
@@ -32,6 +31,10 @@ public class Hec_UIManager : MonoBehaviour
     public void CallSaplingsChange()
     {
         myChangeTxtScp.ChangeAText(saplingsTxt, myStats.MapleTree_saplings_prot.ToString() + "x");
+    }
+    public void CallExpandScrollChange()
+    {
+        myChangeTxtScp.ChangeAText(expansionScrollTxt, myStats.MapleBiome_expansionScrolls_prot.ToString() + "x");
     }
 
     

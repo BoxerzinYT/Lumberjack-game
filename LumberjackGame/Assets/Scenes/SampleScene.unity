@@ -829,6 +829,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4717582528064819450, guid: 2bce7fd3b562cf445b75574ee0a639fc, type: 3}
+      propertyPath: centerIsland
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027321605924422499, guid: 2bce7fd3b562cf445b75574ee0a639fc, type: 3}
+      propertyPath: m_Size.y
+      value: 3.00005
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027321605924422499, guid: 2bce7fd3b562cf445b75574ee0a639fc, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.00002503395
+      objectReference: {fileID: 0}
     - target: {fileID: 7139572224938130680, guid: 2bce7fd3b562cf445b75574ee0a639fc, type: 3}
       propertyPath: m_Name
       value: Map_Part
@@ -938,6 +950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 800125146}
   - component: {fileID: 800125147}
+  - component: {fileID: 800125148}
   m_Layer: 0
   m_Name: GlobalMapManager
   m_TagString: Untagged
@@ -977,6 +990,18 @@ MonoBehaviour:
   DistanceBeetweenCenters: 18
   partsInGame:
   - {fileID: 707077098}
+--- !u!114 &800125148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800125145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb160af97f3dec48a2b9f8c9daa7db5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Map_SpawnStructures
 --- !u!1 &855934858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,6 +1836,7 @@ GameObject:
   - component: {fileID: 2023390065}
   - component: {fileID: 2023390066}
   - component: {fileID: 2023390068}
+  - component: {fileID: 2023390069}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -2014,6 +2040,7 @@ MonoBehaviour:
     m_NumColorKeys: 3
     m_NumAlphaKeys: 2
   saplingsTxt: {fileID: 124735555}
+  expansionScrollTxt: {fileID: 0}
 --- !u!114 &2023390066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2084,6 +2111,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a07acef763d0244be51d5ba62b418c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UI_ChangeAText
+--- !u!114 &2023390069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023390057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac412951dd50a7b4c9d007ca021b12b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Hec_ActionSystem
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
