@@ -20,21 +20,6 @@ public class Hec_UIManager : MonoBehaviour
         myStats = GetComponent<Hec_Stats>();
         myUpdateBarScp = GetComponent<UI_UpdateBars>();
         myChangeTxtScp = GetComponent<UI_ChangeAText>();
-        CallUpdateBar();
-    }
-
-    public void CallUpdateBar()
-    {
-        myUpdateBarScp.UpdateBar(myStats.Hec_Capacity, myStats.Hec_MaxCapacity, hec_capacityBar, capacityBarGradient, true, hec_capacityTxt);
-    }
-
-    public void CallSaplingsChange()
-    {
-        myChangeTxtScp.ChangeAText(saplingsTxt, myStats.MapleTree_saplings_prot.ToString() + "x");
-    }
-    public void CallExpandScrollChange()
-    {
-        myChangeTxtScp.ChangeAText(expansionScrollTxt, myStats.MapleBiome_expansionScrolls_prot.ToString() + "x");
     }
 
     

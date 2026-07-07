@@ -5,9 +5,14 @@ using UnityEngine.InputSystem;
 
 public class Hec_Mov : MonoBehaviour
 {
-    [SerializeField] float speed;
+    Hec_Stats hj_stats;
     Rigidbody2D rb;
     Animator anim;
+
+    public void Awake()
+    {
+        hj_stats = GetComponent<Hec_Stats>();
+    }
 
     public void Start()
     {
@@ -19,8 +24,8 @@ public class Hec_Mov : MonoBehaviour
     {
         var moveInput = value.Get<Vector2>();
         FlipX(moveInput.x);
-        rb.linearVelocity = moveInput.normalized * speed;
-        //anim.SetBool("Moving", rb.linearVelocity.magnitude > 0);
+        rb.linearVelocity = moveInput.normalized * hj_stats.hec_speed;
+        anim.SetBool("Walking", rb.linearVelocity.magnitude > 0);
     }
 
     public void FlipX(float x)

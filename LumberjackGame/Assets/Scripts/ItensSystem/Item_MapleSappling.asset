@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffca76eff6355684fb4374fa0b59d175, type: 3}
+  m_Name: Item_MapleSappling
+  m_EditorClassIdentifier: Assembly-CSharp::Sell_Item
+  itemName: Maple sappling
+  itemDescription: Plant this on a slot to grow a tree!
+  itemRarity: {fileID: 11400000, guid: cf129a0ac310de8478ef9b033fff5e10, type: 2}
+  itemIcon: {fileID: -9006923562119208979, guid: bad9074089b636442bbf71426d378ccd, type: 3}
+  isStackable: 1
+  itemValue: 3
+  itemSellXp:
+  - 1
+  - 1.5

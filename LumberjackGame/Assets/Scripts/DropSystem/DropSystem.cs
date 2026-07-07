@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class DropSystem : MonoBehaviour
 {
+    [SerializeField] Sell_Item mapleSappling;
     [SerializeField] DropSettings[] dropSettings;
 
     public void Drop(Hec_Stats hec_stats, int phaseId)
     {
-        hec_stats.Hec_Capacity += 1 + 1 * phaseId;
         float chance = Random.Range(0f,1f);
-        if(chance <= 0.04 + 0.025 * phaseId)
+        if(chance <= 0.6 + 0.025 * phaseId)
         {
-            hec_stats.MapleTree_saplings_prot += 1;
+            hec_stats.Hec_invent.hectorInventory.AddItem(1, new InventoryItem(0, mapleSappling, 1));
         }
     }
 }

@@ -27,7 +27,10 @@ public class Hec_ActionSystem : MonoBehaviour
         {
             foreach(var a in blocks)
             {
-                a.DesactivateBlock();
+                if(a!= null)
+                {
+                    a.DesactivateBlock();
+                }
             }
             blocks = null;
             isInActionMode = false;

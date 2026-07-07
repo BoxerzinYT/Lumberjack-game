@@ -22,8 +22,6 @@ public class Struc_Compost : StructureSystem
     {
         if(compost_capacity < compost_maxCapacity)
         {
-            compost_capacity += LastPlayerThatPassHere.Hec_Capacity;
-            LastPlayerThatPassHere.Hec_Capacity -= compost_capacity;
             if(compost_capacity >= compost_maxCapacity)
             {
                 while(compost_capacity >= compost_maxCapacity)
