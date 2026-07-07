@@ -12,6 +12,7 @@ public class UI_PanelManager : MonoBehaviour
     public void Open()
     {
         panel.SetActive(true);
+        EventsManager.eventM.OpenAUI();
         if(whenOpen != null)
         {
             whenOpen.Invoke();
@@ -21,6 +22,7 @@ public class UI_PanelManager : MonoBehaviour
     public void NormalClose()
     {
         panel.SetActive(false);
+        EventsManager.eventM.CloseAUI();
         if(whenClose != null)
         {
             whenClose.Invoke();
@@ -30,6 +32,7 @@ public class UI_PanelManager : MonoBehaviour
     public void DestroyClose()
     {
         Destroy(this.gameObject);
+        EventsManager.eventM.CloseAUI();
         if(whenCloseDestroy != null)
         {
             whenCloseDestroy.Invoke();

@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.EventSystems;
 using UnityEngine.Rendering;
+using UnityEngine.Events;
 
 public class InventoryItemUIManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
@@ -17,7 +18,6 @@ public class InventoryItemUIManager : MonoBehaviour, IPointerEnterHandler, IPoin
     [Header("Sell")]
     bool selling;
     public bool Selling { get { return selling; } set { selling = value; } }
-
     /*
     [Header("IWL")]
     [SerializeField] GameObject iwl_levelBarObj;
@@ -82,7 +82,7 @@ public class InventoryItemUIManager : MonoBehaviour, IPointerEnterHandler, IPoin
         if (isInventItem == true)
         {
             myInventItem = InventItem;
-            stackTxt.text = InventItem.stackSize.ToString("F0");
+            stackTxt.text = EventsManager.eventM.UpdateVariables(InventItem.stackSize);
             myItem = InventItem.itemData;
 
             if(InventItem.itemData.isStackable)
@@ -146,8 +146,6 @@ public class InventoryItemUIManager : MonoBehaviour, IPointerEnterHandler, IPoin
         hj.GetComponent<HectorInventory>().hectorInventory.RemoveItem(1, myInventItem);
         sii.ShowItensInUI(hj.GetComponent<HectorInventory>().hectorInventory.inventory);
     }
-
-    
     public void OnPointerEnter(PointerEventData eventData)
     {
         //toolTipPopUp.DisplayInfo(myInventItem);

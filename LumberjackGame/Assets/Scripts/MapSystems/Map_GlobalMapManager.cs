@@ -19,7 +19,7 @@ public class Map_GlobalMapManager : MonoBehaviour
         }
     }
 
-    public void SpawnAIsland(int cordX, int cordY)
+    public void SpawnAIsland(int cordX, int cordY, int biomeId)
     {
         //Spawnando a parte e definindo suas coordenadas e posição 
         Map_PartManager newPart = Instantiate(partPrefab);
@@ -32,6 +32,12 @@ public class Map_GlobalMapManager : MonoBehaviour
     public IEnumerator FirstSpawnIslandParts()
     {
         int[] coordsCal = new int[3];
+
+        partsInGame[0].SetPart(this);
+        partsInGame[0].SetMyPos(0, 0, DistanceBeetweenCenters);
+
+        yield return new WaitForSeconds(0.01f);
+
         for(int i=0; i<firstSpawnQuant;)
         {
             coordsCal = CalculateEmptyCoordenate();

@@ -8,45 +8,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4032287185933270529, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: whenOpen.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4032287185933270529, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: whenClose.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4032287185933270529, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: whenOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4032287185933270529, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: whenOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7614050669912547571}
-    - target: {fileID: 4032287185933270529, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: whenOpen.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4032287185933270529, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: whenClose.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4032287185933270529, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: whenOpen.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CallShowItensInUI
-      objectReference: {fileID: 0}
-    - target: {fileID: 4032287185933270529, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: whenOpen.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ShowInventoryItens, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 4032287185933270529, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: whenOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 4556432988384030467, guid: aa4074fd1e284d24185c673613510968, type: 3}
       propertyPath: m_text
       value: INVENTORY
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556432988384030467, guid: aa4074fd1e284d24185c673613510968, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 4556432988384030467, guid: aa4074fd1e284d24185c673613510968, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 4556432988384030467, guid: aa4074fd1e284d24185c673613510968, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5112634704021334290, guid: aa4074fd1e284d24185c673613510968, type: 3}
       propertyPath: m_Name
@@ -169,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShowInventoryItens
   hec_invent: {fileID: 0}
-  itemPrefab: {fileID: 3849600478035260829, guid: afe41e1c07f34e5409f0c4b8076094f2, type: 3}
+  itemPrefab: {fileID: 519437607779121845, guid: afe41e1c07f34e5409f0c4b8076094f2, type: 3}
   content: {fileID: 5910334368310275786}
   changeSomethingInItens:
     m_PersistentCalls:

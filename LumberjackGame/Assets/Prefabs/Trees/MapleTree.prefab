@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
       propertyPath: mapleSappling
       value: 
-      objectReference: {fileID: 11400000, guid: cc4efe835cf70794e92b3215dd973751, type: 2}
+      objectReference: {fileID: 11400000, guid: 051bb1a9001b65641866fb4772168dd8, type: 2}
     - target: {fileID: 3679594738147981720, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
       propertyPath: m_Name
       value: MapleTree

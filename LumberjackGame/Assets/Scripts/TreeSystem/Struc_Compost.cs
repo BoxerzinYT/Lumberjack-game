@@ -1,10 +1,8 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Struc_Compost : StructureSystem
 {
-    UI_UpdateBars myUpdateBar;
     [SerializeField] int compost_capacity;
     [SerializeField] int compost_maxCapacity;
 
@@ -14,8 +12,6 @@ public class Struc_Compost : StructureSystem
 
     public void Start()
     {
-        myUpdateBar = GetComponent<UI_UpdateBars>();
-        myUpdateBar.UpdateBar(compost_capacity, compost_maxCapacity, compostBar, compostBarGradient, false, null);
     }
 
     public void DepositTrash()
@@ -45,8 +41,6 @@ public class Struc_Compost : StructureSystem
 
                 }
             }
-
-            myUpdateBar.UpdateBar(compost_capacity, compost_maxCapacity, compostBar, compostBarGradient, false, null);
         }
     }
 }

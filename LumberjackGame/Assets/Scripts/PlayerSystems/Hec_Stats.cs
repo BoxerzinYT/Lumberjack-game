@@ -2,9 +2,6 @@ using UnityEngine;
 
 public class Hec_Stats : MonoBehaviour
 {
-    Hec_UIManager myUiManager;
-    void Start() { myUiManager = GetComponent<Hec_UIManager>(); }
-
     [Header("CoinsStats")]
     public float hec_coins;
     public int hec_level;
@@ -22,4 +19,7 @@ public class Hec_Stats : MonoBehaviour
 
     [SerializeField] HectorInventory hec_invent;
     public HectorInventory Hec_invent { get { return hec_invent; }}
+
+    [SerializeField] Hec_ActionSystem hec_actSystem;
+    public Hec_ActionSystem Hec_actSystem { get { return hec_actSystem; }}
 }

@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShowInventoryItens
   hec_invent: {fileID: 11400000, guid: e9688d192809a38489d057bb2fd35160, type: 2}
-  itemPrefab: {fileID: 3849600478035260829, guid: afe41e1c07f34e5409f0c4b8076094f2, type: 3}
+  itemPrefab: {fileID: 519437607779121845, guid: afe41e1c07f34e5409f0c4b8076094f2, type: 3}
   content: {fileID: 6937628859190852800}
   changeSomethingInItens:
     m_PersistentCalls:

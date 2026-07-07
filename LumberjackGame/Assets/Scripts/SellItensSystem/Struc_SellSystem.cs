@@ -42,7 +42,7 @@ public class Struc_SellSystem : StructureSystem
     {
         InventoryItemUIManager newItemPrefab = Instantiate(sii.ItemPrefab.GetComponent<InventoryItemUIManager>(), sellContent);
         newItemPrefab.FinishSettings(true, ii, null, 0);
-        newItemPrefab.transform.Find("sp").transform.Find("QuantityTxt").GetComponent<TextMeshProUGUI>().text = "x" + quantOfItens.ToString("F0");
+        newItemPrefab.transform.Find("sp").transform.Find("QuantityTxt").GetComponent<TextMeshProUGUI>().text = "x" + EventsManager.eventM.UpdateVariables((float)quantOfItens);
         newItemPrefab.Selling = true;
 
         float priceBoost = 1f;
@@ -102,7 +102,7 @@ public class Struc_SellSystem : StructureSystem
         UpdateTotalValueOfSellTxt();
     }
 
-    public void UpdateTotalValueOfSellTxt() { totalValueOfSellTxt.text = "Total: " + totalValueOfSell.ToString("F0"); }
+    public void UpdateTotalValueOfSellTxt() { totalValueOfSellTxt.text = "Total: " + EventsManager.eventM.UpdateVariables(totalValueOfSell); }
 
     public void Sell()
     {

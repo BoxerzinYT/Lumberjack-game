@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Inventory
   inventory:
   - ID: 0
-    itemData: {fileID: 11400000, guid: cc4efe835cf70794e92b3215dd973751, type: 2}
-    stackSize: 2
+    itemData: {fileID: 11400000, guid: 051bb1a9001b65641866fb4772168dd8, type: 2}
+    stackSize: 3
   savepath: hec_invent.json

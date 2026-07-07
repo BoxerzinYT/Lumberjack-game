@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Hj_Invent_Database
   m_EditorClassIdentifier: Assembly-CSharp::InventorySaveSytem
   items:
-  - {fileID: 11400000, guid: cc4efe835cf70794e92b3215dd973751, type: 2}
-  - {fileID: 11400000, guid: f39bb0c583a7d8f4fa7caf915a32dba6, type: 2}
+  - {fileID: 11400000, guid: 051bb1a9001b65641866fb4772168dd8, type: 2}
+  - {fileID: 11400000, guid: fc5f529bf53581a47bdae79d772c709c, type: 2}

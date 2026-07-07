@@ -11,14 +11,11 @@ public class Acb_ExpandMap : ActionBlock
 
     public void ExpandMap()
     {
-        /*
-        if(Player.MapleBiome_expansionScrolls_prot > 0)
+        if(Player.Hec_invent.hectorInventory.GetInventoryInventItem(Player.Hec_actSystem.ActionItemSelected).stackSize > 0)
         {
-
-            Player.MapleBiome_expansionScrolls_prot -= 1;
+            mapGlobalMan.SpawnAIsland(myExpandCordX, myExpandCordY, Player.Hec_actSystem.ActionItemSelected.actionId);
+            Player.Hec_invent.hectorInventory.RemoveItem(1, Player.Hec_actSystem.ActionInventItem);
+            Player.Hec_actSystem.UpdateActionItemInHUD();
         }
-        */
-
-        mapGlobalMan.SpawnAIsland(myExpandCordX, myExpandCordY);
     }
 }

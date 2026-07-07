@@ -25,11 +25,15 @@ public class Hec_UseAxe : MonoBehaviour
 
     public void Update()
     {
-        if(canAttack && Input.GetKey(KeyCode.Mouse0))
+        if (EventsManager.eventM.playerCanInteract)
         {
-            canAttack = false;
-            anim.SetTrigger("Use");
-            StartCoroutine(CooldownForAttackAgain());
+            if(canAttack && Input.GetKey(KeyCode.Mouse0))
+            {
+                canAttack = false;
+                anim.SetTrigger("Use");
+                StartCoroutine(CooldownForAttackAgain());
+
+            }
         }
     }
 

@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffca76eff6355684fb4374fa0b59d175, type: 3}
+  m_Script: {fileID: 11500000, guid: 1575afca62b394247ab9a6dbba0ffbe9, type: 3}
   m_Name: Item_MapleSappling
-  m_EditorClassIdentifier: Assembly-CSharp::Sell_Item
+  m_EditorClassIdentifier: Assembly-CSharp::ActionItem
   itemName: Maple sappling
   itemDescription: Plant this on a slot to grow a tree!
   itemRarity: {fileID: 11400000, guid: cf129a0ac310de8478ef9b033fff5e10, type: 2}
@@ -21,3 +21,5 @@ MonoBehaviour:
   itemSellXp:
   - 1
   - 1.5
+  typeOfAction: 0
+  actionId: 0

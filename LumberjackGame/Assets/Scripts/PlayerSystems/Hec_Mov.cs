@@ -22,10 +22,18 @@ public class Hec_Mov : MonoBehaviour
 
     public void OnMove(InputValue value)
     {
-        var moveInput = value.Get<Vector2>();
-        FlipX(moveInput.x);
-        rb.linearVelocity = moveInput.normalized * hj_stats.hec_speed;
-        anim.SetBool("Walking", rb.linearVelocity.magnitude > 0);
+        if (EventsManager.eventM.playerCanWalk)
+        {
+            var moveInput = value.Get<Vector2>();
+            FlipX(moveInput.x);
+            rb.linearVelocity = moveInput.normalized * hj_stats.hec_speed;
+            anim.SetBool("Walking", rb.linearVelocity.magnitude > 0);
+        }
+        else
+        {
+            anim.SetBool("Walking", false);
+            rb.linearVelocity = new Vector2(0, 0);
+        }
     }
 
     public void FlipX(float x)

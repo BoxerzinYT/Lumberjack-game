@@ -18,23 +18,28 @@ public class Map_PartManager : MonoBehaviour
     float my_distanceConstant; //Guarda a distancia entre o centro de cada ilha (tanto no x quanto no y)
 
     [Header("SpawnTreesSystem")]
+    [SerializeField] int myBiomeId; //Temporary var
     [SerializeField] int quantOfTreesThatSpawnWithThePart;
-    [SerializeField] Struc_SaplingSlot[] mySaplingsSlot;
+    [SerializeField] Acb_SaplingSlot[] mySaplingsSlot;
     [SerializeField] Breakable_Tree myTree;
 
     public void Start()
     {
         SpawnTrees();
-        if (centerIsland)
-        {
-            mapGlobalMan = FindFirstObjectByType<Map_GlobalMapManager>();
-            SetMyExpandEdges();
-        }
     }
 
     public void SetPart(Map_GlobalMapManager _mapGlobalMan)
     {
         mapGlobalMan = _mapGlobalMan;
+        SetMySapplingsSlots();
+    }
+
+    public void SetMySapplingsSlots()
+    {
+        foreach(var s in mySaplingsSlot)
+        {
+            s.SetMyActionId(myBiomeId);
+        }
     }
 
     public void SetMyPos(int _coords_x, int _coords_y, float _distanceConstant)
