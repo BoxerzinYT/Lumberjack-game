@@ -6,41 +6,49 @@ public class Struc_SellSystem : StructureSystem
 {
     HectorInventory hjInvent;
     Hec_Stats hj;
-    ShowInventoryItens sii;
+    [SerializeField] ShowInventoryItens sii;
     [SerializeField] Canvas myHUD;
     [SerializeField] SelectQuant selectQuantUI;
     [SerializeField] Transform sellContent;
     [SerializeField] TextMeshProUGUI totalValueOfSellTxt;
-    [SerializeField] List<ItensInSell> ItensSell = new List<ItensInSell>();
+    [SerializeField] List<ItensInSell> ItensSellList = new List<ItensInSell>();
     [SerializeField] GameObject sellButton;
     [SerializeField] GameObject clearButton;
     float totalValueOfSell;
-
-    private void Start()
-    {
-        sii = GetComponent<ShowInventoryItens>();
-
-        UpdateTotalValueOfSellTxt();
-    }
 
     public void WhenOpenPanel()
     {
         hj = LastPlayerThatPassHere;
         sii.ShowItensInUI(hj.Hec_invent.hectorInventory.inventory);
+
+        foreach(var s in ItensSellList)
+        {
+            Destroy(s.itemInTable_ItemPrefab);
+        }
+
+        ItensSellList.Clear();
+        totalValueOfSell = 0;
+
+        UpdateTotalValueOfSellTxt();
     }
 
-    public void SelectQuantForSell(int itemIndex, InventoryItem ii, GameObject inSellGob, InventoryItemUIManager inventUiMan, Sell_Item sell_item)
+    public void UpdateVariables()
+    {
+        UpdateTotalValueOfSellTxt();
+    }
+
+    public void SelectQuantForSell(InventoryItem ii, GameObject inSellGob, InventoryItemUIManager inventUiMan, Sell_Item sell_item)
     {
         //inventUiMan.transform.SetParent(inventUiMan.ParentBeforeDrag);
         SelectQuant newSQUI = Instantiate(selectQuantUI, myHUD.transform);
 
-        newSQUI.SelectButton.onClick.AddListener(() => SelectedQuant(itemIndex, newSQUI.GetValue(), ii, inSellGob, inventUiMan, sell_item));
+        newSQUI.SelectButton.onClick.AddListener(() => SelectedQuant(newSQUI.GetValue(), ii, inSellGob, inventUiMan, sell_item));
         newSQUI.Slider.maxValue = ii.stackSize;
     }
 
-    public void SelectedQuant(int itemIndex, int quantOfItens, InventoryItem ii, GameObject inSellGob, InventoryItemUIManager inventUiMan, Sell_Item sell_item)
+    public void SelectedQuant(int quantOfItens, InventoryItem ii, GameObject inSellGob, InventoryItemUIManager inventUiMan, Sell_Item sell_item)
     {
-        InventoryItemUIManager newItemPrefab = Instantiate(sii.ItemPrefab.GetComponent<InventoryItemUIManager>(), sellContent);
+        InventoryItemUIManager newItemPrefab = Instantiate(sii.ItemPrefab, sellContent);
         newItemPrefab.FinishSettings(true, ii, null, 0);
         newItemPrefab.transform.Find("sp").transform.Find("QuantityTxt").GetComponent<TextMeshProUGUI>().text = "x" + EventsManager.eventM.UpdateVariables((float)quantOfItens);
         newItemPrefab.Selling = true;
@@ -66,11 +74,12 @@ public class Struc_SellSystem : StructureSystem
         float quantOfItensValue = quantOfItens * realValue;
         totalValueOfSell += quantOfItensValue;
 
-        ItensInSell itemS = new ItensInSell(ii, quantOfItens, realValue, sell_item.itemSellXp, inSellGob, inventUiMan, newItemPrefab);
-        ItensSell.Add(itemS);
+        ItensInSell itemS = new ItensInSell(ii, quantOfItens, realValue, sell_item.itemSellXp, inSellGob, inventUiMan, newItemPrefab.gameObject);
+        ItensSellList.Add(itemS);
 
         //newItemPrefab.WhenDropInSomePlace = new UnityEngine.Events.UnityEvent();
-        newItemPrefab.MyButton.onClick.AddListener(() => DeselectSellItem(itemIndex, quantOfItens, itemS, sell_item, newItemPrefab, inSellGob, inventUiMan));
+        newItemPrefab.MyButton.onClick = new UnityEngine.UI.Button.ButtonClickedEvent();
+        newItemPrefab.MyButton.onClick.AddListener(() => DeselectSellItem(quantOfItens, itemS, sell_item, newItemPrefab.gameObject, inSellGob, inventUiMan));
 
         inSellGob.gameObject.SetActive(true);
         inventUiMan.transform.Find("sp").transform.Find("QuantityTxt").gameObject.SetActive(false);
@@ -83,9 +92,9 @@ public class Struc_SellSystem : StructureSystem
         UpdateTotalValueOfSellTxt();
     }
 
-    public void DeselectSellItem(int itemIndex, int quantOfItens, ItensInSell itemS, Sell_Item sell_item, InventoryItemUIManager newItemPrefab, GameObject inSellGob, InventoryItemUIManager inventUiMan)
+    public void DeselectSellItem(int quantOfItens, ItensInSell itemS, Sell_Item sell_item, GameObject newItemPrefab, GameObject inSellGob, InventoryItemUIManager inventUiMan)
     {
-        Destroy(newItemPrefab.gameObject, 0.01f);
+        Destroy(newItemPrefab, 0.01f);
         inSellGob.gameObject.SetActive(false);
         inventUiMan.transform.Find("sp").transform.Find("QuantityTxt").gameObject.SetActive(true);
         //inventUiMan.CanDrag = true;
@@ -97,26 +106,33 @@ public class Struc_SellSystem : StructureSystem
         sellButton.gameObject.SetActive(false);
         clearButton.gameObject.SetActive(false);
 
-        ItensSell.Remove(itemS);
+        foreach(var s in ItensSellList)
+        {
+            if(s.sellItem_inventItem == itemS.sellItem_inventItem)
+            {
+                ItensSellList.Remove(s);
+                break;
+            }
+        }
 
-        UpdateTotalValueOfSellTxt();
+        UpdateVariables();
     }
 
     public void UpdateTotalValueOfSellTxt() { totalValueOfSellTxt.text = "Total: " + EventsManager.eventM.UpdateVariables(totalValueOfSell); }
 
     public void Sell()
     {
-        if(ItensSell.Count > 0)
+        if(ItensSellList.Count > 0)
         {
             float totalCoins = 0;
             float totalXp = 0;
 
-            foreach (var itensS in ItensSell)
+            foreach (var itensS in ItensSellList)
             {
-                totalCoins += itensS.quantOfSell * itensS.yourStack;
-                totalXp += Random.Range(itensS.xpSell[0], itensS.xpSell[1]) * itensS.yourStack;
+                totalCoins += itensS.sellItem_sellValue * itensS.sellItem_QuantOfItems;
+                totalXp += Random.Range(itensS.sellItem_xpValue[0], itensS.sellItem_xpValue[1]) * itensS.sellItem_QuantOfItems;
 
-                hj.Hec_invent.hectorInventory.RemoveItem(itensS.yourStack, itensS.item);
+                hj.Hec_invent.hectorInventory.RemoveItem(itensS.sellItem_QuantOfItems, itensS.sellItem_inventItem);
             }
 
             hj.hec_coins += totalCoins;
@@ -130,20 +146,20 @@ public class Struc_SellSystem : StructureSystem
 
     public void Clear()
     {
-        if(ItensSell.Count > 0)
+        if(ItensSellList.Count > 0)
         {
             foreach (Transform t in sellContent)
             {
                 Destroy(t.gameObject);
             }
-            foreach (var s in ItensSell)
+            foreach (var s in ItensSellList)
             {
-                s.inSellGob.gameObject.SetActive(false);
-                s.inventUIMan.transform.Find("sp").transform.Find("QuantityTxt").gameObject.SetActive(true);
+                s.sellItem_inSellGobj.gameObject.SetActive(false);
+                s.sellItem_inventUIMan.transform.Find("sp").transform.Find("QuantityTxt").gameObject.SetActive(true);
                 //s.inventUIMan.CanDrag = true;
             }
             totalValueOfSell = 0;
-            ItensSell.Clear();
+            ItensSellList.Clear();
 
             //sellButton.gameObject.SetActive(false);
             //clearButton.gameObject.SetActive(false);
@@ -155,33 +171,37 @@ public class Struc_SellSystem : StructureSystem
     public void FinishSettingsOfItens()
     {
         int i = 0;
-        foreach(var savedItens in sii.ItensPrefabed)
+        //Debug.Log("Finishing Settings");
+        foreach(var si in sii.ItensPrefabed)
         {
-            if(savedItens.inventItem.itemData.GetType() != typeof(Sell_Item))
+            //Debug.Log("Settings finished!");
+            if(si.inventItem.itemData.GetType() != typeof(Sell_Item))
             {
-                Destroy(savedItens.ItemPrefab);
+                Destroy(si.ItemPrefab.gameObject);
                 //sii.ItensPrefabed.Remove(savedItens);
                 continue;
             }
             //if(savedItens.inventItem.locked == true) { Destroy(savedItens.ItemPrefab); continue; }
 
-            InventoryItemUIManager inventUiMan = savedItens.ItemPrefab.GetComponent<InventoryItemUIManager>();
+            InventoryItemUIManager inventUiMan = si.ItemPrefab;
 
-            inventUiMan.FinishSettings(true, savedItens.inventItem, null, 0);
+            //inventUiMan.FinishSettings(true, savedItens.inventItem, null, 0);
 
-            GameObject inSellGob = inventUiMan.transform.Find("sp").transform.Find("SellSelected").gameObject;
+            GameObject inSellGob = inventUiMan.gameObject.transform.Find("sp").transform.Find("SellSelected").gameObject;
 
-            Sell_Item mtrl = (Sell_Item)savedItens.inventItem.itemData;
+            Sell_Item mtrl = (Sell_Item)si.inventItem.itemData;
+            inventUiMan.MyButton.onClick = new UnityEngine.UI.Button.ButtonClickedEvent();
 
             //inventUiMan.WhenDropInSomePlace = new UnityEngine.Events.UnityEvent();
-            if(savedItens.inventItem.stackSize > 1)
+            if(si.inventItem.stackSize > 1)
             {
-                inventUiMan.MyButton.onClick.AddListener(() => SelectQuantForSell(i, savedItens.inventItem, inSellGob, inventUiMan, mtrl));
+                si.ItemPrefab.MyButton.onClick.AddListener(() => SelectQuantForSell(si.inventItem, inSellGob, inventUiMan, mtrl));
             }
-            else if(savedItens.inventItem.stackSize <= 1)
+            else if(si.inventItem.stackSize <= 1)
             {
-                inventUiMan.MyButton.onClick.AddListener(() => SelectedQuant(i, 1, savedItens.inventItem, inSellGob, inventUiMan, mtrl));
+                si.ItemPrefab.MyButton.onClick.AddListener(() => SelectedQuant(1, si.inventItem, inSellGob, inventUiMan, mtrl));
             }
+            i++;
         }
     }
 
@@ -190,22 +210,23 @@ public class Struc_SellSystem : StructureSystem
 
 public sealed class ItensInSell
 {
-    public InventoryItem item;
-    public GameObject inSellGob;
-    public InventoryItemUIManager inventUIMan;
-    public InventoryItemUIManager newItemPrefab;
-    public int yourStack;
-    public float quantOfSell;
-    public float[] xpSell;
+    public InventoryItem sellItem_inventItem;
+    public GameObject sellItem_inSellGobj;
+    public InventoryItemUIManager sellItem_inventUIMan;
+    public int sellItem_QuantOfItems;
+    public float sellItem_sellValue;
+    public float[] sellItem_xpValue;
 
-    public ItensInSell(InventoryItem ii, int _ys, float _quantOfSell, float[] _xpSell, GameObject inSellGob, InventoryItemUIManager inventUIMan, InventoryItemUIManager newItemPrefab)
+    public GameObject itemInTable_ItemPrefab;
+
+    public ItensInSell(InventoryItem ii, int _ys, float _quantOfSell, float[] _xpSell, GameObject inSellGob, InventoryItemUIManager inventUIMan, GameObject newItemPrefab)
     {
-        item = ii;
-        yourStack = _ys;
-        quantOfSell = _quantOfSell;
-        xpSell = _xpSell;
-        this.inSellGob = inSellGob;
-        this.inventUIMan = inventUIMan;
-        this.newItemPrefab = newItemPrefab;
+        sellItem_inventItem = ii;
+        sellItem_QuantOfItems = _ys;
+        sellItem_sellValue = _quantOfSell;
+        sellItem_xpValue = _xpSell;
+        sellItem_inSellGobj = inSellGob;
+        this.sellItem_inventUIMan = inventUIMan;
+        itemInTable_ItemPrefab = newItemPrefab;
     }
 }

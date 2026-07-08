@@ -43,15 +43,11 @@ public class EventsManager : MonoBehaviour
         return varTxt;
     }
 
-    public void UpdateBar(float min, float max, Image _bar, Gradient _gradient, bool veTxt, TextMeshProUGUI _txt)
+    public void UpdateBar(float min, float max, Image _bar, Gradient _gradient)
     {
         float amountCal = min / max;
         _bar.fillAmount = amountCal;
         _bar.color = _gradient.Evaluate(amountCal);
-        if (veTxt)
-        {
-            _txt.text = min.ToString("F0") + "/" + max.ToString("F0");
-        }
     }
 
     public void ChangeAText(TextMeshProUGUI text, string stringTxt)

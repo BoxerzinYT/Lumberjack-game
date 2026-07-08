@@ -679,7 +679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4032287185933270529, guid: aa4074fd1e284d24185c673613510968, type: 3}
       propertyPath: whenOpen.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4032287185933270529, guid: aa4074fd1e284d24185c673613510968, type: 3}
       propertyPath: whenOpen.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -754,10 +754,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
@@ -771,14 +767,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}

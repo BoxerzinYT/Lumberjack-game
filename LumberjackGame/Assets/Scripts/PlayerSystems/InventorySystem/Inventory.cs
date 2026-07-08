@@ -15,7 +15,7 @@ public class Inventory : ScriptableObject, ISerializationCallbackReceiver
     void OnEnable()
     {
 #if UNITY_EDITOR
-        database = (InventorySaveSytem)AssetDatabase.LoadAssetAtPath("Assets/Resources/Database.asset", typeof(InventorySaveSytem));
+        database = (InventorySaveSytem)AssetDatabase.LoadAssetAtPath("Assets/Scripts/PlayerSystems/InventorySystem/Inventory/Hj_Invent_Database.asset", typeof(InventorySaveSytem));
 #else
         database = Resources.Load<InventorySaveSytem>("Database");
 #endif

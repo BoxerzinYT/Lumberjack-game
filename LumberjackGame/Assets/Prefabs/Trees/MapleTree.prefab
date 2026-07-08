@@ -12,6 +12,98 @@ PrefabInstance:
       propertyPath: mapleSappling
       value: 
       objectReference: {fileID: 11400000, guid: 051bb1a9001b65641866fb4772168dd8, type: 2}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[1].settingName
+      value: MediumDrop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[2].settingName
+      value: HighDrop
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[0].myDrops.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[1].myDrops.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[2].myDrops.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[0].myDrops.Array.data[0].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 3bca478f4ef68084799180e98ef676e4, type: 2}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[0].myDrops.Array.data[1].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 8733d77388441b44a87a56ebb128dbc2, type: 2}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[0].myDrops.Array.data[2].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 051bb1a9001b65641866fb4772168dd8, type: 2}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[1].myDrops.Array.data[0].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 3bca478f4ef68084799180e98ef676e4, type: 2}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[1].myDrops.Array.data[1].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 8733d77388441b44a87a56ebb128dbc2, type: 2}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[1].myDrops.Array.data[2].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 051bb1a9001b65641866fb4772168dd8, type: 2}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[2].myDrops.Array.data[0].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 3bca478f4ef68084799180e98ef676e4, type: 2}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[2].myDrops.Array.data[1].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 8733d77388441b44a87a56ebb128dbc2, type: 2}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[2].myDrops.Array.data[2].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 051bb1a9001b65641866fb4772168dd8, type: 2}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[0].myDrops.Array.data[0].chance
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[0].myDrops.Array.data[1].chance
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[0].myDrops.Array.data[2].chance
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[1].myDrops.Array.data[0].chance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[1].myDrops.Array.data[1].chance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[1].myDrops.Array.data[2].chance
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[2].myDrops.Array.data[0].chance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[2].myDrops.Array.data[1].chance
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210845901304541785, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: dropSettings.Array.data[2].myDrops.Array.data[2].chance
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 3679594738147981720, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
       propertyPath: m_Name
       value: MapleTree
@@ -55,6 +147,18 @@ PrefabInstance:
     - target: {fileID: 4254848393455684276, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441243543179459128, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: 'treeScale.Array.data[0]'
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441243543179459128, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: 'treeScale.Array.data[1]'
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7441243543179459128, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
+      propertyPath: 'treeScale.Array.data[2]'
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7441243543179459128, guid: 959310051cc13734fb399aade3b77b0d, type: 3}
       propertyPath: whenDie.m_PersistentCalls.m_Calls.Array.size

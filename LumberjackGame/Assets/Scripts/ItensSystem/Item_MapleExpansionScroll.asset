@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: Expansion Scroll (Maple)
   itemDescription: Use this on a expansion slot to expand the </color=red>/ maple</>
     biome!
-  itemRarity: {fileID: 11400000, guid: c46216de4ca3fd342a1f968dcefcf7e5, type: 2}
+  itemRarity: {fileID: 11400000, guid: 1d9df8a5719b65147afd303bb6455769, type: 2}
   itemIcon: {fileID: 6660854541101916049, guid: 6916dee4a60b5484da2f0db820867219, type: 3}
   isStackable: 1
   itemValue: 10

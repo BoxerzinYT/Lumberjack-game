@@ -69,10 +69,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
@@ -87,14 +83,6 @@ PrefabInstance:
     - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7165288854340790947, guid: aa4074fd1e284d24185c673613510968, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -118,9 +106,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5112634704021334290, guid: aa4074fd1e284d24185c673613510968, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7614050669912547571}
-    - targetCorrespondingSourceObject: {fileID: 5112634704021334290, guid: aa4074fd1e284d24185c673613510968, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6835959946378552055}
   m_SourcePrefab: {fileID: 100100000, guid: aa4074fd1e284d24185c673613510968, type: 3}
 --- !u!224 &4434625464063976886 stripped
 RectTransform:
@@ -151,20 +136,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   itensPrefabed: []
---- !u!114 &6835959946378552055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7495612532189703215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0165d5725d4e4b74f84c1c7b81f511ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sii: {fileID: 7614050669912547571}
-  inventInfoMan: {fileID: 0}
 --- !u!1001 &4834060015072379581
 PrefabInstance:
   m_ObjectHideFlags: 0

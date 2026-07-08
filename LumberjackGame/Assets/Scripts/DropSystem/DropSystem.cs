@@ -8,9 +8,12 @@ public class DropSystem : MonoBehaviour
     public void Drop(Hec_Stats hec_stats, int phaseId)
     {
         float chance = Random.Range(0f,1f);
-        if(chance <= 0.6 + 0.025 * phaseId)
+        foreach(var d in dropSettings[phaseId].myDrops)
         {
-            hec_stats.Hec_invent.hectorInventory.AddItem(1, new InventoryItem(0, mapleSappling, 1));
+            if(chance <= d.chance)
+            {
+                hec_stats.Hec_invent.hectorInventory.AddItem(1, new InventoryItem(hec_stats.Hec_invent.hectorInventory.GetIDOfAItem(d.item), d.item, 1));
+            }
         }
     }
 }
@@ -23,5 +26,6 @@ public sealed class DropSettings
 [System.Serializable]
 public sealed class Drop
 {
+    public Item item;
     public float chance;
 }
