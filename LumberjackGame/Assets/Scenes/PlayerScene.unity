@@ -1100,6 +1100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EventsManager
   playerCanWalk: 1
   playerCanInteract: 1
+  loadingScreen: {fileID: 6635815651983370802, guid: 3efaa70c468bb274d98c03ef8cae31be, type: 3}
 --- !u!1 &361914867
 GameObject:
   m_ObjectHideFlags: 0

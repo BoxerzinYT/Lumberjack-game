@@ -22,4 +22,7 @@ MonoBehaviour:
   - ID: 0
     itemData: {fileID: 11400000, guid: 051bb1a9001b65641866fb4772168dd8, type: 2}
     stackSize: 1
+  - ID: 1
+    itemData: {fileID: 11400000, guid: fc5f529bf53581a47bdae79d772c709c, type: 2}
+    stackSize: 6
   savepath: hec_invent.json

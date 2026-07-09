@@ -6,6 +6,11 @@ public class Map_GlobalMapManager : MonoBehaviour
 {
     [SerializeField] int firstSpawnQuant = 10;
     [SerializeField] Map_PartManager partPrefab;
+    [SerializeField] Map_HowMuchEachBiome map_HowMuchEachBiome;
+    public Map_HowMuchEachBiome Map_HowMuchEachBiome { get { return map_HowMuchEachBiome; }}
+    [Tooltip("0=Maple, 1=Forest, 2=Snow")]
+    [SerializeField] Biome[] biomes;
+    public Biome[] Biomes { get { return biomes; } }
 
     //Distancia entre o centro de cada ilha, tanto no x quanto no y
     [SerializeField] float DistanceBeetweenCenters;
@@ -19,22 +24,13 @@ public class Map_GlobalMapManager : MonoBehaviour
         }
     }
 
-    public void SpawnAIsland(int cordX, int cordY, int biomeId)
-    {
-        //Spawnando a parte e definindo suas coordenadas e posição 
-        Map_PartManager newPart = Instantiate(partPrefab);
-        newPart.SetPart(this);
-        newPart.SetMyPos(cordX, cordY, DistanceBeetweenCenters);
-        partsInGame.Add(newPart);
-        newPart.name = "MapPart(" + (partsInGame.Count - 2) + ")";
-    }
-
     public IEnumerator FirstSpawnIslandParts()
     {
         int[] coordsCal = new int[3];
 
         partsInGame[0].SetPart(this);
         partsInGame[0].SetMyPos(0, 0, DistanceBeetweenCenters);
+        map_HowMuchEachBiome.SetQuantOf(0, 1);
 
         yield return new WaitForSeconds(0.01f);
 
@@ -50,16 +46,22 @@ public class Map_GlobalMapManager : MonoBehaviour
                 }
             }
             //Spawnando a parte e definindo suas coordenadas e posição 
-            Map_PartManager newPart = Instantiate(partPrefab);
-            newPart.SetPart(this);
-            newPart.SetMyPos(coordsCal[0], coordsCal[1], DistanceBeetweenCenters);
+            SpawnAIsland(coordsCal[0], coordsCal[1], 0);
 
-            //Adicionando a lista de partes
-            partsInGame.Add(newPart);
-            newPart.name = "MapPart(" + (partsInGame.Count - 2) + ")";
             i++;
             yield return new WaitForSeconds(0.01f);
         }
+    }
+
+    public void SpawnAIsland(int cordX, int cordY, int biomeId)
+    {
+        //Spawnando a parte e definindo suas coordenadas e posição 
+        Map_PartManager newPart = Instantiate(partPrefab);
+        newPart.SetPart(this);
+        newPart.SetMyPos(cordX, cordY, DistanceBeetweenCenters);
+        partsInGame.Add(newPart);
+        newPart.name = "MapPart(" + (partsInGame.Count - 2) + ")";
+        map_HowMuchEachBiome.SetQuantOf(biomeId, 1);
     }
 
     public int[] CalculateEmptyCoordenate()

@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections.Generic;
+using System;
 
 public class EventsManager : MonoBehaviour
 {
@@ -8,6 +10,9 @@ public class EventsManager : MonoBehaviour
 
     public bool playerCanWalk;
     public bool playerCanInteract;
+
+    [Header("LoadingScreen")]
+    [SerializeField] GameObject loadingScreen;
 
     void Awake()
     {
@@ -65,5 +70,13 @@ public class EventsManager : MonoBehaviour
     {
         playerCanInteract = true;
         playerCanWalk = true;
+    }
+
+    public void GoToAnotherScene(List<String> scenesToLoad, List<String> scenesToUnload)
+    {
+        GameObject newLoadingScreen = Instantiate(loadingScreen);
+        StartCoroutine(newLoadingScreen.GetComponent<LoadingScreenManager>().LoadingIE(scenesToLoad, scenesToUnload));
+        playerCanInteract = false;
+        playerCanWalk = false;
     }
 }
