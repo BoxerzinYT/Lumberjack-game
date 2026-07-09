@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class StructureSystem : MonoBehaviour
+public class StructureSystem : Qol_BuySystem
 {
     string playerTag = "Player";
     [SerializeField] UnityEvent whenPlayerEnter;

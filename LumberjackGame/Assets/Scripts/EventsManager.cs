@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
 using System;
+using Unity.VisualScripting;
 
 public class EventsManager : MonoBehaviour
 {
@@ -13,6 +14,10 @@ public class EventsManager : MonoBehaviour
 
     [Header("LoadingScreen")]
     [SerializeField] GameObject loadingScreen;
+
+    [Header("NotificationSettings")]
+    [SerializeField] UI_Notification notiPrefab;
+    Transform notiContent;
 
     void Awake()
     {
@@ -25,6 +30,11 @@ public class EventsManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void Start()
+    {
+        notiContent = FindFirstObjectByType<UI_NotificationCanvas>().NotiContent;
     }
 
     public string UpdateVariables(float var)
@@ -78,5 +88,13 @@ public class EventsManager : MonoBehaviour
         StartCoroutine(newLoadingScreen.GetComponent<LoadingScreenManager>().LoadingIE(scenesToLoad, scenesToUnload));
         playerCanInteract = false;
         playerCanWalk = false;
+    }
+
+    public void CreateANot(string txt)
+    {
+        UI_Notification newNoti = Instantiate(notiPrefab, notiContent);
+        newNoti.SetNoti(txt);
+        newNoti.transform.SetAsFirstSibling();
+        //Debug.Log("Created new noti!");
     }
 }

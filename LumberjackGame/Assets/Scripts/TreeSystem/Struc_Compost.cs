@@ -45,7 +45,7 @@ public class Struc_Compost : StructureSystem
         {
             if(t.HasPhaseFull()){ fullTrees++; }
         }
-        if(fullTrees == TreesFounded.Count){ Debug.Log("All trees maxed!"); return; }
+        if(fullTrees == TreesFounded.Count){ EventsManager.eventM.CreateANot("All trees maxed!"); return; }
         foreach(var i in toCompostList)
         {
             LastPlayerThatPassHere.Hec_invent.hectorInventory.RemoveItem(i.stackSize, i);
@@ -120,7 +120,7 @@ public class Struc_Compost : StructureSystem
 
     public void SelectQuantForDeposit(InventoryItem ii, GameObject inSellGob, InventoryItemUIManager inventUiMan)
     {
-        if(hipoteticalCapacity >= maxCapacity) { return; }
+        if(hipoteticalCapacity >= maxCapacity) { EventsManager.eventM.CreateANot("The composter is full!"); return; }
         //inventUiMan.transform.SetParent(inventUiMan.ParentBeforeDrag);
         SelectQuant newSQUI = Instantiate(selectQuant, myHUD.transform);
 
@@ -137,7 +137,7 @@ public class Struc_Compost : StructureSystem
 
     public void DeselectQuant(InventoryItem ii, GameObject inSellGob, InventoryItemUIManager inventUiMan)
     {
-        hipoteticalCapacity -= ii.stackSize;
+        hipoteticalCapacity -= (int)ii.stackSize;
         toCompostList.Remove(ii);
         inSellGob.SetActive(false);
 

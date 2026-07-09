@@ -15,14 +15,11 @@ MonoBehaviour:
   inventory:
   - ID: 2
     itemData: {fileID: 11400000, guid: 3bca478f4ef68084799180e98ef676e4, type: 2}
-    stackSize: 264
+    stackSize: 110
   - ID: 3
     itemData: {fileID: 11400000, guid: 8733d77388441b44a87a56ebb128dbc2, type: 2}
-    stackSize: 92
+    stackSize: 70
   - ID: 0
     itemData: {fileID: 11400000, guid: 051bb1a9001b65641866fb4772168dd8, type: 2}
     stackSize: 1
-  - ID: 1
-    itemData: {fileID: 11400000, guid: fc5f529bf53581a47bdae79d772c709c, type: 2}
-    stackSize: 6
   savepath: hec_invent.json

@@ -24,7 +24,7 @@ public class Inventory : ScriptableObject, ISerializationCallbackReceiver
 
     }
 
-    public InventoryItem GetInventoryInventItem(Item obj)
+    public InventoryItem GetItemDataItem(Item obj)
     {
         for (int i = 0; i < inventory.Count; i++)
         {
@@ -37,11 +37,24 @@ public class Inventory : ScriptableObject, ISerializationCallbackReceiver
         return null;
     }
 
-    public int GetInventoryItemQuant(Item obj)
+    public float GetItemDataQuant(Item obj)
     {
         for (int i = 0; i < inventory.Count; i++)
         {
             if (inventory[i].itemData == obj)
+            {
+                return inventory[i].stackSize;
+            }
+        }
+
+        return 0;
+    }
+
+    public float GetInventoryItemQuant(InventoryItem inventItem)
+    {
+        for (int i = 0; i < inventory.Count; i++)
+        {
+            if(inventory[i].ID == inventItem.ID && inventory[i].itemData == inventItem.itemData)
             {
                 return inventory[i].stackSize;
             }
@@ -59,7 +72,7 @@ public class Inventory : ScriptableObject, ISerializationCallbackReceiver
         return -1;
     }
 
-    public void AddItem(int amount, InventoryItem inventItem)
+    public void AddItem(float amount, InventoryItem inventItem)
     {
         for (int i=0; i < inventory.Count; i++)
         {
@@ -77,7 +90,7 @@ public class Inventory : ScriptableObject, ISerializationCallbackReceiver
         if (inventItem != null) { inventory.Add(inventItem); SaveInvent(); }
     }
 
-    public void RemoveItem(int amount, InventoryItem inventItem)
+    public void RemoveItem(float amount, InventoryItem inventItem)
     {
         for (int i=0; i < inventory.Count; i++)
         {

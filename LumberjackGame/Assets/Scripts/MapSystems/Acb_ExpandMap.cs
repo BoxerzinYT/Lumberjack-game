@@ -11,10 +11,9 @@ public class Acb_ExpandMap : ActionBlock
 
     public void ExpandMap()
     {
-        if(Player.Hec_invent.hectorInventory.GetInventoryInventItem(Player.Hec_actSystem.ActionItemSelected).stackSize > 0)
+        if(BuyWithItens(Player, Player.Hec_actSystem.ActionItemSelected, 1))
         {
             mapGlobalMan.SpawnAIsland(myExpandCordX, myExpandCordY, Player.Hec_actSystem.ActionItemSelected.actionId);
-            Player.Hec_invent.hectorInventory.RemoveItem(1, Player.Hec_actSystem.ActionInventItem);
             Player.Hec_actSystem.UpdateActionItemInHUD();
         }
     }

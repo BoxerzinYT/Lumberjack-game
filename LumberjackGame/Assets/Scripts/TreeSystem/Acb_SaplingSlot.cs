@@ -13,14 +13,15 @@ public class Acb_SaplingSlot : ActionBlock
 
     public void AddSapling()
     {
-        if(Player.Hec_invent.hectorInventory.GetInventoryInventItem(Player.Hec_actSystem.ActionItemSelected).stackSize > 0
-        && Player.Hec_actSystem.ActionItemSelected.actionId == myActionId)
+        if(Player.Hec_actSystem.ActionItemSelected.actionId == myActionId)
         {
-            Breakable_Tree newMapleTree = Instantiate(mapleTree_prefab_prot);
-            newMapleTree.transform.position = this.transform.position;
-            Player.Hec_invent.hectorInventory.RemoveItem(1, Player.Hec_actSystem.ActionInventItem);
-            Player.Hec_actSystem.UpdateActionItemInHUD();
-            Destroy(this.gameObject);
+            if(BuyWithItens(Player, Player.Hec_actSystem.ActionInventItem.itemData, 1))
+            {
+                Player.Hec_actSystem.UpdateActionItemInHUD();
+                Breakable_Tree newMapleTree = Instantiate(mapleTree_prefab_prot);
+                newMapleTree.transform.position = this.transform.position;
+                Destroy(this.gameObject);
+            }
         }
     }
 }

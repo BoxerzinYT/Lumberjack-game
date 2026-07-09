@@ -135,7 +135,7 @@ public class Struc_SellSystem : StructureSystem
                 hj.Hec_invent.hectorInventory.RemoveItem(itensS.sellItem_QuantOfItems, itensS.sellItem_inventItem);
             }
 
-            hj.hec_coins += totalCoins;
+            hj.Hec_coins += totalCoins;
             hj.hec_xp += totalXp;
 
             WhenOpenPanel();

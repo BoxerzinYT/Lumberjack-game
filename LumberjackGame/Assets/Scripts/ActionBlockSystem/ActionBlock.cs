@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ActionBlock : MonoBehaviour
+public class ActionBlock : Qol_BuySystem
 {
     [SerializeField] GameObject parts;
     bool activated;

@@ -1,8 +1,10 @@
 using System.Collections.Generic;
+using TMPro;
+using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Struc_ExpeditionPanel : MonoBehaviour
+public class Struc_ExpeditionPanel : StructureSystem
 {
     [SerializeField] Map_GlobalMapManager mapGlobalMan;
     [SerializeField] Struc_GetInfoToExpedition getInfoToExPrefab;
@@ -23,6 +25,10 @@ public class Struc_ExpeditionPanel : MonoBehaviour
     bool randomDifficultMode;
     [SerializeField] List<int> randomGenerateBiomesId;
     [SerializeField] List<int> randomDifficultsId;
+
+    [Header("ButtonArea")]
+    [SerializeField] TextMeshProUGUI coinsTxt;
+    float price;
 
     int phase; //0=BiomeSelection, 1=DifficultSelection, 2=StartSelection
     int biomeId;
@@ -105,6 +111,8 @@ public class Struc_ExpeditionPanel : MonoBehaviour
             {
                 randomGenerateBiomesId.Add(i);
                 biomesPanel[i].LockerBg.SetActive(true);
+                biomesPanel[i].LockerButton.onClick.AddListener(() => 
+                EventsManager.eventM.CreateANot("Your island isnt upgraded enough to allow you select this..."));
             }
             UpdateDifficultsPanel();
             nextPhase.SetActive(true);
@@ -212,6 +220,20 @@ public class Struc_ExpeditionPanel : MonoBehaviour
         }
     }
 
+    public void UpdateButtonArea()
+    {
+        price = 100;
+        coinsTxt.text = EventsManager.eventM.UpdateVariables(price);
+    }
+
+    public void StartExpedition()
+    {
+        if(BuyWithCoins(LastPlayerThatPassHere, price))
+        {
+            EventsManager.eventM.CreateANot("Bought!");
+        }
+    }
+
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) && phase > 0)
@@ -236,6 +258,7 @@ public class Struc_ExpeditionPanel : MonoBehaviour
             difficultiesArea.SetActive(false);
             buttonArea.SetActive(false);
             if(biomeId != -1 && !randomBiomeMode) { UpdateNextPhaseButton(true); }
+            else if(biomeId == -1 && randomBiomeMode) { UpdateNextPhaseButton(true); }
             else { UpdateNextPhaseButton(false); }
         }
         else if(phase == 1)
@@ -256,6 +279,7 @@ public class Struc_ExpeditionPanel : MonoBehaviour
             nextPhase.SetActive(false);
 
             buttonArea.SetActive(true);
+            UpdateButtonArea();
         }
     }
 

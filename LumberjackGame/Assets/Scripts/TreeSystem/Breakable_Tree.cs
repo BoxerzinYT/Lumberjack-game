@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Breakable_Tree : BreakableObj
 {
@@ -7,6 +8,11 @@ public class Breakable_Tree : BreakableObj
     [SerializeField] int maxPhase;
     [SerializeField] float[] treeScale;
     [SerializeField] float[] treeLife;
+    
+    [Header("LifeBar")]
+    [SerializeField] GameObject lifeBar;
+    [SerializeField] Image lifeBar_bar;
+    [SerializeField] Gradient lifeBar_gradient;
 
     void Start()
     {
@@ -22,7 +28,17 @@ public class Breakable_Tree : BreakableObj
     {
         transform.localScale = new Vector3(treeScale[phase], treeScale[phase], treeScale[phase]);
         ChangeMaxLife(treeLife[phase], true);
+        UpdateMyLifeBar();
         //Debug.Log(Life);
+    }
+
+    public void UpdateMyLifeBar()
+    {
+        if(Life >= treeLife[phase]) { lifeBar.SetActive(false); }
+        else { lifeBar.SetActive(true); }
+        EventsManager.eventM.UpdateBar(Life, treeLife[phase], lifeBar_bar, lifeBar_gradient);
+        //Debug.Log(Life >= treeLife[phase]);
+        //Debug.Log(Life + "/" + treeLife[phase]);
     }
 
     public void ChangePhase(int newV)

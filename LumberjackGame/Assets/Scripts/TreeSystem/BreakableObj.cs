@@ -40,14 +40,17 @@ public class BreakableObj : MonoBehaviour, IBreakable
         {
             if(life > 0)
             {
-                if(whenTakeDamage != null) { whenTakeDamage.Invoke(); }
-                float realDamage = (globalChance <= hec_stats.hec_criticalChance) ? hec_stats.hec_damage * 2 : hec_stats.hec_damage;
+                float realDamage = hec_stats.hec_damage;
+                if(globalChance <= hec_stats.hec_criticalChance) { realDamage = hec_stats.hec_damage * 2; }
                 life -= realDamage;
-            }
-            if(life <= 0)
-            {
-                CallDrop(hec_stats);
-                Died();
+
+                if(whenTakeDamage != null) { whenTakeDamage.Invoke(); }
+
+                if(life <= 0)
+                {
+                    CallDrop(hec_stats);
+                    Died();
+                }
             }
         }
     }
