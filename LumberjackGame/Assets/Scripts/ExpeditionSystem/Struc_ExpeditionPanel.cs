@@ -1,7 +1,9 @@
 using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 using TMPro;
-using UnityEditor.PackageManager;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Struc_ExpeditionPanel : StructureSystem
@@ -231,6 +233,33 @@ public class Struc_ExpeditionPanel : StructureSystem
         if(BuyWithCoins(LastPlayerThatPassHere, price))
         {
             EventsManager.eventM.CreateANot("Bought!");
+            Struc_GetInfoToExpedition infos = Instantiate(getInfoToExPrefab);
+
+            if (randomBiomeMode)
+            {
+                int randomBiomeId = Random.Range(0, randomGenerateBiomesId.Count);
+                biomeId = randomGenerateBiomesId[randomBiomeId];
+                //Debug.Log(biomeId);
+            }
+            if (randomDifficultMode)
+            {
+                int randomDifficultId = Random.Range(0, randomDifficultsId.Count);
+                difficultId = randomDifficultsId[randomDifficultId];
+                //Debug.Log(difficultId);
+            }
+
+            infos.DifficultId = difficultId;
+            infos.BiomeId = biomeId;
+            infos.ExpeditionSceneName = "Scene_Expedition_biome" + biomeId;
+            infos.PlayerInfos = LastPlayerThatPassHere;
+            DontDestroyOnLoad(infos);
+
+            EventsManager.eventM.AddScenes("Scene_ExpeditionManager", 0);
+            EventsManager.eventM.AddScenes(infos.ExpeditionSceneName, 0);
+
+            EventsManager.eventM.AddScenes(SceneManager.GetActiveScene().name, 1);
+            
+            EventsManager.eventM.GoToAnotherScene();
         }
     }
 
@@ -269,6 +298,7 @@ public class Struc_ExpeditionPanel : StructureSystem
             UpdateDifficultsPanel();
             if(difficultId != -1 && !randomDifficultMode) { UpdateNextPhaseButton(true); }
             else if(biomeId == -1){ SetRandomDifficulties(true); randomDifficultsToggle.gameObject.SetActive(false); }
+            else if(biomeId != -1 && randomDifficultMode){ SetRandomDifficulties(true); randomDifficultsToggle.gameObject.SetActive(false); }
             else { UpdateNextPhaseButton(false); }
         }
         else if(phase == 2)

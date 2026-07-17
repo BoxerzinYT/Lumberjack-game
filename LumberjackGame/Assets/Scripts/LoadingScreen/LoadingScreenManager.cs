@@ -31,6 +31,8 @@ public class LoadingScreenManager : MonoBehaviour
             AsyncOperation asyncOp = SceneManager.UnloadSceneAsync(s);
         }
 
+        yield return new WaitForSeconds(1f);
+        
         foreach (var s in scenesToLoad)
         {
             AsyncOperation asyncOp = SceneManager.LoadSceneAsync(s, LoadSceneMode.Additive);
@@ -42,7 +44,8 @@ public class LoadingScreenManager : MonoBehaviour
 
         EventsManager.eventM.playerCanWalk = true;
         EventsManager.eventM.playerCanInteract = true;
-
+        EventsManager.eventM.ClearScenesList();
+        
         StopCoroutine(LoadingIE(null, null));
     }
 }

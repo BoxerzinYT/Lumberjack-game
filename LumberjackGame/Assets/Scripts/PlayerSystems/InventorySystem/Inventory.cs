@@ -52,9 +52,11 @@ public class Inventory : ScriptableObject, ISerializationCallbackReceiver
 
     public float GetInventoryItemQuant(InventoryItem inventItem)
     {
+        inventItem.ID = GetIDOfAItem(inventItem.itemData);
         for (int i = 0; i < inventory.Count; i++)
         {
-            if(inventory[i].ID == inventItem.ID && inventory[i].itemData == inventItem.itemData)
+            if(inventory[i].ID == inventItem.ID && inventory[i].itemData == inventItem.itemData && 
+            inventory[i].itemRank == inventItem.itemRank)
             {
                 return inventory[i].stackSize;
             }
@@ -74,27 +76,41 @@ public class Inventory : ScriptableObject, ISerializationCallbackReceiver
 
     public void AddItem(float amount, InventoryItem inventItem)
     {
+        inventItem.ID = GetIDOfAItem(inventItem.itemData);
+
         for (int i=0; i < inventory.Count; i++)
         {
             if(!inventItem.itemData.isStackable) { break; }
 
 
-            if(inventory[i].itemData == inventItem.itemData)
+            if(inventory[i].itemData == inventItem.itemData &&
+            inventory[i].itemRank == inventItem.itemRank)
             {
                 inventory[i].AddToStack(amount);
-                SaveInvent();
                 return;
             }
         }
 
-        if (inventItem != null) { inventory.Add(inventItem); SaveInvent(); }
+        if (inventItem != null && inventItem.itemData.isStackable) 
+        {
+            inventItem.AddToStack(amount);
+            inventory.Add(inventItem);
+        }
+        else
+        {
+            inventory.Add(inventItem);
+        }
+
+        SaveInvent(); 
     }
 
     public void RemoveItem(float amount, InventoryItem inventItem)
     {
+        inventItem.ID = GetIDOfAItem(inventItem.itemData);
         for (int i=0; i < inventory.Count; i++)
         {
-            if(inventory[i].itemData == inventItem.itemData && inventItem.itemData.isStackable)
+            if(inventory[i].itemData == inventItem.itemData && inventItem.itemData.isStackable
+            && inventory[i].itemRank == inventItem.itemRank)
             {
                 inventory[i].RemoveFromStack(amount);
                 if(inventory[i].stackSize <= 0)

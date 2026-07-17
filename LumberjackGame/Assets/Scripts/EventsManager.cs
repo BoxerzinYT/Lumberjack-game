@@ -3,7 +3,6 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
 using System;
-using Unity.VisualScripting;
 
 public class EventsManager : MonoBehaviour
 {
@@ -14,10 +13,14 @@ public class EventsManager : MonoBehaviour
 
     [Header("LoadingScreen")]
     [SerializeField] GameObject loadingScreen;
+    [SerializeField] List<string> scenesToLoad;
+    [SerializeField] List<string> scenesToUnload;
 
     [Header("NotificationSettings")]
     [SerializeField] UI_Notification notiPrefab;
     Transform notiContent;
+
+    List<Global_TimerSystem> timers = new List<Global_TimerSystem>();
 
     void Awake()
     {
@@ -35,6 +38,18 @@ public class EventsManager : MonoBehaviour
     public void Start()
     {
         notiContent = FindFirstObjectByType<UI_NotificationCanvas>().NotiContent;
+    }
+
+    public void Update()
+    {
+        for(int i=0; i< timers.Count; i++)
+        {
+            timers[i].Update(Time.deltaTime);
+            if (timers[i].TimerFinised)
+            {
+                timers.Remove(timers[i]);
+            }
+        }
     }
 
     public string UpdateVariables(float var)
@@ -58,10 +73,23 @@ public class EventsManager : MonoBehaviour
         return varTxt;
     }
 
+    public bool CalculateAChance(float chance, float itemChance)
+    {
+        if(chance <= itemChance)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
     public void UpdateBar(float min, float max, Image _bar, Gradient _gradient)
     {
         float amountCal = min / max;
         _bar.fillAmount = amountCal;
+        if(_gradient == null) { return; }
         _bar.color = _gradient.Evaluate(amountCal);
     }
 
@@ -82,12 +110,33 @@ public class EventsManager : MonoBehaviour
         playerCanWalk = true;
     }
 
-    public void GoToAnotherScene(List<String> scenesToLoad, List<String> scenesToUnload)
+    public void GoToAnotherScene()
     {
+        if(scenesToLoad.Count <= 0 || scenesToUnload.Count <= 0) { EventsManager.eventM.CreateANot("Not to load!"); return; }
         GameObject newLoadingScreen = Instantiate(loadingScreen);
         StartCoroutine(newLoadingScreen.GetComponent<LoadingScreenManager>().LoadingIE(scenesToLoad, scenesToUnload));
         playerCanInteract = false;
         playerCanWalk = false;
+    }
+
+    public void AddScenes(string sceneName, int listId) 
+    {
+        //Listid == 0 significa colocar uma cena para carregar
+        //Listid == 1 significa colocar uma cena para descarregar, excluir
+        if(listId == 0)
+        {
+            scenesToLoad.Add(sceneName);
+        }
+        else
+        {
+            scenesToUnload.Add(sceneName);
+        }
+    }
+
+    public void ClearScenesList()
+    {
+        scenesToLoad.Clear();
+        scenesToUnload.Clear();
     }
 
     public void CreateANot(string txt)
@@ -96,5 +145,14 @@ public class EventsManager : MonoBehaviour
         newNoti.SetNoti(txt);
         newNoti.transform.SetAsFirstSibling();
         //Debug.Log("Created new noti!");
+    }
+
+    public Global_TimerSystem CreateTimer(float duration, Action whenComplete, bool canStartTimer)
+    {
+        Global_TimerSystem newTimer = new Global_TimerSystem();
+        newTimer.SetTimer(duration, whenComplete, canStartTimer);
+
+        timers.Add(newTimer);
+        return newTimer;
     }
 }

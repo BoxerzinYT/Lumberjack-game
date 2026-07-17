@@ -10,12 +10,12 @@ public class ShowItensWithInventItemManager : MonoBehaviour
         obj.SetActive(true);
         InventoryItemUIManager inventUI = obj.GetComponent<InventoryItemUIManager>();
 
-        InventoryItem newInventItem = new InventoryItem(hjInvent.hectorInventory.GetIDOfAItem(myItem),
-        myItem, quant);
+        //InventoryItem newInventItem = new InventoryItem(,
+        //myItem, quant);
 
         //inventUI.CanDrag = false;
         inventUI.IsAShowItem = true;
-        inventUI.FinishSettings(true, newInventItem, newInventItem.itemData, newInventItem.stackSize);
+        //inventUI.FinishSettings(true, newInventItem, newInventItem.itemData, newInventItem.stackSize);
         inventUI.StackTxt.gameObject.SetActive(true);
 
         return inventUI;

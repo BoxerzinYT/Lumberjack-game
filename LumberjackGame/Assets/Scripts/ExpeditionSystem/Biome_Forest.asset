@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Biome_Forest
   m_EditorClassIdentifier: Assembly-CSharp::Biome
   biomeName: Forest
+  biomeIcon: {fileID: 4275915471996226702, guid: dace5e9fff52d2d4e9a719e72928d917, type: 3}
   biomeColor: {r: 0.32156864, g: 0.5568628, b: 0.1254902, a: 1}
   quantOf_toUnlockOnRandomGeneration: 1
   quantOf_toUnlockSelection: 15

@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Map_PartManager : MonoBehaviour
 {
@@ -21,7 +22,8 @@ public class Map_PartManager : MonoBehaviour
     [SerializeField] int myBiomeId; //Temporary var
     [SerializeField] int quantOfTreesThatSpawnWithThePart;
     [SerializeField] Acb_SaplingSlot[] mySaplingsSlot;
-    [SerializeField] Breakable_Tree myTree;
+    [SerializeField] Sappling mySappling;
+    [SerializeField] Rank myRank;
 
     public void Start()
     {
@@ -147,7 +149,9 @@ public class Map_PartManager : MonoBehaviour
         for(int i=0; i<Random.Range(1, quantOfTreesThatSpawnWithThePart + 1); i++)
         {
             int randomSlot = Random.Range(0, mySaplingsSlot.Length);
-            Breakable_Tree newTree = Instantiate(myTree);
+            Breakable_Tree newTree = Instantiate(mySappling.myTree);
+            newTree.AddSappling(new InventoryItem(mySappling, myRank, 1));
+            SceneManager.MoveGameObjectToScene(newTree.gameObject, SceneManager.GetSceneByName("World"));
             newTree.transform.position = mySaplingsSlot[randomSlot].transform.position;
             Destroy(mySaplingsSlot[randomSlot].gameObject);
             newTree.ChangePhase(1);

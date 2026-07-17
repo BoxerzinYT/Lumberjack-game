@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 3274297759138266415}
   - component: {fileID: 2434029678340460658}
   - component: {fileID: 1160809838560353433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Prefab_Structure
   m_TagString: Untagged
   m_Icon: {fileID: 0}

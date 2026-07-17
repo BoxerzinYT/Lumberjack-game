@@ -41,7 +41,7 @@ public class RdOrDgnSettingsManager : MonoBehaviour
         scenesToUnload.Add("World");
         scenesToLoad.Add(scenesNames[0]);
         //scenesToLoad.Add("MapleExpedition");
-        EventsManager.eventM.GoToAnotherScene(scenesToLoad, scenesToUnload);
+        EventsManager.eventM.GoToAnotherScene();
     }
 
     public void SelectDifficult(int value)

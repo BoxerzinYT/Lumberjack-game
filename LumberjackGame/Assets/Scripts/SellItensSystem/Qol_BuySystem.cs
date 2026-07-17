@@ -17,12 +17,12 @@ public class Qol_BuySystem : MonoBehaviour
         }
     }
 
-    public bool BuyWithItensAndReturnOtherItem(Hec_Stats hecStats, Item price_item, float price, Item add_item, float add)
+    public bool BuyWithItensAndReturnOtherItem(Hec_Stats hecStats, InventoryItem priceItem, float price, InventoryItem addItem, float add)
     {
-        if(HasItens(hecStats, price_item) >= price)
+        if(HasItens(hecStats, priceItem) >= price)
         {
-            hecStats.Hec_invent.hectorInventory.RemoveItem(price, new InventoryItem(hecStats.Hec_invent.hectorInventory.GetIDOfAItem(price_item), price_item, HasItens(hecStats, price_item)));
-            hecStats.Hec_invent.hectorInventory.AddItem(add, new InventoryItem(hecStats.Hec_invent.hectorInventory.GetIDOfAItem(add_item), add_item, 0));
+            hecStats.Hec_invent.hectorInventory.RemoveItem(price, priceItem);
+            hecStats.Hec_invent.hectorInventory.AddItem(add, addItem);
             return true;
         }
         else
@@ -31,11 +31,11 @@ public class Qol_BuySystem : MonoBehaviour
             return false;
         }
     }
-    public bool BuyWithItens(Hec_Stats hecStats, Item price_item, float price)
+    public bool BuyWithItens(Hec_Stats hecStats, InventoryItem priceItem, float price)
     {
-        if(HasItens(hecStats, price_item) >= price)
+        if(HasItens(hecStats, priceItem) >= price)
         {
-            hecStats.Hec_invent.hectorInventory.RemoveItem(price, new InventoryItem(hecStats.Hec_invent.hectorInventory.GetIDOfAItem(price_item), price_item, HasItens(hecStats, price_item)));
+            hecStats.Hec_invent.hectorInventory.RemoveItem(price, priceItem);
             return true;
         }
         else
@@ -43,6 +43,15 @@ public class Qol_BuySystem : MonoBehaviour
             EventsManager.eventM.CreateANot("You dont have enough of that item!");
             return false;
         }
+    }
+
+    public void CollectItem(Hec_Stats hecStats, InventoryItem item, int quant)
+    {
+        hecStats.Hec_invent.hectorInventory.AddItem(quant, item);
+    }
+    public void RemoveItem(Hec_Stats hecStats, InventoryItem item, int quant)
+    {
+        hecStats.Hec_invent.hectorInventory.RemoveItem(quant, item);
     }
 
     public bool HasCoins(float coins, float price)
@@ -50,13 +59,9 @@ public class Qol_BuySystem : MonoBehaviour
         return coins >= price;
     }
 
-    public float HasItens(Hec_Stats hecStats, Item price_item)
+    public float HasItens(Hec_Stats hecStats, InventoryItem priceItem)
     {
-        if(hecStats.Hec_invent.hectorInventory.GetItemDataQuant(price_item) > 0)
-        {
-            return hecStats.Hec_invent.hectorInventory.GetItemDataQuant(price_item);
-        }
-
-        return 0;
+        float stackSize = hecStats.Hec_invent.hectorInventory.GetInventoryItemQuant(priceItem);
+        return stackSize;
     }
 }

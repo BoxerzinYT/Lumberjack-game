@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Acb_InventorySettings : MonoBehaviour
@@ -9,7 +10,8 @@ public class Acb_InventorySettings : MonoBehaviour
     {
         foreach(var s in showInventItens.ItensPrefabed)
         {
-            if (s.inventItem.itemData.GetType() == typeof(ActionItem))
+            if (s.inventItem.itemData.GetType() == typeof(ActionItem) ||
+            s.inventItem.itemData.GetType() == typeof(Sappling))
             {
                 ActionItem acbItem = (ActionItem)s.inventItem.itemData;
                 s.ItemPrefab.MyButton.onClick.AddListener(() => hec_acbSystem.StartAction(acbItem, s.inventItem));

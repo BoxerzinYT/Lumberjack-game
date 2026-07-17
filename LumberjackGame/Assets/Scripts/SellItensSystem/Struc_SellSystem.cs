@@ -69,7 +69,7 @@ public class Struc_SellSystem : StructureSystem
         }
         */
 
-        float realValue = sell_item.itemValue * priceBoost;
+        float realValue = sell_item.itemValue * ii.itemRank.rankMultiplier * priceBoost;
 
         float quantOfItensValue = quantOfItens * realValue;
         totalValueOfSell += quantOfItensValue;
@@ -100,7 +100,7 @@ public class Struc_SellSystem : StructureSystem
         //inventUiMan.CanDrag = true;
         inventUiMan.Selling = false;
 
-        float quantOfItensValue = quantOfItens * sell_item.itemValue;
+        float quantOfItensValue = quantOfItens * sell_item.itemValue * itemS.sellItem_inventItem.itemRank.rankMultiplier;
         totalValueOfSell -= quantOfItensValue;
 
         sellButton.gameObject.SetActive(false);
@@ -129,10 +129,10 @@ public class Struc_SellSystem : StructureSystem
 
             foreach (var itensS in ItensSellList)
             {
-                totalCoins += itensS.sellItem_sellValue * itensS.sellItem_QuantOfItems;
-                totalXp += Random.Range(itensS.sellItem_xpValue[0], itensS.sellItem_xpValue[1]) * itensS.sellItem_QuantOfItems;
+                totalCoins += itensS.sellItem_sellValue * itensS.sellItem_QuantOfItems * itensS.sellItem_inventItem.itemRank.rankMultiplier;
+                totalXp += Random.Range(itensS.sellItem_xpValue[0], itensS.sellItem_xpValue[1]) * itensS.sellItem_QuantOfItems * itensS.sellItem_inventItem.itemRank.rankMultiplier;
 
-                hj.Hec_invent.hectorInventory.RemoveItem(itensS.sellItem_QuantOfItems, itensS.sellItem_inventItem);
+                RemoveItem(LastPlayerThatPassHere, itensS.sellItem_inventItem, itensS.sellItem_QuantOfItems);
             }
 
             hj.Hec_coins += totalCoins;

@@ -107,7 +107,7 @@ public class Struc_Compost : StructureSystem
     public void SelectedQuantForDeposit(int quant, InventoryItem ii, GameObject inSellGob, InventoryItemUIManager inventUiMan)
     {
         if(hipoteticalCapacity >= maxCapacity) { return; }
-        InventoryItem itemToList = new InventoryItem(LastPlayerThatPassHere.Hec_invent.hectorInventory.GetIDOfAItem(ii.itemData), ii.itemData, quant);
+        InventoryItem itemToList = new InventoryItem(ii.itemData, ii.itemRank, quant);
         hipoteticalCapacity += quant;
         toCompostList.Add(itemToList);
         inSellGob.gameObject.SetActive(true);
@@ -115,7 +115,7 @@ public class Struc_Compost : StructureSystem
         UpdateHipoteticalCapacityBar();
 
         inventUiMan.MyButton.onClick = new Button.ButtonClickedEvent();
-        inventUiMan.MyButton.onClick.AddListener(() => DeselectQuant(itemToList, inSellGob, inventUiMan));
+        inventUiMan.MyButton.onClick.AddListener(() => DeselectQuant(itemToList, ii, inSellGob, inventUiMan));
     }
 
     public void SelectQuantForDeposit(InventoryItem ii, GameObject inSellGob, InventoryItemUIManager inventUiMan)
@@ -135,20 +135,20 @@ public class Struc_Compost : StructureSystem
         }
     }
 
-    public void DeselectQuant(InventoryItem ii, GameObject inSellGob, InventoryItemUIManager inventUiMan)
+    public void DeselectQuant(InventoryItem ii_inList, InventoryItem ii_normal, GameObject inSellGob, InventoryItemUIManager inventUiMan)
     {
-        hipoteticalCapacity -= (int)ii.stackSize;
-        toCompostList.Remove(ii);
+        hipoteticalCapacity -= (int)ii_inList.stackSize;
+        toCompostList.Remove(ii_inList);
         inSellGob.SetActive(false);
 
         inventUiMan.MyButton.onClick = new Button.ButtonClickedEvent();
-        if(ii.stackSize > 1)
+        if(ii_normal.stackSize > 1)
         {
-            inventUiMan.MyButton.onClick.AddListener(() => SelectQuantForDeposit(ii, inSellGob, inventUiMan));
+            inventUiMan.MyButton.onClick.AddListener(() => SelectQuantForDeposit(ii_normal, inSellGob, inventUiMan));
         }
-        else if(ii.stackSize <= 1)
+        else if(ii_normal.stackSize <= 1)
         {
-            inventUiMan.MyButton.onClick.AddListener(() => SelectedQuantForDeposit(1, ii, inSellGob, inventUiMan));
+            inventUiMan.MyButton.onClick.AddListener(() => SelectedQuantForDeposit(1, ii_normal, inSellGob, inventUiMan));
         }
 
         UpdateHipoteticalCapacityBar();

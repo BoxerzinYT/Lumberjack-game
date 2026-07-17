@@ -11,7 +11,7 @@ public class Acb_ExpandMap : ActionBlock
 
     public void ExpandMap()
     {
-        if(BuyWithItens(Player, Player.Hec_actSystem.ActionItemSelected, 1))
+        if(BuyWithItens(Player, Player.Hec_actSystem.ActionInventItem, 1))
         {
             mapGlobalMan.SpawnAIsland(myExpandCordX, myExpandCordY, Player.Hec_actSystem.ActionItemSelected.actionId);
             Player.Hec_actSystem.UpdateActionItemInHUD();

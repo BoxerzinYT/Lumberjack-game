@@ -6,7 +6,9 @@ public class Item : ScriptableObject
     [TextArea]
     public string itemDescription;
     public ItemRarity itemRarity;
+    public Biome itemBiome;
     public Sprite itemIcon;
 
-    public bool isStackable;
+    public bool isStackable = true;
+    public bool canChangeMyRank = true;
 }

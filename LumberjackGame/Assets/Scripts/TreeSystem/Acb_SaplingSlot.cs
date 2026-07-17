@@ -1,9 +1,7 @@
-using System;
 using UnityEngine;
 
 public class Acb_SaplingSlot : ActionBlock
 {
-    [SerializeField] Breakable_Tree mapleTree_prefab_prot;
     [SerializeField] int myActionId;
 
     public void SetMyActionId(int _myActionId)
@@ -15,11 +13,13 @@ public class Acb_SaplingSlot : ActionBlock
     {
         if(Player.Hec_actSystem.ActionItemSelected.actionId == myActionId)
         {
-            if(BuyWithItens(Player, Player.Hec_actSystem.ActionInventItem.itemData, 1))
+            if(BuyWithItens(Player, Player.Hec_actSystem.ActionInventItem, 1))
             {
+                Sappling sappling = (Sappling)Player.Hec_actSystem.ActionInventItem.itemData;
                 Player.Hec_actSystem.UpdateActionItemInHUD();
-                Breakable_Tree newMapleTree = Instantiate(mapleTree_prefab_prot);
-                newMapleTree.transform.position = this.transform.position;
+                Breakable_Tree newTree = Instantiate(sappling.myTree);
+                newTree.transform.position = this.transform.position;
+                newTree.AddSappling(Player.Hec_actSystem.ActionInventItem);
                 Destroy(this.gameObject);
             }
         }

@@ -2,8 +2,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.EventSystems;
-using UnityEngine.Rendering;
-using UnityEngine.Events;
 
 public class InventoryItemUIManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
@@ -14,6 +12,10 @@ public class InventoryItemUIManager : MonoBehaviour, IPointerEnterHandler, IPoin
     [SerializeField] Button myButton;
     [SerializeField] Image itemImage;
     [SerializeField] Image bigImage;
+    [SerializeField] Image rarityBg;
+    [SerializeField] Image biomeIcon;
+    [SerializeField] Image rankIcon;
+    [SerializeField] Animator rankIconAnim;
 
     [Header("Sell")]
     bool selling;
@@ -83,6 +85,11 @@ public class InventoryItemUIManager : MonoBehaviour, IPointerEnterHandler, IPoin
         {
             myInventItem = InventItem;
             stackTxt.text = EventsManager.eventM.UpdateVariables(InventItem.stackSize);
+            if(!InventItem.itemData.canChangeMyRank) { rankIcon.gameObject.SetActive(false); }
+            rarityBg.color = InventItem.itemData.itemRarity.rarityColor;
+            rankIcon.sprite = InventItem.itemRank.rankIcon;
+            if(InventItem.itemRank.rankId == 7) { rankIconAnim.SetTrigger("Rainbow"); }
+            //biomeIcon.sprite = InventItem.itemData.itemBiome.biomeIcon;
             myItem = InventItem.itemData;
 
             if(InventItem.itemData.isStackable)

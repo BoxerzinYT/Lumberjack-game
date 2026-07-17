@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Map_GlobalMapManager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class Map_GlobalMapManager : MonoBehaviour
 
     public void Start()
     {
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("World"));
         if(partsInGame.Count <= 1)
         {
             StartCoroutine(FirstSpawnIslandParts());
@@ -26,6 +28,7 @@ public class Map_GlobalMapManager : MonoBehaviour
 
     public IEnumerator FirstSpawnIslandParts()
     {
+        yield return new WaitForSeconds(0.01f);
         int[] coordsCal = new int[3];
 
         partsInGame[0].SetPart(this);
@@ -57,6 +60,7 @@ public class Map_GlobalMapManager : MonoBehaviour
     {
         //Spawnando a parte e definindo suas coordenadas e posição 
         Map_PartManager newPart = Instantiate(partPrefab);
+        SceneManager.MoveGameObjectToScene(newPart.gameObject, SceneManager.GetSceneByName("World"));
         newPart.SetPart(this);
         newPart.SetMyPos(cordX, cordY, DistanceBeetweenCenters);
         partsInGame.Add(newPart);

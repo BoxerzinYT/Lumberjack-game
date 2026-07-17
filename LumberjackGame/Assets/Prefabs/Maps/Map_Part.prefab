@@ -51,25 +51,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2121b8fe129828245b636807b7e6c0bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Map_PartManager
+  centerIsland: 0
   mapLayer:
     serializedVersion: 2
     m_Bits: 128
   expandEdges:
   - expandEdge: {fileID: 7659161842802336062}
     whereIsTheExpand: 0
+    expanded: 0
   - expandEdge: {fileID: 8461575009041590489}
     whereIsTheExpand: 1
+    expanded: 0
   - expandEdge: {fileID: 8850514336305083559}
     whereIsTheExpand: 2
+    expanded: 0
   - expandEdge: {fileID: 7461493225314977841}
     whereIsTheExpand: 3
+    expanded: 0
+  myBiomeId: 0
   quantOfTreesThatSpawnWithThePart: 2
   mySaplingsSlot:
   - {fileID: 3058547299316724767}
   - {fileID: 3906902430469967053}
   - {fileID: 6599122629100390289}
   - {fileID: 5363552435108843328}
-  myTree: {fileID: 5530021890866422376, guid: be1a563c8c1f6b448bda7559c9388a8e, type: 3}
+  mySappling: {fileID: 11400000, guid: ec05104ddabe2ad42be7ad8f5fad53f8, type: 2}
+  myRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
 --- !u!61 &7027321605924422499
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -198,7 +205,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1664442207473190982, guid: 88023719132875546aaeeaad42528482, type: 3}
-  m_Color: {r: 0.5566038, g: 0.22824395, b: 0.16015485, a: 1}
+  m_Color: {r: 0.6792453, g: 0.2235812, b: 0.13136347, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

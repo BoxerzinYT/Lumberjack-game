@@ -15,8 +15,10 @@ MonoBehaviour:
   itemName: Maple leaf
   itemDescription: The most beautiful leaf in the world!
   itemRarity: {fileID: 11400000, guid: c46216de4ca3fd342a1f968dcefcf7e5, type: 2}
+  itemBiome: {fileID: 11400000, guid: 718cd0b6207be4542bb169f07106f4ab, type: 2}
   itemIcon: {fileID: -9216052176051597955, guid: f4e390fc8586dd64cbc2948623318d08, type: 3}
   isStackable: 1
+  canChangeMyRank: 1
   itemValue: 2
   itemSellXp:
   - 0.5

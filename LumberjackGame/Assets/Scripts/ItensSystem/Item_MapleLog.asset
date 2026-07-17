@@ -15,8 +15,10 @@ MonoBehaviour:
   itemName: Maple log
   itemDescription: Dropped from the most beautiful tree in the world!
   itemRarity: {fileID: 11400000, guid: cf129a0ac310de8478ef9b033fff5e10, type: 2}
+  itemBiome: {fileID: 11400000, guid: 718cd0b6207be4542bb169f07106f4ab, type: 2}
   itemIcon: {fileID: 4711269983187712138, guid: bda4262bfc80200459eaa39a6ea7ea2e, type: 3}
   isStackable: 1
+  canChangeMyRank: 1
   itemValue: 1
   itemSellXp:
   - 0.25
