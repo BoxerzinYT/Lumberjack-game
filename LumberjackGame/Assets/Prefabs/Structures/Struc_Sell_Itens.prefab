@@ -232,6 +232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struc_Sell_Itens
       objectReference: {fileID: 0}
+    - target: {fileID: 3010735909435806660, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5.27
+      objectReference: {fileID: 0}
     - target: {fileID: 3274297759138266415, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
       propertyPath: m_Size.y
       value: 7
@@ -325,7 +329,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 228777eea5a0a4b4883e5b366abe87b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Struc_SellSystem
+  ClickButtonHUD: {fileID: 6164052516487212785}
   whenPlayerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  whenPlayerClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1234746149448882207}
@@ -348,7 +356,7 @@ MonoBehaviour:
   selectQuantUI: {fileID: 4069870244074304861, guid: ff1db002ecd98674dbd793dd790c2731, type: 3}
   sellContent: {fileID: 8572184486724022254}
   totalValueOfSellTxt: {fileID: 9008017266678038049}
-  ItensSell: []
+  ItensSellList: []
   sellButton: {fileID: 6896321810558903174}
   clearButton: {fileID: 5885978419468197282}
 --- !u!114 &7670894267438036562
@@ -382,6 +390,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   itensPrefabed: []
+--- !u!1 &6164052516487212785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3993792794108855137, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
+  m_PrefabInstance: {fileID: 7126894149978893712}
+  m_PrefabAsset: {fileID: 0}
 --- !u!223 &7502847329676498155 stripped
 Canvas:
   m_CorrespondingSourceObject: {fileID: 790566028161988987, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}

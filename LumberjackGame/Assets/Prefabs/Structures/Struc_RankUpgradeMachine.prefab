@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Struc_RankUpgradeMachine
       objectReference: {fileID: 0}
+    - target: {fileID: 3010735909435806660, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.291
+      objectReference: {fileID: 0}
     - target: {fileID: 5194321460657723546, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.6567
@@ -72,6 +76,11 @@ Canvas:
   m_CorrespondingSourceObject: {fileID: 790566028161988987, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
   m_PrefabInstance: {fileID: 1328985688698659738}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2674377400651456763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3993792794108855137, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
+  m_PrefabInstance: {fileID: 1328985688698659738}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3558052870681245473 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2526870467075478715, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
@@ -89,7 +98,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837204f6d4e84454894a4daa07971fac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Struc_RankUpgradeSystem
+  ClickButtonHUD: {fileID: 2674377400651456763}
   whenPlayerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  whenPlayerClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7845734607681979423}

@@ -200,7 +200,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2526870467075478715, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
       propertyPath: m_Name
-      value: Struc_Composter Variant
+      value: Struc_Composter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010735909435806660, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.79
       objectReference: {fileID: 0}
     - target: {fileID: 4825669337964301127, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
       propertyPath: m_Sprite
@@ -271,6 +275,11 @@ Canvas:
   m_CorrespondingSourceObject: {fileID: 790566028161988987, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
   m_PrefabInstance: {fileID: 6802931137731246391}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7567191627772836438 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3993792794108855137, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
+  m_PrefabInstance: {fileID: 6802931137731246391}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &9041506898387381644 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2526870467075478715, guid: 9fc55aeccfdd60544849b346ba6ed08c, type: 3}
@@ -288,7 +297,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d91d0052af8035e419a05c11f0ed66c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Struc_Compost
+  ClickButtonHUD: {fileID: 7567191627772836438}
   whenPlayerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  whenPlayerClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5193167748712119907}

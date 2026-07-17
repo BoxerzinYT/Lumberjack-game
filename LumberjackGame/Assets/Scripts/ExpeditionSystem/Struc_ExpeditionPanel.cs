@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Runtime.InteropServices.WindowsRuntime;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -263,19 +262,18 @@ public class Struc_ExpeditionPanel : StructureSystem
         }
     }
 
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape) && phase > 0)
-        {
-            phase--;
-            UpdatePhaseSelection();
-        }
-    }
-
     public void NextPhase()
     {
         phase++;
         UpdatePhaseSelection();
+    }
+    public void PreviousPhase()
+    {
+        if(phase > 0 && Input.GetKeyDown(KeyCode.Escape))
+        {
+            phase--;
+            UpdatePhaseSelection();
+        }
     }
 
     public void UpdatePhaseSelection()

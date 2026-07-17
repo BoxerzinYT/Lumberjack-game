@@ -13,7 +13,15 @@ public class DropSystem : MonoBehaviour
 
     public void Drop(Hec_Stats hec_stats, int phaseId, float rankMult)
     {
-        for(int i=0; i<repeatTimes; i++)
+        int repeatTimesFromThePoints = hec_stats.hec_dropPoints / 100;
+        float chanceForOther = ((float)hec_stats.hec_dropPoints / 100) - repeatTimesFromThePoints;
+        float chanceForOtherRepeatPoint = Random.Range(0f,1f);
+        if(chanceForOtherRepeatPoint <= chanceForOther)
+        {
+            repeatTimesFromThePoints++;
+        }
+
+        for(int i=0; i<repeatTimes + repeatTimesFromThePoints; i++)
         {
             float dropChance = Random.Range(0f,1f);
             foreach(var d in dropSettings[phaseId].myDrops)
