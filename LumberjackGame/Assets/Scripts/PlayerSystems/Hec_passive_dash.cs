@@ -46,10 +46,7 @@ public class Hec_passive_dash : Power_PassiveManager
     [SerializeField] float orbDuration;
 
     [Header("MultSettings")]
-    [SerializeField] float damageUp;
-    [SerializeField] float damageUp_duration;
-    [SerializeField] float speedUp;
-    [SerializeField] float speedUp_duration;
+    [SerializeField] MultiplicatorSettings[] passiveBuffs;
 
     public void Start()
     {
@@ -127,10 +124,11 @@ public class Hec_passive_dash : Power_PassiveManager
 
     public void ApplyBuffs()
     {
-        HecStats.Hec_damageMult += damageUp;
-        EventsManager.eventM.CreateTimer(damageUp_duration, () => HecStats.Hec_damageMult -= damageUp, true);
-        HecStats.hec_speedMult += speedUp;
-        EventsManager.eventM.CreateTimer(speedUp_duration, () => HecStats.hec_speedMult -= speedUp, true);
+        foreach(var m in passiveBuffs)
+        {
+            HecStats.AddOrRemoveMult(1, m, m.add);
+            EventsManager.eventM.CreateTimer(m.duration, () => HecStats.AddOrRemoveMult(-1, m, m.add), true);
+        }
     }
 
     void LookAtMouse()

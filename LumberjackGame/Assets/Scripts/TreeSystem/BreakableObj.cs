@@ -74,9 +74,10 @@ public class BreakableObj : MonoBehaviour, IBreakable
             {
                 float realDamage = hec_stats.hec_damage * hec_stats.Hec_damageMult;
                 realDamage += PassiveDamage(hec_stats);
-                if(globalChance <= hec_stats.hec_criticalChance) 
-                { 
-                    realDamage = hec_stats.hec_damage * 2;
+                if(globalChance <= hec_stats.Hec_criticalChance) 
+                {
+                    float criticalDamage = 2 * hec_stats.Hec_criticalDamageMult;
+                    realDamage = hec_stats.hec_damage * hec_stats.Hec_damageMult * criticalDamage;
                     
                     UI_TextInScreen criticalShow = Instantiate(textInScreenPrefab);
                     criticalShow.transform.position = transform.position;

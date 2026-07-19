@@ -11,8 +11,8 @@ public class Breakable_Interactions : MonoBehaviour
     (Hec_Stats _hectorStats)
     {
         damage = _hectorStats.hec_damage;
-        criticalChance = _hectorStats.hec_criticalChance;
-        bonusChance = _hectorStats.hec_bonusChance;
-        dropPoints = _hectorStats.hec_dropPoints;
+        criticalChance = _hectorStats.Hec_criticalChance;
+        bonusChance = _hectorStats.Hec_bonusChance;
+        dropPoints = _hectorStats.Hec_dropPoints;
     }
 }

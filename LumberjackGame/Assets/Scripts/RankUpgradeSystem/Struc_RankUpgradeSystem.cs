@@ -40,6 +40,7 @@ public class Struc_RankUpgradeSystem : StructureSystem
         SelectQuant newSQUI = Instantiate(selectQuantPanel, myHUD.transform);
 
         newSQUI.SelectButton.onClick.AddListener(() => SelectedQuantForUpgrade(inventItem, inSellObj, itemPrefabed, newSQUI.GetValue()));
+        newSQUI.Slider.minValue = 1;
         newSQUI.Slider.maxValue = inventItem.stackSize;
     }
 
@@ -98,16 +99,19 @@ public class Struc_RankUpgradeSystem : StructureSystem
 
     public void Upgrade(InventoryItem inventItem, float quantSelected, float priceToUpdateRank)
     {
-        showInventItens.ShowItensInUI(LastPlayerThatPassHere.Hec_invent.hectorInventory.inventory);
-        upgradeRankPanel.SetActive(false);
+        if(HasItens(LastPlayerThatPassHere, biomeCoins[inventItem.itemData.itemBiome.biomeId]) >= priceToUpdateRank * quantSelected)
+        {
+            RemoveItem(LastPlayerThatPassHere, biomeCoins[inventItem.itemData.itemBiome.biomeId], priceToUpdateRank * quantSelected);
+            CollectItem(LastPlayerThatPassHere, new InventoryItem(inventItem.itemData, ranks[inventItem.itemRank.rankId + 1], 0), quantSelected);
 
-        bool can = BuyWithItensAndReturnOtherItem(LastPlayerThatPassHere, biomeCoins[inventItem.itemData.itemBiome.biomeId], priceToUpdateRank * quantSelected, 
-        new InventoryItem(inventItem.itemData, ranks[inventItem.itemRank.rankId + 1], 0), quantSelected);
-
-        if(!can) { return; }
-
-        RemoveItem(LastPlayerThatPassHere, inventItem, (int)quantSelected);
-        EventsManager.eventM.CreateANot("Upgraded the " + inventItem.itemData.itemName + " to rank " + ranks[inventItem.itemRank.rankId + 1].rankName + "!");
+            RemoveItem(LastPlayerThatPassHere, inventItem, (int)quantSelected);
+            EventsManager.eventM.CreateANot("Upgraded the " + inventItem.itemData.itemName + " to rank " + ranks[inventItem.itemRank.rankId + 1].rankName + "!");
+            WhenOpen();
+        }
+        else
+        {
+            return;
+        }
     }
 
     public void FinishSettings()

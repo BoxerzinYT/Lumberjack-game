@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "new biome", menuName = "Biome/new biome")]
 public class Biome : ScriptableObject
 {
     public string biomeName;

@@ -43,6 +43,7 @@ public class Struc_SellSystem : StructureSystem
         SelectQuant newSQUI = Instantiate(selectQuantUI, myHUD.transform);
 
         newSQUI.SelectButton.onClick.AddListener(() => SelectedQuant(newSQUI.GetValue(), ii, inSellGob, inventUiMan, sell_item));
+        newSQUI.Slider.minValue = 1;
         newSQUI.Slider.maxValue = ii.stackSize;
     }
 

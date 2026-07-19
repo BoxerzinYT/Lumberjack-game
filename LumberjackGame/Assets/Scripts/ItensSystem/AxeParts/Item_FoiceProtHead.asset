@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60155d22ddaf7794380546a4ba8c9fbc, type: 3}
+  m_Name: Item_FoiceProtHead
+  m_EditorClassIdentifier: Assembly-CSharp::AxePart
+  itemName: Foice head
+  itemDescription: 
+  itemRarity: {fileID: 11400000, guid: 227f2ce5d58620042b0dc10f688eb8fa, type: 2}
+  itemBiome: {fileID: 11400000, guid: 718cd0b6207be4542bb169f07106f4ab, type: 2}
+  itemIcon: {fileID: 134984737382639030, guid: cf4f9f83644da4743a98c6e25c901e45, type: 3}
+  isStackable: 1
+  canChangeMyRank: 1
+  partSprite: {fileID: 134984737382639030, guid: cf4f9f83644da4743a98c6e25c901e45, type: 3}
+  partType: 1
+  mults:
+  - multName: Damage up
+    mult: {fileID: 11400000, guid: 6750b188a2c98444a8509100ba5d1a4f, type: 2}
+    add: 0.5
+    duration: 0
+  - multName: Critical chance up
+    mult: {fileID: 11400000, guid: a4111f47389deca4987ff03824170d3a, type: 2}
+    add: 0.03
+    duration: 0

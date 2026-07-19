@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "new difficult", menuName = "Difficults/Difficult")]
 public class Difficult : ScriptableObject
 {
     public string difficultName;

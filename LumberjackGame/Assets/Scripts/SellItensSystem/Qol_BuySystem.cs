@@ -45,11 +45,11 @@ public class Qol_BuySystem : MonoBehaviour
         }
     }
 
-    public void CollectItem(Hec_Stats hecStats, InventoryItem item, int quant)
+    public void CollectItem(Hec_Stats hecStats, InventoryItem item, float quant)
     {
         hecStats.Hec_invent.hectorInventory.AddItem(quant, item);
     }
-    public void RemoveItem(Hec_Stats hecStats, InventoryItem item, int quant)
+    public void RemoveItem(Hec_Stats hecStats, InventoryItem item, float quant)
     {
         hecStats.Hec_invent.hectorInventory.RemoveItem(quant, item);
     }

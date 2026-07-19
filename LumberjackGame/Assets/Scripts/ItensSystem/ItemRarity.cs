@@ -1,7 +1,5 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "new rarity", menuName = "Rarity/Rarity")]
-
 public class ItemRarity : ScriptableObject
 {
     public string rarityName;

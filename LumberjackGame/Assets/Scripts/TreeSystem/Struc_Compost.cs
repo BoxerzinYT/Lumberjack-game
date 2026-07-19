@@ -91,7 +91,8 @@ public class Struc_Compost : StructureSystem
     {
         foreach(var s in showInventItens.ItensPrefabed)
         {
-            GameObject inSellGob = s.ItemPrefab.transform.Find("sp").transform.Find("SellSelected").gameObject;
+            Image inSellGob = s.ItemPrefab.transform.Find("sp").transform.Find("SellSelected").GetComponent<Image>();
+            inSellGob.raycastTarget = false;
             s.ItemPrefab.MyButton.onClick = new Button.ButtonClickedEvent();
             if(s.inventItem.stackSize > 1)
             {
@@ -104,7 +105,7 @@ public class Struc_Compost : StructureSystem
         }
     }
 
-    public void SelectedQuantForDeposit(int quant, InventoryItem ii, GameObject inSellGob, InventoryItemUIManager inventUiMan)
+    public void SelectedQuantForDeposit(int quant, InventoryItem ii, Image inSellGob, InventoryItemUIManager inventUiMan)
     {
         if(hipoteticalCapacity >= maxCapacity) { return; }
         InventoryItem itemToList = new InventoryItem(ii.itemData, ii.itemRank, quant);
@@ -118,13 +119,14 @@ public class Struc_Compost : StructureSystem
         inventUiMan.MyButton.onClick.AddListener(() => DeselectQuant(itemToList, ii, inSellGob, inventUiMan));
     }
 
-    public void SelectQuantForDeposit(InventoryItem ii, GameObject inSellGob, InventoryItemUIManager inventUiMan)
+    public void SelectQuantForDeposit(InventoryItem ii, Image inSellGob, InventoryItemUIManager inventUiMan)
     {
         if(hipoteticalCapacity >= maxCapacity) { EventsManager.eventM.CreateANot("The composter is full!"); return; }
         //inventUiMan.transform.SetParent(inventUiMan.ParentBeforeDrag);
         SelectQuant newSQUI = Instantiate(selectQuant, myHUD.transform);
 
         newSQUI.SelectButton.onClick.AddListener(() => SelectedQuantForDeposit(newSQUI.GetValue(), ii, inSellGob, inventUiMan));
+        newSQUI.Slider.minValue = 1;
         if(ii.stackSize + hipoteticalCapacity >= maxCapacity)
         {
             newSQUI.Slider.maxValue = maxCapacity - hipoteticalCapacity;
@@ -135,11 +137,11 @@ public class Struc_Compost : StructureSystem
         }
     }
 
-    public void DeselectQuant(InventoryItem ii_inList, InventoryItem ii_normal, GameObject inSellGob, InventoryItemUIManager inventUiMan)
+    public void DeselectQuant(InventoryItem ii_inList, InventoryItem ii_normal, Image inSellGob, InventoryItemUIManager inventUiMan)
     {
         hipoteticalCapacity -= (int)ii_inList.stackSize;
         toCompostList.Remove(ii_inList);
-        inSellGob.SetActive(false);
+        inSellGob.gameObject.SetActive(false);
 
         inventUiMan.MyButton.onClick = new Button.ButtonClickedEvent();
         if(ii_normal.stackSize > 1)

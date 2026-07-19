@@ -62,12 +62,18 @@ public class UseAxe : MonoBehaviour
 
     public Collider2D[] GetTheBreakables()
     {
-        Collider2D[] breakables = Physics2D.OverlapCircleAll(transform.position, myStats.hec_range, breakablesLayer);
+        Collider2D[] breakables = Physics2D.OverlapBoxAll
+        (new Vector2(transform.position.x + myStats.hec_rangeOffset.x, 
+        transform.position.y + myStats.hec_rangeOffset.y), 
+        myStats.hec_rangeSize * myStats.Hec_rangeMult, 0, breakablesLayer);
         return breakables;
     }
 
     public void OnDrawGizmosSelected()
     {
-        Gizmos.DrawWireSphere(transform.position, myStats.hec_range);
+        Gizmos.DrawWireCube
+        (new Vector2(transform.position.x + myStats.hec_rangeOffset.x, 
+        transform.position.y + myStats.hec_rangeOffset.y), 
+        myStats.hec_rangeSize * myStats.Hec_rangeMult);
     }
 }

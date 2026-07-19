@@ -13,12 +13,44 @@ MonoBehaviour:
   m_Name: Hj_Inventory
   m_EditorClassIdentifier: Assembly-CSharp::Inventory
   inventory:
+  - ID: 6
+    itemData: {fileID: 11400000, guid: 1855f61a10cd5cb4099759dfd4ef7f46, type: 2}
+    itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+    stackSize: 10
+  - ID: 7
+    itemData: {fileID: 11400000, guid: 538aa69bcbb054f41bd0d1faed914055, type: 2}
+    itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+    stackSize: 13
   - ID: 2
     itemData: {fileID: 11400000, guid: 3bca478f4ef68084799180e98ef676e4, type: 2}
     itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
-    stackSize: 2
+    stackSize: 27
   - ID: 3
     itemData: {fileID: 11400000, guid: 8733d77388441b44a87a56ebb128dbc2, type: 2}
     itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
-    stackSize: 2
+    stackSize: 5
+  - ID: 4
+    itemData: {fileID: 11400000, guid: b780a63c92c291c44810f23ceeb0a788, type: 2}
+    itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+    stackSize: 10000
+  - ID: 0
+    itemData: {fileID: 11400000, guid: ec05104ddabe2ad42be7ad8f5fad53f8, type: 2}
+    itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+    stackSize: 5
+  - ID: 8
+    itemData: {fileID: 11400000, guid: 2929387b4075c6b4baf77e72eca81601, type: 2}
+    itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+    stackSize: 24
+  - ID: 9
+    itemData: {fileID: 11400000, guid: 1489f37c97cc3a24fa1b4092b8a11d14, type: 2}
+    itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+    stackSize: 24
+  - ID: 10
+    itemData: {fileID: 11400000, guid: c06038a92096a5d4ebfd2a90f37948bf, type: 2}
+    itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+    stackSize: 24
+  - ID: 11
+    itemData: {fileID: 11400000, guid: 74204ace601c596438ff8230581d67e3, type: 2}
+    itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+    stackSize: 24
   savepath: hec_invent.json
