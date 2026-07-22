@@ -75,7 +75,7 @@ MonoBehaviour:
   - {fileID: 3906902430469967053}
   - {fileID: 6599122629100390289}
   - {fileID: 5363552435108843328}
-  mySappling: {fileID: 11400000, guid: ec05104ddabe2ad42be7ad8f5fad53f8, type: 2}
+  mySappling: {fileID: 11400000, guid: d55d48f7540d18948a4647c27447f107, type: 2}
   myRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
 --- !u!61 &7027321605924422499
 BoxCollider2D:

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Hj_Invent_Database
   m_EditorClassIdentifier: Assembly-CSharp::InventorySaveSytem
   items:
-  - {fileID: 11400000, guid: ec05104ddabe2ad42be7ad8f5fad53f8, type: 2}
+  - {fileID: 11400000, guid: d55d48f7540d18948a4647c27447f107, type: 2}
   - {fileID: 11400000, guid: fc5f529bf53581a47bdae79d772c709c, type: 2}
   - {fileID: 11400000, guid: 3bca478f4ef68084799180e98ef676e4, type: 2}
   - {fileID: 11400000, guid: 8733d77388441b44a87a56ebb128dbc2, type: 2}
@@ -25,3 +25,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1489f37c97cc3a24fa1b4092b8a11d14, type: 2}
   - {fileID: 11400000, guid: c06038a92096a5d4ebfd2a90f37948bf, type: 2}
   - {fileID: 11400000, guid: 74204ace601c596438ff8230581d67e3, type: 2}
+  - {fileID: 11400000, guid: eaf657de06d0be342b00cb00003a58ef, type: 2}
+  ranks:
+  - {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+  - {fileID: 11400000, guid: 991cd4a7f6900e04192d220fec985c7d, type: 2}
+  - {fileID: 11400000, guid: 12997b27a5a5e4343a668ae04ced4d8b, type: 2}
+  - {fileID: 11400000, guid: cf4e693b81a77af47892af1b8c266366, type: 2}
+  - {fileID: 11400000, guid: 72566898ab857bf43932c1f7654a5b60, type: 2}
+  - {fileID: 11400000, guid: 7182ff78717113445b1f52ca338c9229, type: 2}
+  - {fileID: 11400000, guid: 6fb327f502156b541a0e7f845f2138ce, type: 2}
+  - {fileID: 11400000, guid: 5921da3c77442e0458342f7e5e7df411, type: 2}

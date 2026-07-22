@@ -76,6 +76,10 @@ PrefabInstance:
       propertyPath: whenSpawn.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4450128159407151413, guid: 1a4dac36ab78d024088d33913d02f4c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6636600143656077834, guid: 1a4dac36ab78d024088d33913d02f4c9, type: 3}
       propertyPath: m_Name
       value: Prefab_WorldMapleTree

@@ -132,7 +132,7 @@ public class Struc_CustomizeAxeMachine : StructureSystem
     {
         foreach(var infos in multInfoPanels) { infos.multInfoPanel.SetActive(false); }
 
-        float[] newValues = { 1,1,1,0,0,1,1,0 };
+        float[] newValues = { 1,1,1,1,1,1,1,0 };
         if(body_multsSelected != null)
         {
             for(int i=0; i<multInfoPanels.Length; i++)
@@ -165,7 +165,7 @@ public class Struc_CustomizeAxeMachine : StructureSystem
         }
         for(int i=0; i<newValues.Length; i++)
         {
-            float equippedValue = LastPlayerThatPassHere.GetAMultValue(i);
+            float equippedValue = LastPlayerThatPassHere.GetAGeneralMultValue(i);
             if(newValues[i] == equippedValue) { continue; }
             else
             {  
@@ -178,12 +178,16 @@ public class Struc_CustomizeAxeMachine : StructureSystem
             }
             string oldTxt = "";
             string newTxt = "";
+            
             if(i == 3 || i == 4)
             {
-                oldTxt = (equippedValue * 100).ToString("F0") + "%";
-                newTxt = (newValues[i] * 100).ToString("F0") + "%";
+                //oldTxt = (equippedValue * 100).ToString("F0") + "%";
+                //newTxt = (newValues[i] * 100).ToString("F0") + "%";
+                oldTxt = equippedValue.ToString("F0") + "%";
+                newTxt = newValues[i].ToString("F0") + "%";
             }
-            else if(i == 7)
+            
+            if(i == 7)
             {
                 oldTxt = equippedValue.ToString("F2");
                 newTxt = newValues[i].ToString("F2");

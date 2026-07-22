@@ -17,7 +17,7 @@ MonoBehaviour:
   chestDrops:
   - settingName: Drop
     myDrops:
-    - item: {fileID: 11400000, guid: ec05104ddabe2ad42be7ad8f5fad53f8, type: 2}
+    - item: {fileID: 11400000, guid: d55d48f7540d18948a4647c27447f107, type: 2}
       itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
       chance: 0.5
       quants:

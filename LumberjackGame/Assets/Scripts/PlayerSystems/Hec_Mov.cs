@@ -33,7 +33,7 @@ public class Hec_Mov : MonoBehaviour
     {
         if (!myDashPower.IsDashing && EventsManager.eventM.playerCanWalk)
         {
-            rb.linearVelocity = moveInput.normalized * hj_stats.hec_speed * hj_stats.Hec_speedMult;
+            rb.linearVelocity = moveInput.normalized * hj_stats.GetACharacterMultValue(1, hj_stats.characterSelectedId) * hj_stats.All_speedMult;
         }
         else if (!EventsManager.eventM.playerCanWalk)
         {

@@ -8,8 +8,8 @@ public class Struc_SettingsPanel : MonoBehaviour
 
     public void UpdateDropPointsTxt()
     {
-        int repeatTimesFromThePoints = hecStats.Hec_dropPoints / 100;
-        float chanceForOther = ((float)hecStats.Hec_dropPoints / 100) - repeatTimesFromThePoints;
+        int repeatTimesFromThePoints = hecStats.All_dropPoints / 100;
+        float chanceForOther = ((float)hecStats.All_dropPoints / 100) - repeatTimesFromThePoints;
         dropPointsTxt.text = "Your drop points: " + repeatTimesFromThePoints;
         if(chanceForOther != 0)
         {

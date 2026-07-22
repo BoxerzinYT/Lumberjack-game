@@ -1,10 +1,12 @@
-using System;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Hec_passive_dash : Power_PassiveManager
 {
+    [SerializeField] Hec_Stats hecStatus;
+    [SerializeField] Characters_LevelManager levelMan;
+    [SerializeField] float dashDistance;
+    [SerializeField] RectTransform dashDistancePivot;
     [SerializeField] float dashSpeed;
     [SerializeField] float dashCooldown;
     //[SerializeField] int dashPoints;
@@ -47,12 +49,36 @@ public class Hec_passive_dash : Power_PassiveManager
 
     [Header("MultSettings")]
     [SerializeField] MultiplicatorSettings[] passiveBuffs;
+    Char_Hector myCharacterData;
 
     public void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         dashAreaObj.SetActive(false);
+
+        LoadMyValues();
+    }
+
+    public void LoadMyValues()
+    {
+        if(hecStatus.charactersData[0].GetType() == typeof(Char_Hector))
+        {
+            myCharacterData = (Char_Hector)hecStatus.charactersData[0];
+        }
+        else { return; }
+
+        dashDistance = myCharacterData.dash_distance + myCharacterData.passiveIncrementsPerLevel[0] * levelMan.hector_level;
+        dashCooldown = myCharacterData.dash_Cooldown + myCharacterData.passiveIncrementsPerLevel[1] * levelMan.hector_level;
+        powerPointsToSpawn = myCharacterData.dash_PowerToUsePassive + myCharacterData.passiveIncrementsPerLevel[2] * levelMan.hector_level;
+        orbDuration = myCharacterData.dash_OrbDuration + myCharacterData.passiveIncrementsPerLevel[3] * levelMan.hector_level;
+        passiveBuffs[0].add = myCharacterData.dash_damageUpMult + myCharacterData.passiveIncrementsPerLevel[4] * levelMan.hector_level;
+        passiveBuffs[0].duration = myCharacterData.dash_damageUpDuration + myCharacterData.passiveIncrementsPerLevel[5] * levelMan.hector_level;
+        passiveBuffs[1].add = myCharacterData.dash_speedUpMult + myCharacterData.passiveIncrementsPerLevel[6] * levelMan.hector_level;
+        passiveBuffs[1].duration = myCharacterData.dash_speedUpDuration + myCharacterData.passiveIncrementsPerLevel[7] * levelMan.hector_level;
+
+        Vector2 dashDistanceVector = new Vector2(dashDistance, dashDistancePivot.rect.height);
+        dashDistancePivot.sizeDelta = dashDistanceVector;
     }
 
     public void Update()
@@ -126,8 +152,8 @@ public class Hec_passive_dash : Power_PassiveManager
     {
         foreach(var m in passiveBuffs)
         {
-            HecStats.AddOrRemoveMult(1, m, m.add);
-            EventsManager.eventM.CreateTimer(m.duration, () => HecStats.AddOrRemoveMult(-1, m, m.add), true);
+            HecStats.AddOrRemoveGeneralMult(1, m, m.add);
+            EventsManager.eventM.CreateTimer(m.duration, () => HecStats.AddOrRemoveGeneralMult(-1, m, m.add), true);
         }
     }
 

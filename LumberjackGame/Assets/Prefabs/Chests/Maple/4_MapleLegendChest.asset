@@ -17,9 +17,47 @@ MonoBehaviour:
   chestDrops:
   - settingName: Drop
     myDrops:
+    - item: {fileID: 11400000, guid: eaf657de06d0be342b00cb00003a58ef, type: 2}
+      itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+      chance: 0.4
+      quants:
+      - quant: 1
+        chance: 1
+    - item: {fileID: 11400000, guid: fc5f529bf53581a47bdae79d772c709c, type: 2}
+      itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+      chance: 0.2
+      quants:
+      - quant: 1
+        chance: 1
+    - item: {fileID: 11400000, guid: c06038a92096a5d4ebfd2a90f37948bf, type: 2}
+      itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+      chance: 0.01
+      quants:
+      - quant: 1
+        chance: 1
+    - item: {fileID: 11400000, guid: 74204ace601c596438ff8230581d67e3, type: 2}
+      itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+      chance: 0.01
+      quants:
+      - quant: 1
+        chance: 1
+  - settingName: Drop
+    myDrops:
     - item: {fileID: 11400000, guid: ec05104ddabe2ad42be7ad8f5fad53f8, type: 2}
       itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
       chance: 0.5
+      quants:
+      - quant: 1
+        chance: 1
+    - item: {fileID: 11400000, guid: fc5f529bf53581a47bdae79d772c709c, type: 2}
+      itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+      chance: 0.1
+      quants:
+      - quant: 1
+        chance: 1
+    - item: {fileID: 11400000, guid: c06038a92096a5d4ebfd2a90f37948bf, type: 2}
+      itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+      chance: 0.01
       quants:
       - quant: 1
         chance: 1

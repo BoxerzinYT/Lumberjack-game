@@ -73,9 +73,9 @@ public class EventsManager : MonoBehaviour
         return varTxt;
     }
 
-    public bool CalculateAChance(float chance, float itemChance)
+    public bool CalculateAChance(float chance, float itemChance, Hec_Stats hec_Stats)
     {
-        if(chance <= itemChance)
+        if(chance <= itemChance * hec_Stats.GetACharacterMultValue(6, hec_Stats.characterSelectedId) * hec_Stats.All_luckMult)
         {
             return true;
         }

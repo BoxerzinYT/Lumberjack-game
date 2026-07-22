@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 4eb64548694fa7049846726faebef352
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2801005767383030931
+    second: sp_prot_mapleBigTree_0
+  - first:
+      213: 1012032515941883723
+    second: sp_prot_mapleBigTree_1
+  - first:
+      213: -6117803877079533331
+    second: sp_prot_mapleBigTree_2
+  - first:
+      213: -8019669139346419776
+    second: sp_prot_mapleBigTree_3
+  - first:
+      213: -7295132401925409296
+    second: sp_prot_mapleBigTree_4
+  - first:
+      213: -7956578667013445969
+    second: sp_prot_mapleBigTree_5
+  - first:
+      213: -6907355553125750330
+    second: sp_prot_mapleBigTree_6
+  - first:
+      213: 4449500310303823777
+    second: sp_prot_mapleBigTree_7
+  - first:
+      213: 1237682253306031042
+    second: sp_prot_mapleBigTree_8
+  - first:
+      213: -93676686101514473
+    second: sp_prot_mapleBigTree_9
+  - first:
+      213: 6070520178770411896
+    second: sp_prot_mapleBigTree_10
+  - first:
+      213: 5769197826193671020
+    second: sp_prot_mapleBigTree_11
+  - first:
+      213: 4644181782494071502
+    second: sp_prot_mapleBigTree_12
+  - first:
+      213: -7030689136047920884
+    second: sp_prot_mapleBigTree_13
+  - first:
+      213: 5697863744604039128
+    second: sp_prot_mapleBigTree_14
+  - first:
+      213: -2075076145322062672
+    second: sp_prot_mapleBigTree_15
+  - first:
+      213: -2379281599490847133
+    second: sp_prot_mapleBigTree_16
+  - first:
+      213: -3989285501238211520
+    second: sp_prot_mapleBigTree_17
+  - first:
+      213: 439571702277669552
+    second: sp_prot_mapleBigTree_18
+  - first:
+      213: 1451168615555230861
+    second: sp_prot_mapleBigTree_19
+  - first:
+      213: 2682051900421992513
+    second: sp_prot_mapleBigTree_20
+  - first:
+      213: -4361065400993653820
+    second: sp_prot_mapleBigTree_21
+  - first:
+      213: -2294020416493931503
+    second: sp_prot_mapleBigTree_22
+  - first:
+      213: 7061166275361808546
+    second: sp_prot_mapleBigTree_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1390
+        width: 338
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c9fa2b7eb2fd620800000000000000
+      internalID: 2801005767383030931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1416
+        width: 365
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f5cd516367b0e00800000000000000
+      internalID: 1012032515941883723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_2
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1512
+        width: 328
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8ba2d89c1391ba0800000000000000
+      internalID: -6117803877079533331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_3
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 1608
+        width: 212
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf0815686964b090800000000000000
+      internalID: -8019669139346419776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_4
+      rect:
+        serializedVersion: 2
+        x: 3140
+        y: 117
+        width: 1076
+        height: 1619
+      alignment: 9
+      pivot: {x: 0.49431217, y: 0.0023663235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f53bc15bbb72ca90800000000000000
+      internalID: -7295132401925409296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 985
+        width: 326
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6663dabdd849190800000000000000
+      internalID: -7956578667013445969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_6
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1168
+        width: 265
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c92e9e98b42420a0800000000000000
+      internalID: -6907355553125750330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_7
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1207
+        width: 323
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a756af25fccfbd30800000000000000
+      internalID: 4449500310303823777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_8
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 1282
+        width: 154
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb6c1da3712d2110800000000000000
+      internalID: 1237682253306031042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_9
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 837
+        width: 377
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717fe21ec8133bef0800000000000000
+      internalID: -93676686101514473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_10
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 752
+        width: 302
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871837980f1de3450800000000000000
+      internalID: 6070520178770411896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_11
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 923
+        width: 207
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63ca3d3bde401050800000000000000
+      internalID: 5769197826193671020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_12
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 939
+        width: 193
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca46e9a9b2737040800000000000000
+      internalID: 4644181782494071502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 527
+        width: 256
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c096aaf1b79fd6e90800000000000000
+      internalID: -7030689136047920884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_14
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 424
+        width: 279
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d763bb13e0e21f40800000000000000
+      internalID: 5697863744604039128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_15
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 373
+        width: 285
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc01347d39d333e0800000000000000
+      internalID: -2075076145322062672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_16
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 454
+        width: 276
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e89b1cdf71bfed0800000000000000
+      internalID: -2379281599490847133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_17
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 566
+        width: 171
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c841709f533a8c0800000000000000
+      internalID: -3989285501238211520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_18
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 134
+        width: 484
+        height: 598
+      alignment: 9
+      pivot: {x: 0.46330628, y: 0.012404247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2039f522ca91600800000000000000
+      internalID: 439571702277669552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_19
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 45
+        width: 309
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c6d5fca26932410800000000000000
+      internalID: 1451168615555230861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_20
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 60
+        width: 306
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14070d94eff883520800000000000000
+      internalID: 2682051900421992513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_21
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 45
+        width: 260
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbd68baf126a73c0800000000000000
+      internalID: -4361065400993653820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_22
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 99
+        width: 357
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114b26fd5900a20e0800000000000000
+      internalID: -2294020416493931503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_prot_mapleBigTree_23
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 118
+        width: 161
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0a8e6d05d4ef160800000000000000
+      internalID: 7061166275361808546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6a1fa988d93926f408bc6a81a5af56c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sp_prot_mapleBigTree_0: 2801005767383030931
+      sp_prot_mapleBigTree_1: 1012032515941883723
+      sp_prot_mapleBigTree_10: 6070520178770411896
+      sp_prot_mapleBigTree_11: 5769197826193671020
+      sp_prot_mapleBigTree_12: 4644181782494071502
+      sp_prot_mapleBigTree_13: -7030689136047920884
+      sp_prot_mapleBigTree_14: 5697863744604039128
+      sp_prot_mapleBigTree_15: -2075076145322062672
+      sp_prot_mapleBigTree_16: -2379281599490847133
+      sp_prot_mapleBigTree_17: -3989285501238211520
+      sp_prot_mapleBigTree_18: 439571702277669552
+      sp_prot_mapleBigTree_19: 1451168615555230861
+      sp_prot_mapleBigTree_2: -6117803877079533331
+      sp_prot_mapleBigTree_20: 2682051900421992513
+      sp_prot_mapleBigTree_21: -4361065400993653820
+      sp_prot_mapleBigTree_22: -2294020416493931503
+      sp_prot_mapleBigTree_23: 7061166275361808546
+      sp_prot_mapleBigTree_3: -8019669139346419776
+      sp_prot_mapleBigTree_4: -7295132401925409296
+      sp_prot_mapleBigTree_5: -7956578667013445969
+      sp_prot_mapleBigTree_6: -6907355553125750330
+      sp_prot_mapleBigTree_7: 4449500310303823777
+      sp_prot_mapleBigTree_8: 1237682253306031042
+      sp_prot_mapleBigTree_9: -93676686101514473
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

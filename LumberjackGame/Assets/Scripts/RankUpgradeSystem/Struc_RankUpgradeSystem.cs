@@ -101,8 +101,10 @@ public class Struc_RankUpgradeSystem : StructureSystem
     {
         if(HasItens(LastPlayerThatPassHere, biomeCoins[inventItem.itemData.itemBiome.biomeId]) >= priceToUpdateRank * quantSelected)
         {
+            InventoryItem newRankItem = new InventoryItem(inventItem.itemData, ranks[inventItem.itemRank.rankId + 1], 0);
+            newRankItem.SetRankId(inventItem.itemRank.rankId + 1);
             RemoveItem(LastPlayerThatPassHere, biomeCoins[inventItem.itemData.itemBiome.biomeId], priceToUpdateRank * quantSelected);
-            CollectItem(LastPlayerThatPassHere, new InventoryItem(inventItem.itemData, ranks[inventItem.itemRank.rankId + 1], 0), quantSelected);
+            CollectItem(LastPlayerThatPassHere, newRankItem, quantSelected);
 
             RemoveItem(LastPlayerThatPassHere, inventItem, (int)quantSelected);
             EventsManager.eventM.CreateANot("Upgraded the " + inventItem.itemData.itemName + " to rank " + ranks[inventItem.itemRank.rankId + 1].rankName + "!");
@@ -110,6 +112,7 @@ public class Struc_RankUpgradeSystem : StructureSystem
         }
         else
         {
+            EventsManager.eventM.CreateANot("You dont have enought biome coins to upgrade this item!");
             return;
         }
     }

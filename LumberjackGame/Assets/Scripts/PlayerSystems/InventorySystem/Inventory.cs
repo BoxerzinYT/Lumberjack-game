@@ -319,6 +319,7 @@ public class Inventory : ScriptableObject, ISerializationCallbackReceiver
         for (int i = 0; i < inventory.Count; i++)
         {
             inventory[i].itemData = database.GetItem[inventory[i].ID];
+            inventory[i].itemRank = database.GetRank[inventory[i].rankID];
         }
     }
 }

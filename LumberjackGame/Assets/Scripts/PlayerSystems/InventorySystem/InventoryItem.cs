@@ -4,6 +4,7 @@ using System;
 public class InventoryItem
 {
     public int ID;
+    public int rankID;
     public Item itemData;
     public Rank itemRank;
     public float stackSize;
@@ -13,6 +14,11 @@ public class InventoryItem
         itemData = _itemData;
         itemRank = _itemRank;
         AddToStack(_stack);
+    }
+
+    public void SetRankId(int id)
+    {
+        rankID = id;
     }
 
     public void AddToStack(float add)

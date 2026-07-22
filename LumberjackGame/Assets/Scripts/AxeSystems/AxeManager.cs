@@ -28,12 +28,12 @@ public class AxeManager : MonoBehaviour
         AxePart newHead = (AxePart)head.itemData;
         foreach(var m in newBody.mults)
         {
-            hec_stats.AddOrRemoveMult(1, m, m.add * body.itemRank.rankMultiplier);
+            hec_stats.AddOrRemoveGeneralMult(1, m, m.add * body.itemRank.rankMultiplier);
             AxeMults.Add(m);
         }
         foreach(var m in newHead.mults)
         {
-            hec_stats.AddOrRemoveMult(1, m, m.add * head.itemRank.rankMultiplier);
+            hec_stats.AddOrRemoveGeneralMult(1, m, m.add * head.itemRank.rankMultiplier);
             AxeMults.Add(m);
         }
     }
@@ -44,12 +44,12 @@ public class AxeManager : MonoBehaviour
         AxePart newBody = (AxePart)inventItem.itemData;
         foreach(var m in oldBody.mults)
         {
-            hec_stats.AddOrRemoveMult(-1, m, m.add * body.itemRank.rankMultiplier);
+            hec_stats.AddOrRemoveGeneralMult(-1, m, m.add * body.itemRank.rankMultiplier);
             AxeMults.Remove(m);
         }
         foreach(var m in newBody.mults)
         {
-            hec_stats.AddOrRemoveMult(1, m, m.add * inventItem.itemRank.rankMultiplier);
+            hec_stats.AddOrRemoveGeneralMult(1, m, m.add * inventItem.itemRank.rankMultiplier);
             AxeMults.Add(m);
         }
         body = inventItem;
@@ -61,12 +61,12 @@ public class AxeManager : MonoBehaviour
         AxePart newHead = (AxePart)inventItem.itemData;
         foreach(var m in oldHead.mults)
         {
-            hec_stats.AddOrRemoveMult(-1, m, m.add * head.itemRank.rankMultiplier);
+            hec_stats.AddOrRemoveGeneralMult(-1, m, m.add * head.itemRank.rankMultiplier);
             AxeMults.Remove(m);
         }
         foreach(var m in newHead.mults)
         {
-            hec_stats.AddOrRemoveMult(1, m, m.add * inventItem.itemRank.rankMultiplier);
+            hec_stats.AddOrRemoveGeneralMult(1, m, m.add * inventItem.itemRank.rankMultiplier);
             AxeMults.Add(m);
         }
         head = inventItem;

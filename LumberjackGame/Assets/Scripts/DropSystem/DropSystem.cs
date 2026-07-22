@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 
 public class DropSystem : MonoBehaviour
@@ -13,8 +10,8 @@ public class DropSystem : MonoBehaviour
 
     public void Drop(Hec_Stats hec_stats, int phaseId, float rankMult)
     {
-        int repeatTimesFromThePoints = hec_stats.Hec_dropPoints / 100;
-        float chanceForOther = ((float)hec_stats.Hec_dropPoints / 100) - repeatTimesFromThePoints;
+        int repeatTimesFromThePoints = hec_stats.All_dropPoints / 100 + (int)hec_stats.GetACharacterMultValue(7, hec_stats.characterSelectedId) / 100;
+        float chanceForOther = (float)hec_stats.All_dropPoints / 100 + hec_stats.GetACharacterMultValue(7, hec_stats.characterSelectedId) / 100 - repeatTimesFromThePoints;
         float chanceForOtherRepeatPoint = Random.Range(0f,1f);
         if(chanceForOtherRepeatPoint <= chanceForOther)
         {
@@ -26,12 +23,12 @@ public class DropSystem : MonoBehaviour
             float dropChance = Random.Range(0f,1f);
             foreach(var d in dropSettings[phaseId].myDrops)
             {
-                if(EventsManager.eventM.CalculateAChance(dropChance * rankMult, d.chance))
+                if(EventsManager.eventM.CalculateAChance(dropChance * rankMult, d.chance, hec_stats))
                 {
                     float quantDropChance = Random.Range(0f,1f);
                     foreach(var qd in d.quants)
                     {
-                        if(EventsManager.eventM.CalculateAChance(quantDropChance * rankMult, qd.chance))
+                        if(EventsManager.eventM.CalculateAChance(quantDropChance * rankMult, qd.chance, hec_stats))
                         {
                             DropUIManager newDrop = Instantiate(dropPrefab);
                             newDrop.transform.position = transform.position;
@@ -39,6 +36,7 @@ public class DropSystem : MonoBehaviour
                             hec_stats.Hec_invent.hectorInventory.
                             AddItem(qd.quant, new InventoryItem
                             (d.item, d.itemRank, 1));
+                            continue;
                         }
                     }
                 }

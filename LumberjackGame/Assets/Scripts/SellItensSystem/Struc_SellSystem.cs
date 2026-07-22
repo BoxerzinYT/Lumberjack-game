@@ -136,8 +136,8 @@ public class Struc_SellSystem : StructureSystem
                 RemoveItem(LastPlayerThatPassHere, itensS.sellItem_inventItem, itensS.sellItem_QuantOfItems);
             }
 
-            hj.Hec_coins += totalCoins;
-            hj.hec_xp += totalXp;
+            hj.Cha_coins += totalCoins;
+            //hj.cha_xp += totalXp;
 
             WhenOpenPanel();
 

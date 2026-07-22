@@ -1316,6 +1316,39 @@ MonoBehaviour:
       treesQuant: 20
       firstQuant: 5
       secondQuant: 10
+    - difficultName: Normal
+      trees:
+      - tree: {fileID: 11400000, guid: ec05104ddabe2ad42be7ad8f5fad53f8, type: 2}
+        chance: 1
+      treeRankVariation:
+      - treeRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+        chance: 1
+      timeToComplete: 30
+      treesQuant: 20
+      firstQuant: 5
+      secondQuant: 10
+    - difficultName: Medium
+      trees:
+      - tree: {fileID: 11400000, guid: ec05104ddabe2ad42be7ad8f5fad53f8, type: 2}
+        chance: 1
+      treeRankVariation:
+      - treeRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+        chance: 1
+      timeToComplete: 30
+      treesQuant: 20
+      firstQuant: 5
+      secondQuant: 10
+    - difficultName: Hard
+      trees:
+      - tree: {fileID: 11400000, guid: eaf657de06d0be342b00cb00003a58ef, type: 2}
+        chance: 1
+      treeRankVariation:
+      - treeRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
+        chance: 1
+      timeToComplete: 90
+      treesQuant: 60
+      firstQuant: 25
+      secondQuant: 45
     chests_settings:
     - difficultName: Easy
       chests:
@@ -1324,6 +1357,31 @@ MonoBehaviour:
       - chest: {fileID: 11400000, guid: 779093e1cc020694dbb1693eb2b5d454, type: 2}
         chance: 0.5
       chestQuantToSpawn: 5
+    - difficultName: Normal
+      chests:
+      - chest: {fileID: 11400000, guid: a82a715b568f9be488fb037c2db300d8, type: 2}
+        chance: 1
+      - chest: {fileID: 11400000, guid: 779093e1cc020694dbb1693eb2b5d454, type: 2}
+        chance: 0.5
+      chestQuantToSpawn: 5
+    - difficultName: Medium
+      chests:
+      - chest: {fileID: 11400000, guid: a82a715b568f9be488fb037c2db300d8, type: 2}
+        chance: 1
+      - chest: {fileID: 11400000, guid: 779093e1cc020694dbb1693eb2b5d454, type: 2}
+        chance: 0.5
+      chestQuantToSpawn: 5
+    - difficultName: Hard
+      chests:
+      - chest: {fileID: 11400000, guid: c12295191f1707148a824b1f9e183d02, type: 2}
+        chance: 0.05
+      - chest: {fileID: 11400000, guid: f2dfd5dd506bd0a42ac82b386bab5ccb, type: 2}
+        chance: 0.15
+      - chest: {fileID: 11400000, guid: e6dccd18a2d778a419beac8d07c75026, type: 2}
+        chance: 0.5
+      - chest: {fileID: 11400000, guid: 2fe7098a273fce943930e9a87f166c8e, type: 2}
+        chance: 1
+      chestQuantToSpawn: 10
   chestPrefab: {fileID: 6948683297656830827, guid: f5507050b5f5a51489a657b7e939eb77, type: 3}
   chestSpawnSquares:
   - {fileID: 140971751}
@@ -1364,6 +1422,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1217511075}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   resulsCalc: {fileID: 815490969}
 --- !u!114 &815490966
@@ -1423,6 +1493,22 @@ MonoBehaviour:
     powers:
     - powerPrefab: {fileID: 6038253247828772871, guid: 6f4c1be34bd2fca408be1ff71b723c7b, type: 3}
       chanceToSpawn: 0.1
+  - difficultName: Normal
+    powers:
+    - powerPrefab: {fileID: 6038253247828772871, guid: 6f4c1be34bd2fca408be1ff71b723c7b, type: 3}
+      chanceToSpawn: 0.1
+  - difficultName: Medium
+    powers:
+    - powerPrefab: {fileID: 6038253247828772871, guid: 6f4c1be34bd2fca408be1ff71b723c7b, type: 3}
+      chanceToSpawn: 0.1
+  - difficultName: Hard
+    powers:
+    - powerPrefab: {fileID: 3850464657754754440, guid: 1c4f04b1655d3f0459c046e065c5e804, type: 3}
+      chanceToSpawn: 0.2
+    - powerPrefab: {fileID: 388218840382535069, guid: e23b4462aee9fe24e875932c13e8f679, type: 3}
+      chanceToSpawn: 0.4
+    - powerPrefab: {fileID: 6038253247828772871, guid: 6f4c1be34bd2fca408be1ff71b723c7b, type: 3}
+      chanceToSpawn: 0.6
 --- !u!114 &815490969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1439,10 +1525,12 @@ MonoBehaviour:
   halfStarValue: 0.165
   biomeCoins:
   - ID: 4
+    rankID: 0
     itemData: {fileID: 11400000, guid: b780a63c92c291c44810f23ceeb0a788, type: 2}
     itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
     stackSize: 0
   - ID: 5
+    rankID: 0
     itemData: {fileID: 11400000, guid: 6fcf532cb127d2940a030382e8a454c2, type: 2}
     itemRank: {fileID: 11400000, guid: e542a7652ed07594c980ce659f9d8b00, type: 2}
     stackSize: 0
@@ -2041,6 +2129,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102428487}
   m_CullTransparentMesh: 1
+--- !u!1001 &1217511074
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3558052870681245473, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_Name
+      value: Struc_RankUpgradeMachine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3558052870681245473, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513452630155934464, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513452630155934464, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513452630155934464, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513452630155934464, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513452630155934464, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513452630155934464, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513452630155934464, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513452630155934464, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513452630155934464, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513452630155934464, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+--- !u!1 &1217511075 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3558052870681245473, guid: 8395cf0ef12d73a4f991566246c17654, type: 3}
+  m_PrefabInstance: {fileID: 1217511074}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1292864385
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,3 +4276,4 @@ SceneRoots:
   - {fileID: 815490964}
   - {fileID: 405273514}
   - {fileID: 94363314}
+  - {fileID: 1217511074}

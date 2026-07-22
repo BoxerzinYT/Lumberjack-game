@@ -1,85 +1,85 @@
 using TMPro;
-using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Hec_Stats : MonoBehaviour
 {
+    [SerializeField] Characters_LevelManager levelMan;
+    public Characters_LevelManager LevelMan { get { return levelMan; }}
     [Header("CoinsStats")]
-    [SerializeField] float hec_coins;
-    public float Hec_coins { get { return hec_coins; } set
+    [SerializeField] float cha_coins;
+    public float Cha_coins { get { return cha_coins; } set
         {
-            hec_coins = value;
-            if(hec_coins < 0)
+            cha_coins = value;
+            if(cha_coins < 0)
             {
-                hec_coins = 0;
+                cha_coins = 0;
             }
 
-            coinsTxt.text = EventsManager.eventM.UpdateVariables(hec_coins);
+            coinsTxt.text = EventsManager.eventM.UpdateVariables(cha_coins);
         }
     }
-    public int hec_level;
-    public float hec_xp;
-    public float hec_xpForNextLevel;
+
+    public CharactersData[] charactersData;
+    public CharactersBaseStats characterSelectedStatus;
+    public int characterSelectedId;
+    [SerializeField] UnityEvent whenLoad;
 
     [Header("AttributeStats")]
-    public float hec_damage;
-    [SerializeField] float hec_damageMult;
-    public float Hec_damageMult { get { return hec_damageMult; } set
+    [SerializeField] float all_damageMult;
+    public float All_damageMult { get { return all_damageMult; } set
         {
-            hec_damageMult = value;
-            if(hec_damageMult < 1) { hec_damageMult = 1; }
+            all_damageMult = value;
+            if(all_damageMult < 1) { all_damageMult = 1; }
         }
     }
-    public Vector2 hec_rangeOffset;
-    public Vector2 hec_rangeSize;
-    [SerializeField] float hec_rangeMult;
-    public float Hec_rangeMult { get { return hec_rangeMult; } set
+    [SerializeField] float all_speedMult;
+    public float All_speedMult { get { return all_speedMult; } set
         {
-            hec_rangeMult = value;
-            if(hec_rangeMult < 1) { hec_rangeMult = 1; }
+            all_speedMult = value;
+            if(all_speedMult < 1) { all_speedMult = 1; }
         }
     }
-    [SerializeField] float hec_criticalChance;
-    public float Hec_criticalChance { get { return hec_criticalChance; } set
+    [SerializeField] float all_criticalDamageMult;
+    public float All_criticalDamageMult { get { return all_criticalDamageMult; } set
         {
-            hec_criticalChance = value;
-            if(hec_criticalChance < 1) { hec_criticalChance = 1; }
+            all_criticalDamageMult = value;
+            if(all_criticalDamageMult < 1) { all_criticalDamageMult = 1; }
         }
     }
-    [SerializeField] float hec_criticalDamageMult;
-    public float Hec_criticalDamageMult { get { return hec_criticalDamageMult; } set
+    [SerializeField] float all_bonusChanceMult;
+    public float All_bonusChanceMult { get { return all_bonusChanceMult; } set
         {
-            hec_criticalDamageMult = value;
-            if(hec_criticalDamageMult < 1) { hec_criticalDamageMult = 1; }
+            all_bonusChanceMult = value;
+            if(all_bonusChanceMult < 1) { all_bonusChanceMult = 1; }
         }
     }
-    [SerializeField] float hec_bonusChance;
-    public float Hec_bonusChance { get { return hec_bonusChance; } set
+    [SerializeField] float all_criticalChanceMult;
+    public float All_criticalChanceMult { get { return all_criticalChanceMult; } set
         {
-            hec_bonusChance = value;
-            if(hec_bonusChance < 1) { hec_bonusChance = 1; }
+            all_criticalChanceMult = value;
+            if(all_criticalChanceMult < 1) { all_criticalChanceMult = 1; }
         }
     }
-    public float hec_speed;
-    [SerializeField] float hec_speedMult;
-    public float Hec_speedMult { get { return hec_speedMult; } set
+    [SerializeField] float all_rangeMult;
+    public float All_rangeMult { get { return all_rangeMult; } set
         {
-            hec_speedMult = value;
-            if(hec_speedMult < 1) { hec_speedMult = 1; }
+            all_rangeMult = value;
+            if(all_rangeMult < 1) { all_rangeMult = 1; }
         }
     }
-    [SerializeField] float hec_luck;
-    public float Hec_luck { get { return hec_luck; } set
+    [SerializeField] float all_luckMult;
+    public float All_luckMult { get { return all_luckMult; } set
         {
-            hec_luck = value;
-            if(hec_luck < 1) { hec_luck = 1; }
+            all_luckMult = value;
+            if(all_luckMult < 1) { all_luckMult = 1; }
         }
     }
-    [SerializeField] int hec_dropPoints;
-    public int Hec_dropPoints { get { return hec_dropPoints; } set
+    [SerializeField] int all_dropPoints;
+    public int All_dropPoints { get { return all_dropPoints; } set
         {
-            hec_dropPoints = value;
-            if(hec_dropPoints < 1) { hec_dropPoints = 1; }
+            all_dropPoints = value;
+            if(all_dropPoints < 1) { all_dropPoints = 1; }
         }
     }
 
@@ -99,73 +99,166 @@ public class Hec_Stats : MonoBehaviour
 
     public void Start()
     {
-        coinsTxt.text = EventsManager.eventM.UpdateVariables(hec_coins);
+        coinsTxt.text = EventsManager.eventM.UpdateVariables(cha_coins);
         hec_anim = GetComponent<Animator>();
+
+        LoadSelectedCharacterStatus();
     }
 
-    public void AddOrRemoveMult(int addOrRemove, MultiplicatorSettings mult, float add)
+    public void LoadSelectedCharacterStatus()
+    {
+        characterSelectedStatus.characterName = charactersData[characterSelectedId].characterName;
+        characterSelectedStatus.characterDescription = charactersData[characterSelectedId].characterDescription;
+        characterSelectedStatus.characterIcon = charactersData[characterSelectedId].characterIcon;
+        characterSelectedStatus.characterType = charactersData[characterSelectedId].characterType;
+
+        characterSelectedStatus.cha_damage = charactersData[characterSelectedId].cha_damage + charactersData[0].incrementsPerLevel[0] * levelMan.GetCharactersLevel(0);
+        characterSelectedStatus.cha_speed = charactersData[characterSelectedId].cha_speed + charactersData[0].incrementsPerLevel[1] * levelMan.GetCharactersLevel(0);
+        characterSelectedStatus.cha_criticalDamageMult = charactersData[characterSelectedId].cha_criticalDamageMult + charactersData[0].incrementsPerLevel[2] * levelMan.GetCharactersLevel(0);
+        characterSelectedStatus.cha_criticalChance = charactersData[characterSelectedId].cha_criticalChance + charactersData[0].incrementsPerLevel[3] * levelMan.GetCharactersLevel(0);
+        characterSelectedStatus.cha_bonusChance = charactersData[characterSelectedId].cha_bonusChance + charactersData[0].incrementsPerLevel[4] * levelMan.GetCharactersLevel(0);
+
+        characterSelectedStatus.cha_rangeOffset = charactersData[characterSelectedId].cha_rangeOffset;
+        characterSelectedStatus.cha_rangeSize = charactersData[characterSelectedId].cha_rangeSize;
+        characterSelectedStatus.cha_rangeSizeMult = charactersData[characterSelectedId].cha_rangeSizeMult + charactersData[0].incrementsPerLevel[5] * levelMan.GetCharactersLevel(0);
+
+        
+        characterSelectedStatus.cha_luckMult = charactersData[characterSelectedId].cha_luckMult + charactersData[0].incrementsPerLevel[6] * levelMan.GetCharactersLevel(0);
+        characterSelectedStatus.cha_dropPoints = charactersData[characterSelectedId].cha_dropPoints + (int)charactersData[0].incrementsPerLevel[7] * levelMan.GetCharactersLevel(0);
+
+        whenLoad?.Invoke();
+    }
+
+    public void AddOrRemoveGeneralMult(int addOrRemove, MultiplicatorSettings mult, float add)
     {
         switch (mult.mult.multType)
         {
             case MultType.damage:
-            hec_damageMult += add * addOrRemove;
+            all_damageMult += add * addOrRemove;
             break;
             case MultType.speed:
-            hec_speedMult += add * addOrRemove;
+            all_speedMult += add * addOrRemove;
             break;
             case MultType.criticalDamage:
-            hec_criticalDamageMult += add * addOrRemove;
+            all_criticalDamageMult += add * addOrRemove;
             break;
             case MultType.bonusChance:
-            hec_bonusChance += add * addOrRemove;
+            all_bonusChanceMult += add * addOrRemove;
             break;
             case MultType.criticalChance:
-            hec_criticalChance += add * addOrRemove;
+            all_criticalChanceMult += add * addOrRemove;
             break;
             case MultType.range:
-            hec_rangeMult += add * addOrRemove;
+            all_rangeMult += add * addOrRemove;
             break;
             case MultType.luck:
-            hec_luck += add * addOrRemove;
+            all_luckMult += add * addOrRemove;
             break;
             case MultType.dropPoints:
-            hec_dropPoints += (int)add * addOrRemove;
+            all_dropPoints += (int)add * addOrRemove;
             break;
         }
     }
-    public float GetAMultValue(int id)
+    public void AddOrRemoveCharacterMult(int addOrRemove, int charId, MultiplicatorSettings mult, float add)
+    {
+        switch (mult.mult.multType)
+        {
+            case MultType.damage:
+            characterSelectedStatus.cha_damage += add * addOrRemove;
+            break;
+            case MultType.speed:
+            characterSelectedStatus.cha_speed += add * addOrRemove;
+            break;
+            case MultType.criticalDamage:
+            characterSelectedStatus.cha_criticalDamageMult += add * addOrRemove;
+            break;
+            case MultType.bonusChance:
+            characterSelectedStatus.cha_bonusChance += add * addOrRemove;
+            break;
+            case MultType.criticalChance:
+            characterSelectedStatus.cha_criticalChance += add * addOrRemove;
+            break;
+            case MultType.range:
+            characterSelectedStatus.cha_rangeSizeMult += add * addOrRemove;
+            break;
+            case MultType.luck:
+            characterSelectedStatus.cha_luckMult += add * addOrRemove;
+            break;
+            case MultType.dropPoints:
+            characterSelectedStatus.cha_dropPoints += (int)add * addOrRemove;
+            break;
+        }
+    }
+    public float GetAGeneralMultValue(int id)
     {
         if(id == 0)
         {
-            return hec_damageMult;
+            return all_damageMult;
         }
         else if(id == 1)
         {
-            return hec_speedMult;
+            return all_speedMult;
         }
         else if(id == 2)
         {
-            return hec_criticalDamageMult;
+            return all_criticalDamageMult;
         }
         else if(id == 3)
         {
-            return hec_bonusChance;
+            return all_bonusChanceMult;
         }
         else if(id == 4)
         {
-            return hec_criticalChance;
+            return all_criticalChanceMult;
         }
         else if(id == 5)
         {
-            return hec_rangeMult;
+            return all_rangeMult;
         }
         else if(id == 6)
         {
-            return hec_luck;
+            return all_luckMult;
         }
         else if(id == 7)
         {
-            return hec_dropPoints;
+            return all_dropPoints;
+        }
+
+        return (id != 7) ? 1 : 0;
+    }
+    public float GetACharacterMultValue(int id, int charId)
+    {
+        if(id == 0)
+        {
+            return characterSelectedStatus.cha_damage;
+        }
+        else if(id == 1)
+        {
+            return characterSelectedStatus.cha_speed ;
+        }
+        else if(id == 2)
+        {
+            return characterSelectedStatus.cha_criticalDamageMult;
+        }
+        else if(id == 3)
+        {
+            return characterSelectedStatus.cha_bonusChance;
+        }
+        else if(id == 4)
+        {
+            return characterSelectedStatus.cha_criticalChance;
+        }
+        else if(id == 5)
+        {
+            return characterSelectedStatus.cha_rangeSizeMult;
+        }
+        else if(id == 6)
+        {
+            return characterSelectedStatus.cha_luckMult;
+        }
+        else if(id == 7)
+        {
+            return characterSelectedStatus.cha_dropPoints;
         }
 
         return (id != 7) ? 1 : 0;
@@ -178,4 +271,23 @@ public sealed class MultiplicatorSettings
     public Multiplicator mult;
     public float add;
     public float duration;
+}
+[System.Serializable]
+public sealed class CharactersBaseStats
+{
+    public string characterName;
+    public Sprite characterIcon;
+    [TextArea]
+    public string characterDescription;
+    public CharacterType characterType;
+    public float cha_damage;
+    public float cha_speed;
+    public float cha_criticalDamageMult;
+    public float cha_bonusChance;
+    public float cha_criticalChance;
+    public Vector2 cha_rangeOffset;
+    public Vector2 cha_rangeSize;
+    public float cha_rangeSizeMult;
+    public float cha_luckMult;
+    public int cha_dropPoints;
 }

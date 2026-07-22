@@ -34,6 +34,7 @@ public class Expedition_PowersManager : MonoBehaviour
                 myExpeditionManager.allStunsSituations++;
                 TreePower_Bomb newBomb = Instantiate(p.powerPrefab);
                 newBomb.transform.position = obj.transform.position;
+                break;
             }
         }
     }

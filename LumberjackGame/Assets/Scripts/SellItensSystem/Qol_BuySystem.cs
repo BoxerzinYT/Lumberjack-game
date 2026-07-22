@@ -5,9 +5,9 @@ public class Qol_BuySystem : MonoBehaviour
 
     public bool BuyWithCoins(Hec_Stats hecStats, float price)
     {
-        if(HasCoins(hecStats.Hec_coins, price))
+        if(HasCoins(hecStats.Cha_coins, price))
         {
-            hecStats.Hec_coins -= price;
+            hecStats.Cha_coins -= price;
             return true;
         }
         else

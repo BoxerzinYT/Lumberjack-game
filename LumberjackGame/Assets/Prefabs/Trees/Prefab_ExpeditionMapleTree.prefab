@@ -60,21 +60,21 @@ PrefabInstance:
       propertyPath: timeToRespawn
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2851974420602378910, guid: 1a4dac36ab78d024088d33913d02f4c9, type: 3}
-      propertyPath: 'treeLife.Array.data[1]'
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2851974420602378910, guid: 1a4dac36ab78d024088d33913d02f4c9, type: 3}
-      propertyPath: 'treeLife.Array.data[2]'
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4190550116109274815, guid: 1a4dac36ab78d024088d33913d02f4c9, type: 3}
       propertyPath: dropSettings.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4450128159407151413, guid: 1a4dac36ab78d024088d33913d02f4c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6636600143656077834, guid: 1a4dac36ab78d024088d33913d02f4c9, type: 3}
       propertyPath: m_Name
-      value: Prefab_ExpeditionMapleTree Variant
+      value: Prefab_ExpeditionMapleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 7928284189063515305, guid: 1a4dac36ab78d024088d33913d02f4c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
